@@ -1,0 +1,18 @@
+[build-system]
+requires = ["maturin>=1.5"]
+build-backend = "maturin"
+
+[project]
+name = "purl-validator"
+version = "0.1.0"
+description = "PackageURL validator using prebuilt FST"
+authors = [
+    { name = "Keshav Priyadarshi", email = "git@keshav.space" },
+    { name = "AboutCode", email = "info@aboutcode.org" },
+]
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.maturin]
+name = "purl_validator"

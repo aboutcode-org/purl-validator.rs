@@ -13,3 +13,14 @@ pub fn validate(word: &str) -> bool {
     VALIDATOR.contains(word)
 }
 
+
+#[pyo3::pymodule]
+mod purl_validator {
+    use pyo3::prelude::*;
+    use crate::validate;
+
+    #[pyfunction(name = "validate")]
+    fn py_validate(word: &str) -> PyResult<bool> {
+        Ok(validate(word))
+    }
+}

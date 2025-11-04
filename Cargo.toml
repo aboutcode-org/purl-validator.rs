@@ -9,11 +9,12 @@ repository = "https://github.com/aboutcode-org/purl-validator"
 
 [lib]
 name = "purl_validator"
-crate-type = ["rlib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 fst = "0.4.7"
 once_cell = "1.21"
+pyo3 = { version = "0.27.1", features = ["extension-module"] }
 
 [[bin]]
 name = "fst_builder"
@@ -26,3 +27,9 @@ include = [
     "README.md",
     "LICENSE"
 ]
+
+[package.metadata.maturin]
+name = "purl_validator"
+
+[tool.maturin]
+include = ["purls.fst"]
