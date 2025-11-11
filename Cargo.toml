@@ -23,6 +23,7 @@ crate-type = ["rlib"]
 
 [dependencies]
 fst = "0.4.7"
+memmap2 = "0.9.9"
 once_cell = "1.21"
 
 [[bin]]
