@@ -1393,6 +1393,7 @@ pkg:cran/DPQmpfr
 pkg:cran/DPTM
 pkg:cran/DPpack
 pkg:cran/DPtree
+pkg:cran/DQA
 pkg:cran/DQAgui
 pkg:cran/DQAstats
 pkg:cran/DR.SC
@@ -1543,6 +1544,7 @@ pkg:cran/DiffCorr
 pkg:cran/DiffNet
 pkg:cran/DiffXTables
 pkg:cran/DigestiveDataSets
+pkg:cran/Dimodal
 pkg:cran/DirStats
 pkg:cran/Dire
 pkg:cran/DirectEffects
@@ -1842,6 +1844,7 @@ pkg:cran/Eunomia
 pkg:cran/EvCombR
 pkg:cran/Evacluster
 pkg:cran/EvalTest
+pkg:cran/EvaluateCore
 pkg:cran/EvaluationMeasures
 pkg:cran/Evapotranspiration
 pkg:cran/EventDetectGUI
@@ -2560,6 +2563,7 @@ pkg:cran/HMDA
 pkg:cran/HMDHFDplus
 pkg:cran/HMM
 pkg:cran/HMMEsolver
+pkg:cran/HMMHSMM
 pkg:cran/HMMRel
 pkg:cran/HMMcopula
 pkg:cran/HMMextra0s
@@ -4586,6 +4590,7 @@ pkg:cran/ProcData
 pkg:cran/ProcMod
 pkg:cran/ProduceR
 pkg:cran/ProfessR
+pkg:cran/ProfileGLMM
 pkg:cran/ProfileLadder
 pkg:cran/ProfileLikelihood
 pkg:cran/ProjectManagement
@@ -5359,6 +5364,7 @@ pkg:cran/RelativeDistClust
 pkg:cran/Relectoral
 pkg:cran/ReliaGrowR
 pkg:cran/ReliaPlotR
+pkg:cran/ReliaShiny
 pkg:cran/ReliabilityTheory
 pkg:cran/RelimpPCR
 pkg:cran/Renext
@@ -8083,7 +8089,10 @@ pkg:cran/blockmatrix
 pkg:cran/blockmodeling
 pkg:cran/blockmodels
 pkg:cran/blockr.core
+pkg:cran/blockr.dag
 pkg:cran/blockr.dock
+pkg:cran/blockr.dplyr
+pkg:cran/blockr.ggplot
 pkg:cran/blockrand
 pkg:cran/blocksdesign
 pkg:cran/blocs
@@ -8384,6 +8393,7 @@ pkg:cran/cachem
 pkg:cran/caesar
 pkg:cran/caffsim
 pkg:cran/calACS
+pkg:cran/calba
 pkg:cran/calcUnique
 pkg:cran/calcal
 pkg:cran/calcite
@@ -12401,6 +12411,7 @@ pkg:cran/ggraptR
 pkg:cran/ggrasp
 pkg:cran/ggrastr
 pkg:cran/ggrcs
+pkg:cran/ggrecipes
 pkg:cran/ggredist
 pkg:cran/ggrepel
 pkg:cran/ggreveal
@@ -12960,6 +12971,7 @@ pkg:cran/hashmapR
 pkg:cran/hashr
 pkg:cran/hassediagrams
 pkg:cran/hatchR
+pkg:cran/havel
 pkg:cran/haven
 pkg:cran/hawkes
 pkg:cran/hawkesbow
@@ -13622,6 +13634,7 @@ pkg:cran/inplace
 pkg:cran/insane
 pkg:cran/insect
 pkg:cran/insee
+pkg:cran/insetplot
 pkg:cran/inshiny
 pkg:cran/insight
 pkg:cran/inspectdf
@@ -14113,6 +14126,7 @@ pkg:cran/knitcitations
 pkg:cran/knitr
 pkg:cran/knitrBootstrap
 pkg:cran/knitrProgressBar
+pkg:cran/knitrdata
 pkg:cran/knitxl
 pkg:cran/knn.covertree
 pkg:cran/knnmi
@@ -16450,6 +16464,7 @@ pkg:cran/ntsDists
 pkg:cran/nucim
 pkg:cran/nuggets
 pkg:cran/nullabor
+pkg:cran/nullcat
 pkg:cran/numDeriv
 pkg:cran/numGen
 pkg:cran/numKM
@@ -18161,6 +18176,7 @@ pkg:cran/qualpalr
 pkg:cran/qualtRics
 pkg:cran/qualvar
 pkg:cran/quantCurves
+pkg:cran/quantbayes
 pkg:cran/quantdates
 pkg:cran/quantdr
 pkg:cran/quanteda
@@ -19010,6 +19026,7 @@ pkg:cran/rice
 pkg:cran/ricegeneann
 pkg:cran/riceidconverter
 pkg:cran/riceware
+pkg:cran/richCluster
 pkg:cran/ricu
 pkg:cran/rid
 pkg:cran/ridge
@@ -20667,6 +20684,7 @@ pkg:cran/spStack
 pkg:cran/spTDyn
 pkg:cran/spThin
 pkg:cran/spTimer
+pkg:cran/spaAlign
 pkg:cran/spaMM
 pkg:cran/spaa
 pkg:cran/spaceNet
@@ -20860,6 +20878,7 @@ pkg:cran/splineCox
 pkg:cran/splineplot
 pkg:cran/splines2
 pkg:cran/splinetree
+pkg:cran/splinetrials
 pkg:cran/splitSelect
 pkg:cran/splitTools
 pkg:cran/splitfngr
@@ -21940,6 +21959,7 @@ pkg:cran/tldrDocs
 pkg:cran/tlm
 pkg:cran/tlrmvnmvt
 pkg:cran/tls
+pkg:cran/tlsR
 pkg:cran/tm
 pkg:cran/tm.plugin.alceste
 pkg:cran/tm.plugin.dc
