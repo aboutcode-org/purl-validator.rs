@@ -101,6 +101,7 @@ pkg:conan/backward-cpp
 pkg:conan/bacnet-stack
 pkg:conan/baical-p7
 pkg:conan/bandit
+pkg:conan/barkeep
 pkg:conan/base64
 pkg:conan/basu
 pkg:conan/battery-embed
@@ -1400,6 +1401,7 @@ pkg:conan/qhull
 pkg:conan/qoi
 pkg:conan/qoixx
 pkg:conan/qpdf
+pkg:conan/qpid-proton
 pkg:conan/qpoases
 pkg:conan/qr-code-generator
 pkg:conan/qt
