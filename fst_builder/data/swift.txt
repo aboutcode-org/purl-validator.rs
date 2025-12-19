@@ -102,6 +102,9 @@ pkg:swift/github.com/2C2P/PGWUISDK-SwiftPackage
 pkg:swift/github.com/2C2P/SecurePaySDK-SwiftPackage
 pkg:swift/github.com/3a4oT/DateToolsObjC
 pkg:swift/github.com/3a4oT/IGListKit
+pkg:swift/github.com/3a4oT/modbus-swift
+pkg:swift/github.com/3a4oT/solar-inverter-swift
+pkg:swift/github.com/3a4oT/solarman-swift
 pkg:swift/github.com/3a4oT/ya-swift-html-xml-parser
 pkg:swift/github.com/3lvis/Networking
 pkg:swift/github.com/3qax/swiftygfx
@@ -937,12 +940,14 @@ pkg:swift/github.com/FluidGroup/TransitionPatch
 pkg:swift/github.com/FluidGroup/swift-collections
 pkg:swift/github.com/FluidGroup/swift-indexed-collection
 pkg:swift/github.com/FluidGroup/swift-rubber-banding
+pkg:swift/github.com/FluidGroup/swift-with-prerender
 pkg:swift/github.com/FluidGroup/swiftui-Hosting
 pkg:swift/github.com/FluidGroup/swiftui-WrapLayout
 pkg:swift/github.com/FluidGroup/swiftui-async-multiplex-image
 pkg:swift/github.com/FluidGroup/swiftui-color
 pkg:swift/github.com/FluidGroup/swiftui-gesture-velocity
 pkg:swift/github.com/FluidGroup/swiftui-list-support
+pkg:swift/github.com/FluidGroup/swiftui-messaging-ui
 pkg:swift/github.com/FluidGroup/swiftui-object-edge
 pkg:swift/github.com/FluidGroup/swiftui-ring-slider
 pkg:swift/github.com/FluidGroup/swiftui-scrollview-interoperable-drag-gesture
@@ -1230,6 +1235,7 @@ pkg:swift/github.com/KarimEbrahemAbdelaziz/DrivenUI
 pkg:swift/github.com/KarlKraft/ColorPopoverWell
 pkg:swift/github.com/KarthikRIyer/swiftplot
 pkg:swift/github.com/Kawoou/AnyDate
+pkg:swift/github.com/Kayllawen/AutoCodablePackage
 pkg:swift/github.com/KazaKago/StoreFlowable.swift
 pkg:swift/github.com/KazaiMazai/Crocodil
 pkg:swift/github.com/KazaiMazai/Puredux
@@ -3251,6 +3257,7 @@ pkg:swift/github.com/awslabs/aws-sdk-swift
 pkg:swift/github.com/awslabs/swift-aws-lambda-events
 pkg:swift/github.com/awslabs/swift-aws-lambda-runtime
 pkg:swift/github.com/awslabs/swift-openapi-lambda
+pkg:swift/github.com/awxkee/jxl-coder-swift
 pkg:swift/github.com/awxkee/libwebp-ios
 pkg:swift/github.com/awxkee/webp.swift
 pkg:swift/github.com/aydenp/passencoder
@@ -5899,6 +5906,7 @@ pkg:swift/github.com/kean/Nuke
 pkg:swift/github.com/kean/NukeUI
 pkg:swift/github.com/kean/Pulse
 pkg:swift/github.com/keefertaylor/Base58Swift
+pkg:swift/github.com/keeshux/swon
 pkg:swift/github.com/keithpitsui/paversfrp
 pkg:swift/github.com/keithpitsui/paversparsec
 pkg:swift/github.com/kejinlu/SwiftyUploader
@@ -7060,6 +7068,7 @@ pkg:swift/github.com/niscy-eudiw/BlueECC
 pkg:swift/github.com/niscy-eudiw/SwiftCBOR
 pkg:swift/github.com/niscy-eudiw/swift-json-schema
 pkg:swift/github.com/nissaba/EasyRestClient
+pkg:swift/github.com/nissaba/EazyRestClient
 pkg:swift/github.com/niw/AlpacaChat
 pkg:swift/github.com/nixzhu/Ananda
 pkg:swift/github.com/nixzhu/AnandaMacros
@@ -8152,6 +8161,7 @@ pkg:swift/github.com/segmentio/analytics-ios
 pkg:swift/github.com/segmentio/analytics-swift
 pkg:swift/github.com/sena-mike/SwiftUIAdvancedMap
 pkg:swift/github.com/sena-mike/swift-longhair
+pkg:swift/github.com/sendbird/sendbird-auth-ios
 pkg:swift/github.com/sendbird/sendbird-chat-sdk-ios
 pkg:swift/github.com/sendbird/sendbird-uikit-ios
 pkg:swift/github.com/sendbird/sendbird-uikit-ios-spm
@@ -9445,6 +9455,7 @@ pkg:swift/github.com/vsanthanam/NetworkReachability
 pkg:swift/github.com/vsanthanam/NetworkReachabilityRxSwift
 pkg:swift/github.com/vsanthanam/Outils
 pkg:swift/github.com/vsanthanam/SafariUI
+pkg:swift/github.com/vsanthanam/ViewScope
 pkg:swift/github.com/vsanthanam/WeakReference
 pkg:swift/github.com/vsevolod07c2/CustomFont
 pkg:swift/github.com/vsmithers1087/SwissEphemeris
