@@ -1,6 +1,6 @@
 [package]
 name = "purl_validator"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2024"
 authors = ["Keshav Priyadarshi <git@keshav.space>", "AboutCode <info@aboutcode.org>"]
 license = "Apache-2.0"
@@ -15,8 +15,8 @@ categories = ["development-tools", "security" ]
 
 include = [
     "src/**",
-    "purls.fst",
     "Cargo.toml",
+    "build.rs",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"
@@ -26,6 +26,9 @@ include = [
 fst = "0.4.7"
 memmap2 = "0.9.9"
 once_cell = "1.21"
+
+[build-dependencies]
+reqwest = { version = "0.11", features = ["blocking"] }
 
 [[bin]]
 name = "fst_builder"
