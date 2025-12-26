@@ -322,6 +322,7 @@ pkg:conan/cyclonedds
 pkg:conan/cyclonedds-cxx
 pkg:conan/cyrus-sasl
 pkg:conan/czmq
+pkg:conan/d3d12-memory-allocator
 pkg:conan/dacap-clip
 pkg:conan/daggy
 pkg:conan/darknet
@@ -844,6 +845,7 @@ pkg:conan/libjuice
 pkg:conan/libjwt
 pkg:conan/libjxl
 pkg:conan/libkml
+pkg:conan/liblifthttp
 pkg:conan/libliftoff
 pkg:conan/liblqr
 pkg:conan/liblsl
@@ -1599,6 +1601,7 @@ pkg:conan/stc
 pkg:conan/stdgpu
 pkg:conan/stduuid
 pkg:conan/stella-cv-fbow
+pkg:conan/stk
 pkg:conan/stlab
 pkg:conan/strawberryperl
 pkg:conan/streaming-percentiles
