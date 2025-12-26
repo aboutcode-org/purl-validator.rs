@@ -29,24 +29,16 @@ See https://aboutcode.org for more information about nexB OSS projects.
 //!
 
 use fst::Set;
-use memmap2::Mmap;
+
 use once_cell::sync::Lazy;
 use std::env;
-use std::fs::File;
-use std::path::Path;
 
-static VALIDATOR: Lazy<Set<Mmap>> = Lazy::new(|| {
-    let path = Path::new(env!("CARGO_MANIFEST_DIR")).join("purls.fst");
-    load_fst(&path)
-});
+static FST_DATA: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/purls.fst"));
 
-fn load_fst(path: &Path) -> Set<Mmap> {
-    let file = File::open(path).expect("Failed to open FST file");
-    let mmap = unsafe { Mmap::map(&file).expect("Failed to mmap FST file") };
-    Set::new(mmap).expect("Failed to load FST from mmap")
-}
+static VALIDATOR: Lazy<Set<&'static [u8]>> =
+    Lazy::new(|| Set::new(FST_DATA).expect("Failed to load FST from embedded bytes"));
 
-fn strip_and_check_purl(packageurl: &str, fst_map: &Set<Mmap>) -> bool {
+fn strip_and_check_purl(packageurl: &str, fst_map: &Set<&[u8]>) -> bool {
     let trimmed_packageurl = packageurl.trim_end_matches("/");
     fst_map.contains(trimmed_packageurl)
 }
