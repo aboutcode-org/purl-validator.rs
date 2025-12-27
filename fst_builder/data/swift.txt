@@ -8739,6 +8739,8 @@ pkg:swift/github.com/swift-standards/swift-html-standard
 pkg:swift/github.com/swift-standards/swift-iec-61966
 pkg:swift/github.com/swift-standards/swift-ieee-754
 pkg:swift/github.com/swift-standards/swift-incits-4-1986
+pkg:swift/github.com/swift-standards/swift-iso-3166
+pkg:swift/github.com/swift-standards/swift-iso-639
 pkg:swift/github.com/swift-standards/swift-iso-8601
 pkg:swift/github.com/swift-standards/swift-iso-9899
 pkg:swift/github.com/swift-standards/swift-numeric-formatting-standard
@@ -8749,6 +8751,11 @@ pkg:swift/github.com/swift-standards/swift-rfc-3492
 pkg:swift/github.com/swift-standards/swift-rfc-3987
 pkg:swift/github.com/swift-standards/swift-rfc-4291
 pkg:swift/github.com/swift-standards/swift-rfc-4648
+pkg:swift/github.com/swift-standards/swift-rfc-5321
+pkg:swift/github.com/swift-standards/swift-rfc-5322
+pkg:swift/github.com/swift-standards/swift-rfc-5890
+pkg:swift/github.com/swift-standards/swift-rfc-5952
+pkg:swift/github.com/swift-standards/swift-rfc-791
 pkg:swift/github.com/swift-standards/swift-standards
 pkg:swift/github.com/swift-standards/swift-svg-standard
 pkg:swift/github.com/swift-standards/swift-w3c-svg
@@ -8977,6 +8984,7 @@ pkg:swift/github.com/teco-project/teco-cls-logging
 pkg:swift/github.com/teco-project/teco-core
 pkg:swift/github.com/telemtobi/swift-localization
 pkg:swift/github.com/telemtobi/swift-networking
+pkg:swift/github.com/telhawasim/text-truncation-effect
 pkg:swift/github.com/terhechte/swift-x11-example
 pkg:swift/github.com/terlan98/CircularReveal
 pkg:swift/github.com/terlan98/CircularSlider
@@ -9597,6 +9605,7 @@ pkg:swift/github.com/weissi/swift-undefined
 pkg:swift/github.com/wendylabsinc/cbor
 pkg:swift/github.com/wendylabsinc/dbus
 pkg:swift/github.com/wendylabsinc/grayskull-swift
+pkg:swift/github.com/wendylabsinc/gstreamer
 pkg:swift/github.com/wendylabsinc/jq
 pkg:swift/github.com/wendylabsinc/pulsar-client
 pkg:swift/github.com/wendylabsinc/sqlite-extension-kit
