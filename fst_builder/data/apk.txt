@@ -37111,6 +37111,7 @@ pkg:apk/alpine/speech-dispatcher
 pkg:apk/alpine/speech-dispatcher-dev
 pkg:apk/alpine/speech-dispatcher-doc
 pkg:apk/alpine/speech-dispatcher-lang
+pkg:apk/alpine/speech-dispatcher-systemd
 pkg:apk/alpine/speedcrunch
 pkg:apk/alpine/speedometer
 pkg:apk/alpine/speedtest
