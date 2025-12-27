@@ -186422,6 +186422,7 @@ pkg:composer/mfdj/fluenthtml
 pkg:composer/mfdj/regsexy
 pkg:composer/mfeinbier/craft3-fp-backgrounds
 pkg:composer/mfeldheim/map-stuff
+pkg:composer/mfelfelani72/laravel-sky
 pkg:composer/mferly/session-parser
 pkg:composer/mfissehaye/apiato-core
 pkg:composer/mfissehaye/laravel-shop
@@ -196300,6 +196301,7 @@ pkg:composer/mri/scout-plus
 pkg:composer/mridang/cpd-annotations
 pkg:composer/mridang/magazine
 pkg:composer/mridang/pearify
+pkg:composer/mridang/phpunit-reporters
 pkg:composer/mridang/pmd-annotations
 pkg:composer/mridhulka/laravel-vercel
 pkg:composer/mriembau/laravel-urlable
@@ -196728,6 +196730,7 @@ pkg:composer/mrynk/l4-hashids
 pkg:composer/mryup/filestore
 pkg:composer/mryup/hyperf-mongodb
 pkg:composer/mryup/pack-test
+pkg:composer/mryzys/agora-rtc-record
 pkg:composer/mryzys/bitfinex
 pkg:composer/mryzys/openim-sdk
 pkg:composer/mrzainulabideen/aesencrypt
@@ -204844,6 +204847,7 @@ pkg:composer/next/session
 pkg:composer/next/simple
 pkg:composer/next/utils
 pkg:composer/next/var-dumper
+pkg:composer/nextagencyio/drupal-cloud-project
 pkg:composer/nextagencyio/drupalx-demo
 pkg:composer/nextagencyio/drupalx-gov
 pkg:composer/nextagencyio/drupalx-nonprofit
@@ -217196,6 +217200,7 @@ pkg:composer/osama-98/laravel-response-api
 pkg:composer/osama/image-paste
 pkg:composer/osama/nova-collapsible-sidebar
 pkg:composer/osamaalmamri/laravel-search
+pkg:composer/osamaelnagar/cart
 pkg:composer/osamanagi/filament-abyss-theme
 pkg:composer/osamuya/laravel55jahelper
 pkg:composer/osamz/quran-safahat
@@ -247452,6 +247457,7 @@ pkg:composer/rifrocket/filament-alert-box
 pkg:composer/rifrocket/laravelinstaller
 pkg:composer/rifrocket/trait-console
 pkg:composer/rift/riot-api
+pkg:composer/riftfox/php-http-client
 pkg:composer/riftfox/wechat-application
 pkg:composer/riftfox/wechat-exception
 pkg:composer/riftfox/wechat-token
@@ -258654,6 +258660,7 @@ pkg:composer/sealink/sl-wysiwyg
 pkg:composer/sealink/twiglink
 pkg:composer/sealution/mac-resolver
 pkg:composer/sealution/messages
+pkg:composer/seaman/redis
 pkg:composer/seaman/seaman
 pkg:composer/seaman911/think-addons
 pkg:composer/seamapi/seam
@@ -263054,6 +263061,7 @@ pkg:composer/shipu/web-installer
 pkg:composer/shiqc/alisdk
 pkg:composer/shiqiang/wechat
 pkg:composer/shiquan/packagetest
+pkg:composer/shirakun/laravel-capjs
 pkg:composer/shirakun/no-captcha
 pkg:composer/shirakun/phpwhois
 pkg:composer/shirakun/qzpay
@@ -265983,6 +265991,7 @@ pkg:composer/simplesamlphp/xml-security
 pkg:composer/simplesamlphp/xml-soap
 pkg:composer/simplesamlphp/xml-ws-addressing
 pkg:composer/simplesamlphp/xml-ws-federation
+pkg:composer/simplesamlphp/xml-ws-metadata-exchange
 pkg:composer/simplesamlphp/xml-ws-policy
 pkg:composer/simplesamlphp/xml-ws-security-policy
 pkg:composer/simplesamlphp/xml-wsdl
@@ -279028,6 +279037,7 @@ pkg:composer/stellarbit/simplesamlphp
 pkg:composer/stellarsecurity/application-insights-laravel
 pkg:composer/stellarsecurity/esim-laravel
 pkg:composer/stellarsecurity/laravel-hardening
+pkg:composer/stellarsecurity/notification-laravel
 pkg:composer/stellarsecurity/stellar-laravel-devices
 pkg:composer/stellarsecurity/stellarsecurity-affiliate-laravel
 pkg:composer/stellarsecurity/stellarsecurity-commerce-laravel
@@ -305995,6 +306005,7 @@ pkg:composer/usdi/mcakubemqphp
 pkg:composer/usdtcloud/tronservice
 pkg:composer/usdtcloud/web3chain
 pkg:composer/usdtpay/usdt-pay
+pkg:composer/use-kadee/flare-adapter
 pkg:composer/use-the-fork/laravel-elasticsearch-model
 pkg:composer/use-the-fork/synapse
 pkg:composer/useallfive/doctrine-web-console
@@ -328536,6 +328547,7 @@ pkg:composer/yanmarques/cloudpaths
 pkg:composer/yanmarques/lincable
 pkg:composer/yann-denis/ydo-php
 pkg:composer/yann-soaz/laravel_seo
+pkg:composer/yannelli/entry-vault-laravel
 pkg:composer/yannelli/laravel-plaud
 pkg:composer/yannelli/prompt-manager-laravel
 pkg:composer/yannhardouin/concreteemployees
@@ -336495,6 +336507,7 @@ pkg:composer/zionon/multiauth
 pkg:composer/ziopod/flatfile
 pkg:composer/ziopod/kitsune
 pkg:composer/ziopod/tanuki-core
+pkg:composer/ziorwebdev/woopress-license-hub-client
 pkg:composer/ziorye/ddeployer
 pkg:composer/zip-fa/oauth2-yandex
 pkg:composer/zip-fa/useragent-parser
