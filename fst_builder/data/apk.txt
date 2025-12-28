@@ -3053,6 +3053,7 @@ pkg:apk/alpine/cacti
 pkg:apk/alpine/cacti-doc
 pkg:apk/alpine/cacti-lang
 pkg:apk/alpine/cacti-php
+pkg:apk/alpine/cacti-php5
 pkg:apk/alpine/cacti-php7
 pkg:apk/alpine/cacti-php8
 pkg:apk/alpine/cacti-php81
@@ -6093,6 +6094,7 @@ pkg:apk/alpine/elasticsearch-percolator
 pkg:apk/alpine/elasticsearch-rank-eval
 pkg:apk/alpine/elasticsearch-reindex
 pkg:apk/alpine/elasticsearch-repository-url
+pkg:apk/alpine/elasticsearch-transport-netty3
 pkg:apk/alpine/elasticsearch-tribe
 pkg:apk/alpine/elasticsearch-x-pack
 pkg:apk/alpine/electron
@@ -8344,6 +8346,7 @@ pkg:apk/alpine/geany-plugins-geanyminiscript
 pkg:apk/alpine/geany-plugins-geanynumberedbookmarks
 pkg:apk/alpine/geany-plugins-geanypg
 pkg:apk/alpine/geany-plugins-geanyprj
+pkg:apk/alpine/geany-plugins-geanypy
 pkg:apk/alpine/geany-plugins-geanysendmail
 pkg:apk/alpine/geany-plugins-geanyvc
 pkg:apk/alpine/geany-plugins-geniuspaste
@@ -11711,6 +11714,7 @@ pkg:apk/alpine/joe-doc
 pkg:apk/alpine/john
 pkg:apk/alpine/john-bash-completion
 pkg:apk/alpine/john-doc
+pkg:apk/alpine/john-jumbo
 pkg:apk/alpine/john-misc
 pkg:apk/alpine/john-scripts-perl
 pkg:apk/alpine/john-scripts-py
@@ -11747,12 +11751,16 @@ pkg:apk/alpine/jreleaser
 pkg:apk/alpine/jreleaser-doc
 pkg:apk/alpine/jrsonnet-cli
 pkg:apk/alpine/jruby
+pkg:apk/alpine/jruby-did_you_mean
 pkg:apk/alpine/jruby-irb
 pkg:apk/alpine/jruby-libs
 pkg:apk/alpine/jruby-minitest
+pkg:apk/alpine/jruby-net-telnet
+pkg:apk/alpine/jruby-power_assert
 pkg:apk/alpine/jruby-rake
 pkg:apk/alpine/jruby-rdoc
 pkg:apk/alpine/jruby-readline
+pkg:apk/alpine/jruby-test-unit
 pkg:apk/alpine/jruby-testunit
 pkg:apk/alpine/jruby-webrick
 pkg:apk/alpine/jshn
@@ -12413,6 +12421,7 @@ pkg:apk/alpine/keepalived-doc
 pkg:apk/alpine/keepalived-openrc
 pkg:apk/alpine/keepalived-sample-config
 pkg:apk/alpine/keepalived-snmp
+pkg:apk/alpine/keepassx
 pkg:apk/alpine/keepassxc
 pkg:apk/alpine/keepassxc-autotype
 pkg:apk/alpine/keepassxc-browser
@@ -17733,6 +17742,7 @@ pkg:apk/alpine/lua5.1-pty
 pkg:apk/alpine/lua5.1-rapidjson
 pkg:apk/alpine/lua5.1-redis
 pkg:apk/alpine/lua5.1-resty-dns
+pkg:apk/alpine/lua5.1-resty-http
 pkg:apk/alpine/lua5.1-rex-pcre
 pkg:apk/alpine/lua5.1-rex-pcre2
 pkg:apk/alpine/lua5.1-rex-posix
@@ -17885,6 +17895,7 @@ pkg:apk/alpine/lua5.2-psl
 pkg:apk/alpine/lua5.2-pty
 pkg:apk/alpine/lua5.2-rapidjson
 pkg:apk/alpine/lua5.2-redis
+pkg:apk/alpine/lua5.2-resty-http
 pkg:apk/alpine/lua5.2-rex-pcre
 pkg:apk/alpine/lua5.2-rex-pcre2
 pkg:apk/alpine/lua5.2-rex-posix
@@ -18034,6 +18045,7 @@ pkg:apk/alpine/lua5.3-psl
 pkg:apk/alpine/lua5.3-pty
 pkg:apk/alpine/lua5.3-rapidjson
 pkg:apk/alpine/lua5.3-redis
+pkg:apk/alpine/lua5.3-resty-http
 pkg:apk/alpine/lua5.3-rex-pcre
 pkg:apk/alpine/lua5.3-rex-pcre2
 pkg:apk/alpine/lua5.3-rex-posix
@@ -20378,6 +20390,7 @@ pkg:apk/alpine/nextcloud-files_videoplayer
 pkg:apk/alpine/nextcloud-firstrunwizard
 pkg:apk/alpine/nextcloud-gallery
 pkg:apk/alpine/nextcloud-initscript
+pkg:apk/alpine/nextcloud-ldap
 pkg:apk/alpine/nextcloud-logreader
 pkg:apk/alpine/nextcloud-mysql
 pkg:apk/alpine/nextcloud-nextcloud_announcements
@@ -21001,6 +21014,7 @@ pkg:apk/alpine/nodejs-clean-css
 pkg:apk/alpine/nodejs-current
 pkg:apk/alpine/nodejs-current-dev
 pkg:apk/alpine/nodejs-current-doc
+pkg:apk/alpine/nodejs-current-npm
 pkg:apk/alpine/nodejs-dev
 pkg:apk/alpine/nodejs-doc
 pkg:apk/alpine/nodejs-less
@@ -26115,6 +26129,7 @@ pkg:apk/alpine/php5-xsl
 pkg:apk/alpine/php5-zip
 pkg:apk/alpine/php5-zlib
 pkg:apk/alpine/php7
+pkg:apk/alpine/php7-amqp
 pkg:apk/alpine/php7-apache2
 pkg:apk/alpine/php7-apcu
 pkg:apk/alpine/php7-bcmath
@@ -26141,14 +26156,18 @@ pkg:apk/alpine/php7-gd
 pkg:apk/alpine/php7-gettext
 pkg:apk/alpine/php7-gmp
 pkg:apk/alpine/php7-iconv
+pkg:apk/alpine/php7-imagick
+pkg:apk/alpine/php7-imagick-dev
 pkg:apk/alpine/php7-imap
 pkg:apk/alpine/php7-intl
 pkg:apk/alpine/php7-json
 pkg:apk/alpine/php7-ldap
 pkg:apk/alpine/php7-litespeed
+pkg:apk/alpine/php7-mailparse
 pkg:apk/alpine/php7-maxminddb
 pkg:apk/alpine/php7-mbstring
 pkg:apk/alpine/php7-mcrypt
+pkg:apk/alpine/php7-memcached
 pkg:apk/alpine/php7-mysqli
 pkg:apk/alpine/php7-mysqlnd
 pkg:apk/alpine/php7-odbc
@@ -26213,6 +26232,7 @@ pkg:apk/alpine/php7-phpdbg
 pkg:apk/alpine/php7-posix
 pkg:apk/alpine/php7-pspell
 pkg:apk/alpine/php7-recode
+pkg:apk/alpine/php7-redis
 pkg:apk/alpine/php7-session
 pkg:apk/alpine/php7-shmop
 pkg:apk/alpine/php7-simplexml
@@ -26237,6 +26257,7 @@ pkg:apk/alpine/php7-xmlwriter
 pkg:apk/alpine/php7-xsl
 pkg:apk/alpine/php7-zip
 pkg:apk/alpine/php7-zlib
+pkg:apk/alpine/php7-zmq
 pkg:apk/alpine/php8
 pkg:apk/alpine/php8-apache2
 pkg:apk/alpine/php8-bcmath
@@ -28228,6 +28249,7 @@ pkg:apk/alpine/py-dpath
 pkg:apk/alpine/py-dtopt
 pkg:apk/alpine/py-dulwich
 pkg:apk/alpine/py-ecdsa
+pkg:apk/alpine/py-ecryptfs-utils
 pkg:apk/alpine/py-ediarpc
 pkg:apk/alpine/py-egenix-mx-base
 pkg:apk/alpine/py-egenix-mx-base-dev
@@ -28346,6 +28368,7 @@ pkg:apk/alpine/py-graphviz-doc
 pkg:apk/alpine/py-greenlet
 pkg:apk/alpine/py-gst
 pkg:apk/alpine/py-gst0.10
+pkg:apk/alpine/py-gst1
 pkg:apk/alpine/py-gtk
 pkg:apk/alpine/py-gtk-demo
 pkg:apk/alpine/py-gtk-dev
@@ -28860,6 +28883,7 @@ pkg:apk/alpine/py2-gobject3
 pkg:apk/alpine/py2-google-api-python-client
 pkg:apk/alpine/py2-greenlet
 pkg:apk/alpine/py2-gst
+pkg:apk/alpine/py2-gst1
 pkg:apk/alpine/py2-gunicorn
 pkg:apk/alpine/py2-gv
 pkg:apk/alpine/py2-hglib
@@ -29008,6 +29032,7 @@ pkg:apk/alpine/py2-vobject
 pkg:apk/alpine/py2-vte
 pkg:apk/alpine/py2-waitress
 pkg:apk/alpine/py2-wcwidth
+pkg:apk/alpine/py2-webcolors
 pkg:apk/alpine/py2-websocket-client
 pkg:apk/alpine/py2-werkzeug
 pkg:apk/alpine/py2-ws4py
@@ -30523,6 +30548,7 @@ pkg:apk/alpine/py3-grpcio-pyc
 pkg:apk/alpine/py3-grpcio-tools
 pkg:apk/alpine/py3-gst
 pkg:apk/alpine/py3-gst-pyc
+pkg:apk/alpine/py3-gst1
 pkg:apk/alpine/py3-gtkspellcheck
 pkg:apk/alpine/py3-gtkspellcheck-pyc
 pkg:apk/alpine/py3-gtts
@@ -35855,6 +35881,8 @@ pkg:apk/alpine/rustic-zsh-completion
 pkg:apk/alpine/rustical
 pkg:apk/alpine/rustlings
 pkg:apk/alpine/rustlings-doc
+pkg:apk/alpine/rustls-ffi
+pkg:apk/alpine/rustls-ffi-dev
 pkg:apk/alpine/rustscan
 pkg:apk/alpine/rustup
 pkg:apk/alpine/rustup-bash-completion
@@ -38542,6 +38570,7 @@ pkg:apk/alpine/tinc-doc
 pkg:apk/alpine/tinc-openrc
 pkg:apk/alpine/tinc-pre
 pkg:apk/alpine/tinc-pre-doc
+pkg:apk/alpine/tinc-pre-gui
 pkg:apk/alpine/tini
 pkg:apk/alpine/tini-static
 pkg:apk/alpine/tint2
@@ -39100,6 +39129,8 @@ pkg:apk/alpine/turntable-lang
 pkg:apk/alpine/tut
 pkg:apk/alpine/tut-dev
 pkg:apk/alpine/tut-doc
+pkg:apk/alpine/tuwunel
+pkg:apk/alpine/tuwunel-openrc
 pkg:apk/alpine/tuxedo-drivers-src
 pkg:apk/alpine/tuxedo-yt6801
 pkg:apk/alpine/tuxpaint
@@ -39915,9 +39946,11 @@ pkg:apk/alpine/virtualbox-guest-additions
 pkg:apk/alpine/virtualbox-guest-additions-openrc
 pkg:apk/alpine/virtualbox-guest-additions-udev
 pkg:apk/alpine/virtualbox-guest-additions-x11
+pkg:apk/alpine/virtualbox-guest-modules-hardened
 pkg:apk/alpine/virtualbox-guest-modules-lts
 pkg:apk/alpine/virtualbox-guest-modules-vanilla
 pkg:apk/alpine/virtualbox-guest-modules-virt
+pkg:apk/alpine/virtualbox-guest-modules-virthardened
 pkg:apk/alpine/virtualbricks
 pkg:apk/alpine/virtualbricks-lang
 pkg:apk/alpine/virtualgl
@@ -40461,6 +40494,8 @@ pkg:apk/alpine/wl-screenrec-doc
 pkg:apk/alpine/wl-screenrec-fish-completion
 pkg:apk/alpine/wl-screenrec-zsh-completion
 pkg:apk/alpine/wlavu
+pkg:apk/alpine/wlc
+pkg:apk/alpine/wlc-dev
 pkg:apk/alpine/wlclock
 pkg:apk/alpine/wlclock-doc
 pkg:apk/alpine/wlcs
