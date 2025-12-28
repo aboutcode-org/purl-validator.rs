@@ -79,6 +79,7 @@ pkg:swift/github.com/1amageek/Remark
 pkg:swift/github.com/1amageek/SwiftAgent
 pkg:swift/github.com/1amageek/app-mcp
 pkg:swift/github.com/1amageek/swift-actor-runtime
+pkg:swift/github.com/1amageek/swift-discovery
 pkg:swift/github.com/1amageek/swift-json-schema
 pkg:swift/github.com/1amageek/swift-llm-chat-openai
 pkg:swift/github.com/1amageek/swift-money
@@ -1530,6 +1531,7 @@ pkg:swift/github.com/Maxim-Lanskoy/ShellOut
 pkg:swift/github.com/MaximBazarov/Inject
 pkg:swift/github.com/Maxvit5/Validator
 pkg:swift/github.com/Mazeye/SwiftStemBranch
+pkg:swift/github.com/McNight/Swift-Aria2
 pkg:swift/github.com/Mcrich23/LoaderUI
 pkg:swift/github.com/Mcrich23/Mcrich23-Toolkit
 pkg:swift/github.com/Mcrich23/SwiftUIAlert
@@ -1866,6 +1868,7 @@ pkg:swift/github.com/Prosumma/Guise
 pkg:swift/github.com/Prosumma/Iatheto
 pkg:swift/github.com/Prosumma/Parsimonious
 pkg:swift/github.com/ProxymanApp/atlantis
+pkg:swift/github.com/PurchaseKit/purchasekit-ios
 pkg:swift/github.com/Purchasely/Purchasely-iOS
 pkg:swift/github.com/PureLayout/PureLayout
 pkg:swift/github.com/PureSwift/BluetoothDarwin
@@ -3299,6 +3302,7 @@ pkg:swift/github.com/bannzai/spmdemo
 pkg:swift/github.com/bannzai/swdifft
 pkg:swift/github.com/bannzai/teapot
 pkg:swift/github.com/bannzai/xcodeproject
+pkg:swift/github.com/baptistecdr/Aria2Kit
 pkg:swift/github.com/barisuyar/Bruynet
 pkg:swift/github.com/barrault01/firebasehelpers
 pkg:swift/github.com/barrault01/google-auth-library-swift
@@ -4995,6 +4999,7 @@ pkg:swift/github.com/ghsiss/TrafficAuthV2XClient
 pkg:swift/github.com/ghv/SVMPrefs
 pkg:swift/github.com/giapdeviscool/fmp4_parser_swift_package
 pkg:swift/github.com/gibachan/swift-fixtures
+pkg:swift/github.com/giginet/ClaudeHookKit
 pkg:swift/github.com/giginet/Crossroad
 pkg:swift/github.com/giginet/Milepost
 pkg:swift/github.com/giginet/PackageManifestKit
@@ -8758,7 +8763,10 @@ pkg:swift/github.com/swift-standards/swift-rfc-5952
 pkg:swift/github.com/swift-standards/swift-rfc-791
 pkg:swift/github.com/swift-standards/swift-standards
 pkg:swift/github.com/swift-standards/swift-svg-standard
+pkg:swift/github.com/swift-standards/swift-w3c-css
 pkg:swift/github.com/swift-standards/swift-w3c-svg
+pkg:swift/github.com/swift-standards/swift-whatwg-html
+pkg:swift/github.com/swift-standards/swift-whatwg-url
 pkg:swift/github.com/swift-tweets/swtws
 pkg:swift/github.com/swift-tweets/tweetup-kit
 pkg:swift/github.com/swift-vim/SwiftForVim
