@@ -1469,6 +1469,7 @@ pkg:swift/github.com/MPLew-is/deep-codable
 pkg:swift/github.com/Maartz/SwiftPipeline
 pkg:swift/github.com/MacPaw/OpenAI
 pkg:swift/github.com/Machx/Konkyo
+pkg:swift/github.com/Machx/LoggingKit
 pkg:swift/github.com/Machx/MockNetworking
 pkg:swift/github.com/Machx/SwiftyKeychain
 pkg:swift/github.com/Macro-swift/Macro
@@ -5059,6 +5060,7 @@ pkg:swift/github.com/gonzalezreal/SwiftCommonMark
 pkg:swift/github.com/gonzalezreal/UnifiedLogging
 pkg:swift/github.com/gonzalezreal/swift-any-value
 pkg:swift/github.com/gonzalezreal/swift-markdown-ui
+pkg:swift/github.com/gonzalezreal/textual
 pkg:swift/github.com/gonzalonunez/docc-gpt
 pkg:swift/github.com/gonzalonunez/ginny
 pkg:swift/github.com/gonzalonunez/ross
@@ -5731,6 +5733,7 @@ pkg:swift/github.com/johnfairh/Yams
 pkg:swift/github.com/johnfairh/steamworks-swift
 pkg:swift/github.com/johnfairh/swift-sass
 pkg:swift/github.com/johngarrett/HyperSwift
+pkg:swift/github.com/johnhaney/ARUnderstanding
 pkg:swift/github.com/johnnewman/CircularSpinner
 pkg:swift/github.com/johnno1962/DLKit
 pkg:swift/github.com/johnno1962/Fortify
