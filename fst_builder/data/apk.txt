@@ -5214,6 +5214,8 @@ pkg:apk/alpine/distrobuilder-doc
 pkg:apk/alpine/distrobuilder-incus
 pkg:apk/alpine/distrobuilder-lxc
 pkg:apk/alpine/distrobuilder-lxd
+pkg:apk/alpine/distroshelf
+pkg:apk/alpine/distroshelf-lang
 pkg:apk/alpine/dive
 pkg:apk/alpine/dived
 pkg:apk/alpine/dived-doc
@@ -10396,6 +10398,7 @@ pkg:apk/alpine/hare-http
 pkg:apk/alpine/hare-irc
 pkg:apk/alpine/hare-json
 pkg:apk/alpine/hare-lex
+pkg:apk/alpine/hare-lsp
 pkg:apk/alpine/hare-madeline
 pkg:apk/alpine/hare-madeline-doc
 pkg:apk/alpine/hare-scfg
@@ -19390,6 +19393,7 @@ pkg:apk/alpine/mkmr-doc
 pkg:apk/alpine/mkosi
 pkg:apk/alpine/mkosi-doc
 pkg:apk/alpine/mkosi-pyc
+pkg:apk/alpine/mkosi-sandbox
 pkg:apk/alpine/mkpasswd
 pkg:apk/alpine/mkpasswd-doc
 pkg:apk/alpine/mkrundir
