@@ -1300,6 +1300,8 @@ pkg:cargo/accurust-server
 pkg:cargo/accuse
 pkg:cargo/accuweather
 pkg:cargo/acdc
+pkg:cargo/acdc-core
+pkg:cargo/acdc-parser
 pkg:cargo/ace
 pkg:cargo/ace-test-lib
 pkg:cargo/ace128_driver
@@ -1428,6 +1430,8 @@ pkg:cargo/acorn_prng
 pkg:cargo/acorns
 pkg:cargo/acovo
 pkg:cargo/acp
+pkg:cargo/acp-daemon
+pkg:cargo/acp-mcp
 pkg:cargo/acp-protocol
 pkg:cargo/acp-protocol-cli
 pkg:cargo/acp_models
@@ -1528,6 +1532,7 @@ pkg:cargo/active-cd
 pkg:cargo/active-dom
 pkg:cargo/active-storage
 pkg:cargo/active-time
+pkg:cargo/active-uuid-registry
 pkg:cargo/active-win-pos-rs
 pkg:cargo/active_base
 pkg:cargo/active_proc
@@ -2362,6 +2367,7 @@ pkg:cargo/adk-browser
 pkg:cargo/adk-cli
 pkg:cargo/adk-core
 pkg:cargo/adk-eval
+pkg:cargo/adk-gemini
 pkg:cargo/adk-graph
 pkg:cargo/adk-guardrail
 pkg:cargo/adk-macros
@@ -2727,6 +2733,7 @@ pkg:cargo/aeth-event
 pkg:cargo/aeth-task
 pkg:cargo/aether
 pkg:cargo/aether-azathoth
+pkg:cargo/aether-gp
 pkg:cargo/aether-log
 pkg:cargo/aether-protocol
 pkg:cargo/aether-renderer-core
@@ -3508,6 +3515,11 @@ pkg:cargo/ai-lib
 pkg:cargo/ai-minecraft-skin
 pkg:cargo/ai-model-catalog
 pkg:cargo/ai-ora
+pkg:cargo/ai-pose-generator
+pkg:cargo/ai-pose-generator-1
+pkg:cargo/ai-pose-generator-2
+pkg:cargo/ai-pose-generator-3
+pkg:cargo/ai-pose-generator-4
 pkg:cargo/ai-providers
 pkg:cargo/ai-proxy
 pkg:cargo/ai-qubit
@@ -3529,6 +3541,7 @@ pkg:cargo/ai-sys
 pkg:cargo/ai-tournament
 pkg:cargo/ai-transform
 pkg:cargo/ai-transform-runtime
+pkg:cargo/ai-twerk-video-generator
 pkg:cargo/ai-utils
 pkg:cargo/ai-vitals
 pkg:cargo/ai-workbench-lib
@@ -3801,6 +3814,7 @@ pkg:cargo/airfrog-swd
 pkg:cargo/airfrog-util
 pkg:cargo/airgl
 pkg:cargo/airgorah
+pkg:cargo/airhorn
 pkg:cargo/airinfo
 pkg:cargo/airio
 pkg:cargo/airio-core
@@ -4334,6 +4348,7 @@ pkg:cargo/alhalo
 pkg:cargo/alhamd
 pkg:cargo/alhc
 pkg:cargo/ali
+pkg:cargo/ali-acs
 pkg:cargo/ali-dns
 pkg:cargo/ali-nls-drive
 pkg:cargo/ali-nls-sr
@@ -4646,6 +4661,7 @@ pkg:cargo/alloca
 pkg:cargo/allocal
 pkg:cargo/allocandrescu
 pkg:cargo/allocated
+pkg:cargo/allocated-btree
 pkg:cargo/allocation-counter
 pkg:cargo/allocations
 pkg:cargo/allocative
@@ -6490,6 +6506,7 @@ pkg:cargo/anymap3
 pkg:cargo/anyml
 pkg:cargo/anymock
 pkg:cargo/anymore
+pkg:cargo/anymotion
 pkg:cargo/anymsg
 pkg:cargo/anynet
 pkg:cargo/anyof
@@ -6867,6 +6884,7 @@ pkg:cargo/api-tools
 pkg:cargo/api-version
 pkg:cargo/api3-common
 pkg:cargo/api_anthropic
+pkg:cargo/api_auth
 pkg:cargo/api_binding
 pkg:cargo/api_builder
 pkg:cargo/api_builder_derive
@@ -7210,6 +7228,7 @@ pkg:cargo/appendbuf
 pkg:cargo/appendix
 pkg:cargo/appendlist
 pkg:cargo/appendreturn
+pkg:cargo/appendvec
 pkg:cargo/apperr
 pkg:cargo/apperror
 pkg:cargo/appfinder
@@ -8657,6 +8676,8 @@ pkg:cargo/armake2
 pkg:cargo/armalint
 pkg:cargo/armature
 pkg:cargo/armature-acme
+pkg:cargo/armature-admin
+pkg:cargo/armature-analytics
 pkg:cargo/armature-audit
 pkg:cargo/armature-auth
 pkg:cargo/armature-aws
@@ -8665,6 +8686,7 @@ pkg:cargo/armature-azure-functions
 pkg:cargo/armature-cache
 pkg:cargo/armature-cli
 pkg:cargo/armature-cloudrun
+pkg:cargo/armature-collab
 pkg:cargo/armature-compression
 pkg:cargo/armature-config
 pkg:cargo/armature-core
@@ -8677,6 +8699,7 @@ pkg:cargo/armature-events
 pkg:cargo/armature-eventsourcing
 pkg:cargo/armature-features
 pkg:cargo/armature-ferron
+pkg:cargo/armature-files
 pkg:cargo/armature-framework
 pkg:cargo/armature-gcp
 pkg:cargo/armature-graphql
@@ -8696,6 +8719,7 @@ pkg:cargo/armature-metrics
 pkg:cargo/armature-openapi
 pkg:cargo/armature-opensearch
 pkg:cargo/armature-opentelemetry
+pkg:cargo/armature-payments
 pkg:cargo/armature-proc-macro
 pkg:cargo/armature-push
 pkg:cargo/armature-queue
@@ -8730,6 +8754,7 @@ pkg:cargo/armory_lib
 pkg:cargo/armory_wallet_checksum_searcher
 pkg:cargo/armour
 pkg:cargo/armour-derive
+pkg:cargo/arms
 pkg:cargo/armv4t
 pkg:cargo/armv4t_emu
 pkg:cargo/armv5te
@@ -9079,6 +9104,7 @@ pkg:cargo/art_pk
 pkg:cargo/art_rust_book
 pkg:cargo/art_rust_lib
 pkg:cargo/art_sample
+pkg:cargo/art_test_291225
 pkg:cargo/art_test_ppppppp
 pkg:cargo/art_test_ryououki
 pkg:cargo/art_test_smp
@@ -9730,6 +9756,7 @@ pkg:cargo/asmov-common-testing-macro
 pkg:cargo/asmov-common-tooling
 pkg:cargo/asmpeach
 pkg:cargo/asmr
+pkg:cargo/asmtest
 pkg:cargo/asmuth_bloom_secret_sharing
 pkg:cargo/asn
 pkg:cargo/asn-checker-rs
@@ -10352,6 +10379,7 @@ pkg:cargo/async-byteorder
 pkg:cargo/async-callback-manager
 pkg:cargo/async-cancellation-token
 pkg:cargo/async-cffi
+pkg:cargo/async-cffi-codegen
 pkg:cargo/async-change-tracker
 pkg:cargo/async-channel
 pkg:cargo/async-circe
@@ -12804,6 +12832,7 @@ pkg:cargo/autosar-data-abstraction
 pkg:cargo/autosar-data-specification
 pkg:cargo/autosar-e2e
 pkg:cargo/autosat
+pkg:cargo/autoscale_cuckoo_filter
 pkg:cargo/autoschematic
 pkg:cargo/autoschematic-cli
 pkg:cargo/autoschematic-connector-aws-acm
@@ -16369,6 +16398,7 @@ pkg:cargo/batch_oper
 pkg:cargo/batch_queue
 pkg:cargo/batch_rename
 pkg:cargo/batch_resolve_cli
+pkg:cargo/batch_result
 pkg:cargo/batch_run
 pkg:cargo/batchcensor
 pkg:cargo/batched
@@ -17426,6 +17456,7 @@ pkg:cargo/better-config
 pkg:cargo/better-config-core
 pkg:cargo/better-config-derive
 pkg:cargo/better-config-loader
+pkg:cargo/better-conversions
 pkg:cargo/better-debug
 pkg:cargo/better-default-derive
 pkg:cargo/better-eq
@@ -22218,6 +22249,7 @@ pkg:cargo/bobcat-console
 pkg:cargo/bobcat-create
 pkg:cargo/bobcat-entry
 pkg:cargo/bobcat-events
+pkg:cargo/bobcat-features
 pkg:cargo/bobcat-interfaces
 pkg:cargo/bobcat-maths
 pkg:cargo/bobcat-maths-zone
@@ -25216,6 +25248,7 @@ pkg:cargo/butter
 pkg:cargo/butter-video
 pkg:cargo/butter2d
 pkg:cargo/butteraugli
+pkg:cargo/butteraugli-cli
 pkg:cargo/butteraugli-oxide
 pkg:cargo/butteraugli-sys
 pkg:cargo/buttercup-crypto
@@ -25361,6 +25394,7 @@ pkg:cargo/byondapi-macros
 pkg:cargo/byondapi-sys
 pkg:cargo/byor
 pkg:cargo/bypass
+pkg:cargo/bypond
 pkg:cargo/byrd
 pkg:cargo/byre
 pkg:cargo/byregot
@@ -26642,6 +26676,7 @@ pkg:cargo/candle-onnx
 pkg:cargo/candle-optimisers
 pkg:cargo/candle-pipelines
 pkg:cargo/candle-pipelines-macros
+pkg:cargo/candle-pipelines-models
 pkg:cargo/candle-pyo3
 pkg:cargo/candle-rotary
 pkg:cargo/candle-semantic-router
@@ -29045,6 +29080,7 @@ pkg:cargo/cascade-error
 pkg:cargo/cascading-ui
 pkg:cargo/cascading-wasm-language
 pkg:cargo/cascara
+pkg:cargo/cascii
 pkg:cargo/casclib
 pkg:cargo/casco
 pkg:cargo/casdoor-rs-sdk
@@ -29759,6 +29795,7 @@ pkg:cargo/ccs
 pkg:cargo/ccs811
 pkg:cargo/ccs811-rs
 pkg:cargo/ccsds
+pkg:cargo/ccsds-ndm
 pkg:cargo/ccsds-rs
 pkg:cargo/ccsds_primary_header
 pkg:cargo/ccsds_spacepacket
@@ -31174,6 +31211,7 @@ pkg:cargo/charted-testkit
 pkg:cargo/charted-testkit-macros
 pkg:cargo/charter-rs
 pkg:cargo/chartisan
+pkg:cargo/chartjs_image
 pkg:cargo/chartlab
 pkg:cargo/chartlyrics
 pkg:cargo/chartodo
@@ -32260,6 +32298,7 @@ pkg:cargo/ci-status
 pkg:cargo/ci-testing-kbartush
 pkg:cargo/ci-tron
 pkg:cargo/ci_env
+pkg:cargo/ci_group
 pkg:cargo/ci_info
 pkg:cargo/ciakval-sandbox
 pkg:cargo/ciallo
@@ -33485,6 +33524,7 @@ pkg:cargo/clickhouse
 pkg:cargo/clickhouse-adbc
 pkg:cargo/clickhouse-arrow
 pkg:cargo/clickhouse-arrow-derive
+pkg:cargo/clickhouse-bb8
 pkg:cargo/clickhouse-client
 pkg:cargo/clickhouse-client-macros
 pkg:cargo/clickhouse-connection-pool
@@ -34682,6 +34722,7 @@ pkg:cargo/cncs-sm2-kit
 pkg:cargo/cncs-sm2-php
 pkg:cargo/cnct4game
 pkg:cargo/cnctd
+pkg:cargo/cnctd-service-ssh
 pkg:cargo/cnctd_ai
 pkg:cargo/cnctd_android_project
 pkg:cargo/cnctd_aws
@@ -36023,6 +36064,7 @@ pkg:cargo/commit
 pkg:cargo/commit--blog
 pkg:cargo/commit--cli
 pkg:cargo/commit-aid
+pkg:cargo/commit-assist
 pkg:cargo/commit-checker
 pkg:cargo/commit-cli
 pkg:cargo/commit-email
@@ -36520,6 +36562,7 @@ pkg:cargo/compu
 pkg:cargo/compu-brotli-sys
 pkg:cargo/computable-real
 pkg:cargo/computation-graph
+pkg:cargo/computation-process
 pkg:cargo/computation-types
 pkg:cargo/computational_geometry_rust
 pkg:cargo/compute
@@ -37048,6 +37091,7 @@ pkg:cargo/connect4-server
 pkg:cargo/connect4-web
 pkg:cargo/connect_four
 pkg:cargo/connectbox
+pkg:cargo/connected-papers
 pkg:cargo/connected_socket
 pkg:cargo/connectedpapers
 pkg:cargo/connecteer
@@ -37076,6 +37120,7 @@ pkg:cargo/conniecs-derive
 pkg:cargo/connman
 pkg:cargo/connpass
 pkg:cargo/connpass-rs
+pkg:cargo/connpool
 pkg:cargo/conntrack
 pkg:cargo/connx
 pkg:cargo/conogram
@@ -38944,6 +38989,7 @@ pkg:cargo/cpu-time
 pkg:cargo/cpu-utils
 pkg:cargo/cpu_cycles_reader
 pkg:cargo/cpu_info
+pkg:cargo/cpu_load
 pkg:cargo/cpu_timer
 pkg:cargo/cpubaker
 pkg:cargo/cpubars
@@ -43366,26 +43412,32 @@ pkg:cargo/data-anchor-pob-sla-verifier
 pkg:cargo/data-anchor-proofs
 pkg:cargo/data-anchor-utils
 pkg:cargo/data-buffer
+pkg:cargo/data-cache
 pkg:cargo/data-canal
 pkg:cargo/data-capsule
 pkg:cargo/data-catalog
 pkg:cargo/data-classes
 pkg:cargo/data-classes-derive
+pkg:cargo/data-core
 pkg:cargo/data-doctor-cli
 pkg:cargo/data-doctor-core
+pkg:cargo/data-edgar
 pkg:cargo/data-encoding
 pkg:cargo/data-encoding-bin
 pkg:cargo/data-encoding-macro
 pkg:cargo/data-encoding-macro-internal
 pkg:cargo/data-encoding-v3
 pkg:cargo/data-faking
+pkg:cargo/data-fmp
 pkg:cargo/data-for-seo
 pkg:cargo/data-forge
 pkg:cargo/data-gov
 pkg:cargo/data-gov-ckan
 pkg:cargo/data-gov-mcp-server
+pkg:cargo/data-ibkr
 pkg:cargo/data-input
 pkg:cargo/data-matrix
+pkg:cargo/data-nasdaq
 pkg:cargo/data-pager
 pkg:cargo/data-pile
 pkg:cargo/data-pipeline
@@ -43408,6 +43460,7 @@ pkg:cargo/data-structs
 pkg:cargo/data-structures
 pkg:cargo/data-structures-algorithms
 pkg:cargo/data-test
+pkg:cargo/data-transform
 pkg:cargo/data-uri-utils
 pkg:cargo/data-url
 pkg:cargo/data-url-encode-macro
@@ -43415,6 +43468,7 @@ pkg:cargo/data-url-encode-macro-impl
 pkg:cargo/data-utility-belt
 pkg:cargo/data-view
 pkg:cargo/data-volley-reader
+pkg:cargo/data-yahoo
 pkg:cargo/data2sound
 pkg:cargo/data3
 pkg:cargo/dataGPS
@@ -43600,6 +43654,9 @@ pkg:cargo/datafusion-datasource-json
 pkg:cargo/datafusion-datasource-parquet
 pkg:cargo/datafusion-delta-sharing
 pkg:cargo/datafusion-dft
+pkg:cargo/datafusion-dist
+pkg:cargo/datafusion-dist-cluster-postgres
+pkg:cargo/datafusion-dist-network-tonic
 pkg:cargo/datafusion-distributed
 pkg:cargo/datafusion-doc
 pkg:cargo/datafusion-ducklake
@@ -49118,6 +49175,7 @@ pkg:cargo/docker_secrets
 pkg:cargo/docker_tester
 pkg:cargo/docker_utils
 pkg:cargo/dockerapi
+pkg:cargo/dockerase
 pkg:cargo/dockerbackup
 pkg:cargo/dockerbuild
 pkg:cargo/dockerdump
@@ -49257,6 +49315,7 @@ pkg:cargo/does-it-json
 pkg:cargo/does-it-throw
 pkg:cargo/does-it-throw-wasm
 pkg:cargo/does_impl
+pkg:cargo/does_not_exist_yet
 pkg:cargo/dof
 pkg:cargo/dofi
 pkg:cargo/dofigen
@@ -50686,6 +50745,7 @@ pkg:cargo/dslint
 pkg:cargo/dsll
 pkg:cargo/dslr
 pkg:cargo/dsm
+pkg:cargo/dsmga2
 pkg:cargo/dsmr-parse
 pkg:cargo/dsmr5
 pkg:cargo/dsmsg
@@ -51196,6 +51256,7 @@ pkg:cargo/durite
 pkg:cargo/durl
 pkg:cargo/duroxide
 pkg:cargo/duroxide-pg
+pkg:cargo/duroxide-pg-opt
 pkg:cargo/durr
 pkg:cargo/durrrrrenv
 pkg:cargo/durs
@@ -53806,6 +53867,7 @@ pkg:cargo/eldritch_shield
 pkg:cargo/eldritchwire
 pkg:cargo/eldritchwire_macros
 pkg:cargo/elearn
+pkg:cargo/elect
 pkg:cargo/electosim
 pkg:cargo/electric-sql-client
 pkg:cargo/electrical_mesurements
@@ -53972,6 +54034,8 @@ pkg:cargo/elibc
 pkg:cargo/elic
 pkg:cargo/elicit
 pkg:cargo/elicit_macro
+pkg:cargo/elicitation
+pkg:cargo/elicitation_derive
 pkg:cargo/elicznik
 pkg:cargo/elif
 pkg:cargo/elif-auth
@@ -55868,6 +55932,7 @@ pkg:cargo/envcfg
 pkg:cargo/envch
 pkg:cargo/envchain
 pkg:cargo/envchain-rs
+pkg:cargo/envcheck
 pkg:cargo/envconf
 pkg:cargo/envconf_derive
 pkg:cargo/envconfgen
@@ -56273,6 +56338,7 @@ pkg:cargo/eq-type
 pkg:cargo/eq3-max-cube_rs
 pkg:cargo/eq_wld
 pkg:cargo/eqdraw
+pkg:cargo/eqeqo-api-auth
 pkg:cargo/eqformat_map
 pkg:cargo/eqformat_pfs
 pkg:cargo/eqformat_s3d
@@ -56440,6 +56506,7 @@ pkg:cargo/ergol_proc_macro
 pkg:cargo/ergonames
 pkg:cargo/ergonames-rust
 pkg:cargo/ergonames-rust-testnet
+pkg:cargo/ergonomic-windows
 pkg:cargo/ergoquad-2d
 pkg:cargo/ergoreq
 pkg:cargo/ergoscript-compiler
@@ -56547,6 +56614,7 @@ pkg:cargo/errer
 pkg:cargo/errer_derive
 pkg:cargo/erreur
 pkg:cargo/errgo
+pkg:cargo/errgonomic
 pkg:cargo/errify
 pkg:cargo/errify-macros
 pkg:cargo/errjson
@@ -57737,6 +57805,7 @@ pkg:cargo/ev-protobufs
 pkg:cargo/ev-types
 pkg:cargo/ev3
 pkg:cargo/ev3-bot
+pkg:cargo/ev3-dc
 pkg:cargo/ev3-drivebase
 pkg:cargo/ev3-runner
 pkg:cargo/ev3dev-lang-rust
@@ -58193,6 +58262,8 @@ pkg:cargo/evry
 pkg:cargo/evscript
 pkg:cargo/evse
 pkg:cargo/evt
+pkg:cargo/evt-store
+pkg:cargo/evt-store-srv
 pkg:cargo/evt-trait-object
 pkg:cargo/evtcall
 pkg:cargo/evtclib
@@ -60028,6 +60099,7 @@ pkg:cargo/fast-voxel-traversal
 pkg:cargo/fast-walker
 pkg:cargo/fast-web
 pkg:cargo/fast-xml
+pkg:cargo/fast-yaml-cli
 pkg:cargo/fast-yaml-core
 pkg:cargo/fast-yaml-ffi
 pkg:cargo/fast-yaml-linter
@@ -64253,6 +64325,7 @@ pkg:cargo/flutter_rust_bridge_codegen_ohos
 pkg:cargo/flutter_rust_bridge_macros
 pkg:cargo/flutter_web_hasher
 pkg:cargo/flutterbug
+pkg:cargo/flutterwave-rs-v2
 pkg:cargo/flutterwave-v3
 pkg:cargo/flutterwave-v3-models
 pkg:cargo/fluvio
@@ -64313,6 +64386,7 @@ pkg:cargo/fluxencrypt-cli
 pkg:cargo/fluxer
 pkg:cargo/fluxfox
 pkg:cargo/fluxhead
+pkg:cargo/fluxhive
 pkg:cargo/fluxio
 pkg:cargo/fluxion
 pkg:cargo/fluxion-core
@@ -64925,6 +64999,7 @@ pkg:cargo/force_graph
 pkg:cargo/force_remove
 pkg:cargo/force_smith
 pkg:cargo/forceatlas2
+pkg:cargo/forced-channel
 pkg:cargo/forceps
 pkg:cargo/forcir
 pkg:cargo/ford-johnson
@@ -65991,6 +66066,7 @@ pkg:cargo/friday-builder
 pkg:cargo/fridge-backup
 pkg:cargo/fridge-r0-verifier
 pkg:cargo/friedrich
+pkg:cargo/frienderer
 pkg:cargo/friendgrow
 pkg:cargo/friendly
 pkg:cargo/friendly-chess
@@ -67012,6 +67088,7 @@ pkg:cargo/fusabi
 pkg:cargo/fusabi-frontend
 pkg:cargo/fusabi-host
 pkg:cargo/fusabi-plugin-runtime
+pkg:cargo/fusabi-pm
 pkg:cargo/fusabi-stdlib-ext
 pkg:cargo/fusabi-tui
 pkg:cargo/fusabi-tui-core
@@ -67019,6 +67096,7 @@ pkg:cargo/fusabi-tui-engine
 pkg:cargo/fusabi-tui-render
 pkg:cargo/fusabi-tui-scarab
 pkg:cargo/fusabi-tui-widgets
+pkg:cargo/fusabi-type-providers
 pkg:cargo/fusabi-vm
 pkg:cargo/fusb302b
 pkg:cargo/fusca
@@ -68862,6 +68940,7 @@ pkg:cargo/gemma
 pkg:cargo/gemma_m0
 pkg:cargo/gemma_rs
 pkg:cargo/gemmy
+pkg:cargo/gemphy
 pkg:cargo/gempost
 pkg:cargo/gempress
 pkg:cargo/gemrendr
@@ -70735,6 +70814,7 @@ pkg:cargo/git-smart-checkout
 pkg:cargo/git-smash
 pkg:cargo/git-snapshot
 pkg:cargo/git-snip
+pkg:cargo/git-snow
 pkg:cargo/git-spy
 pkg:cargo/git-sql
 pkg:cargo/git-squad
@@ -71513,6 +71593,12 @@ pkg:cargo/glitch
 pkg:cargo/glitch-context
 pkg:cargo/glitch-in-the-matrix
 pkg:cargo/glitchcat
+pkg:cargo/glitcher
+pkg:cargo/glitcher-api
+pkg:cargo/glitcher-core
+pkg:cargo/glitcher-sdk
+pkg:cargo/glitcher-sdk-macros
+pkg:cargo/glitcher-timing
 pkg:cargo/glitchup
 pkg:cargo/glitchup_derive
 pkg:cargo/glitchy
@@ -77049,6 +77135,7 @@ pkg:cargo/hambands
 pkg:cargo/hamcall
 pkg:cargo/hamcrest
 pkg:cargo/hamcrest2
+pkg:cargo/hamdb
 pkg:cargo/hamelin
 pkg:cargo/hamelin_duckdb
 pkg:cargo/hamelin_executor
@@ -78840,6 +78927,7 @@ pkg:cargo/herolib-ai
 pkg:cargo/herolib-clients
 pkg:cargo/herolib-code
 pkg:cargo/herolib-core
+pkg:cargo/herolib-crypt
 pkg:cargo/herolib-derive
 pkg:cargo/herolib-do
 pkg:cargo/herolib-mos
@@ -79378,6 +79466,7 @@ pkg:cargo/highlightio
 pkg:cargo/highlightio-actix
 pkg:cargo/highlightrs
 pkg:cargo/highlights
+pkg:cargo/highlite
 pkg:cargo/highly_sendable
 pkg:cargo/highnoon
 pkg:cargo/highrise
@@ -81728,6 +81817,7 @@ pkg:cargo/huniq
 pkg:cargo/hunk
 pkg:cargo/hunktool
 pkg:cargo/hunnigan
+pkg:cargo/hunpak
 pkg:cargo/hunspell
 pkg:cargo/hunspell-rs
 pkg:cargo/hunspell-sys
@@ -82208,6 +82298,7 @@ pkg:cargo/hyperchad_transformer
 pkg:cargo/hyperchad_transformer_models
 pkg:cargo/hypercore
 pkg:cargo/hypercore-protocol
+pkg:cargo/hypercore_handshake
 pkg:cargo/hypercounter
 pkg:cargo/hypercpu
 pkg:cargo/hypercube
@@ -82513,6 +82604,7 @@ pkg:cargo/hyw
 pkg:cargo/hyw-base
 pkg:cargo/hyw-embed
 pkg:cargo/hyxos_numerals
+pkg:cargo/hz
 pkg:cargo/hzcat
 pkg:cargo/hzgrow-r502
 pkg:cargo/hzlang_parser
@@ -84386,6 +84478,7 @@ pkg:cargo/image_ascii
 pkg:cargo/image_buffer
 pkg:cargo/image_captioner
 pkg:cargo/image_changer
+pkg:cargo/image_charts
 pkg:cargo/image_colored_text
 pkg:cargo/image_colorpalette
 pkg:cargo/image_colors
@@ -84679,6 +84772,7 @@ pkg:cargo/immeta
 pkg:cargo/immi
 pkg:cargo/immich
 pkg:cargo/immich-analyze
+pkg:cargo/immich-lib
 pkg:cargo/immich-tools
 pkg:cargo/immich_api_rs
 pkg:cargo/immintrin
@@ -89816,6 +89910,7 @@ pkg:cargo/js-bridge
 pkg:cargo/js-builders
 pkg:cargo/js-canvas-rendering-context-2d
 pkg:cargo/js-component-bindgen
+pkg:cargo/js-deobfuscator
 pkg:cargo/js-function-promisify
 pkg:cargo/js-helpers
 pkg:cargo/js-intern
@@ -94594,6 +94689,7 @@ pkg:cargo/kryoptic-lib
 pkg:cargo/kryoptic-tools
 pkg:cargo/kryp
 pkg:cargo/krypt
+pkg:cargo/krypt-proto
 pkg:cargo/krypton
 pkg:cargo/kryptonite
 pkg:cargo/kryptor
@@ -95146,6 +95242,7 @@ pkg:cargo/kyuun
 pkg:cargo/kyval
 pkg:cargo/kywy
 pkg:cargo/kyx
+pkg:cargo/kz80_bc
 pkg:cargo/kz80_c
 pkg:cargo/kz80_calc
 pkg:cargo/kz80_chip8
@@ -95590,6 +95687,7 @@ pkg:cargo/lang-c
 pkg:cargo/lang-cli
 pkg:cargo/lang-code
 pkg:cargo/lang-extension
+pkg:cargo/lang-generator
 pkg:cargo/lang-id
 pkg:cargo/lang-interpreter
 pkg:cargo/lang-interpreter-macros
@@ -95908,6 +96006,7 @@ pkg:cargo/latin_square
 pkg:cargo/latin_squares
 pkg:cargo/latinify
 pkg:cargo/latinrs
+pkg:cargo/latios
 pkg:cargo/latitude
 pkg:cargo/latitude-sdk
 pkg:cargo/latke
@@ -96397,6 +96496,7 @@ pkg:cargo/ldc1614
 pkg:cargo/ldc1x1x
 pkg:cargo/ldc3114
 pkg:cargo/ldcache_rs
+pkg:cargo/ldconfig
 pkg:cargo/ldd_md_parse
 pkg:cargo/lddoctor
 pkg:cargo/lddtree
@@ -96684,6 +96784,7 @@ pkg:cargo/ledgerdb
 pkg:cargo/ledgers
 pkg:cargo/ledgers-api
 pkg:cargo/ledgerstore
+pkg:cargo/ledgible
 pkg:cargo/ledgrr
 pkg:cargo/ledmatrix_widgets
 pkg:cargo/leeca_proxmox
@@ -97564,6 +97665,23 @@ pkg:cargo/lib-bpswm
 pkg:cargo/lib-bspwm
 pkg:cargo/lib-cargo-apk
 pkg:cargo/lib-cargo-crate
+pkg:cargo/lib-client-anthropic
+pkg:cargo/lib-client-asana
+pkg:cargo/lib-client-confluence
+pkg:cargo/lib-client-gemini
+pkg:cargo/lib-client-github
+pkg:cargo/lib-client-gitlab
+pkg:cargo/lib-client-google-auth
+pkg:cargo/lib-client-google-docs
+pkg:cargo/lib-client-google-drive
+pkg:cargo/lib-client-google-sheets
+pkg:cargo/lib-client-jira
+pkg:cargo/lib-client-linear
+pkg:cargo/lib-client-ollama
+pkg:cargo/lib-client-openai
+pkg:cargo/lib-client-openrouter
+pkg:cargo/lib-client-slack
+pkg:cargo/lib-client-trello
 pkg:cargo/lib-contra
 pkg:cargo/lib-curveball
 pkg:cargo/lib-did
@@ -97582,6 +97700,9 @@ pkg:cargo/lib-lexin
 pkg:cargo/lib-magic
 pkg:cargo/lib-mal
 pkg:cargo/lib-messenger-archive
+pkg:cargo/lib-migrations-core
+pkg:cargo/lib-migrations-sql
+pkg:cargo/lib-misc-color
 pkg:cargo/lib-ngrok
 pkg:cargo/lib-oci
 pkg:cargo/lib-parser
@@ -97671,6 +97792,7 @@ pkg:cargo/lib_dice
 pkg:cargo/lib_file
 pkg:cargo/lib_frankfurter
 pkg:cargo/lib_game_detector
+pkg:cargo/lib_gerber_edit
 pkg:cargo/lib_hello_world
 pkg:cargo/lib_malloc_freq
 pkg:cargo/lib_maniascript
@@ -98067,6 +98189,7 @@ pkg:cargo/libdeadmock
 pkg:cargo/libdebayer
 pkg:cargo/libdebayer-sys
 pkg:cargo/libdeco
+pkg:cargo/libdecor-headers
 pkg:cargo/libdeflate-sys
 pkg:cargo/libdeflater
 pkg:cargo/libdelve
@@ -106264,6 +106387,7 @@ pkg:cargo/marky
 pkg:cargo/marla
 pkg:cargo/marlea_engine
 pkg:cargo/marlin
+pkg:cargo/marlin-sdk
 pkg:cargo/marlin-spade
 pkg:cargo/marlin-spade-macro
 pkg:cargo/marlin-verilator
@@ -106571,6 +106695,14 @@ pkg:cargo/matchr
 pkg:cargo/matchthem
 pkg:cargo/matchtigs
 pkg:cargo/matchy
+pkg:cargo/matchy-ac
+pkg:cargo/matchy-data-format
+pkg:cargo/matchy-extractor
+pkg:cargo/matchy-format
+pkg:cargo/matchy-ip-trie
+pkg:cargo/matchy-literal-hash
+pkg:cargo/matchy-match-mode
+pkg:cargo/matchy-paraglob
 pkg:cargo/matdb
 pkg:cargo/matdesign-color
 pkg:cargo/mate
@@ -106898,6 +107030,7 @@ pkg:cargo/mattak_derives
 pkg:cargo/matte
 pkg:cargo/matter
 pkg:cargo/matter-cli
+pkg:cargo/matter_setup_code
 pkg:cargo/matterdb
 pkg:cargo/matterdb-derive
 pkg:cargo/matterhorn
@@ -107921,6 +108054,7 @@ pkg:cargo/mdbook-pandoc
 pkg:cargo/mdbook-pdf
 pkg:cargo/mdbook-pdf-headless_chrome
 pkg:cargo/mdbook-pdf-tungstenite
+pkg:cargo/mdbook-permalinks
 pkg:cargo/mdbook-pikchr
 pkg:cargo/mdbook-plantuml
 pkg:cargo/mdbook-playscript
@@ -107950,6 +108084,7 @@ pkg:cargo/mdbook-replace
 pkg:cargo/mdbook-rss
 pkg:cargo/mdbook-rss-feed
 pkg:cargo/mdbook-rust
+pkg:cargo/mdbook-rustdoc-links
 pkg:cargo/mdbook-rustviz
 pkg:cargo/mdbook-satysfi
 pkg:cargo/mdbook-scientific
@@ -108157,6 +108292,7 @@ pkg:cargo/mdsn
 pkg:cargo/mdsplode
 pkg:cargo/mdsql
 pkg:cargo/mdstream
+pkg:cargo/mdstream-tokio
 pkg:cargo/mdsycx
 pkg:cargo/mdsycx-macro
 pkg:cargo/mdt
@@ -110204,6 +110340,7 @@ pkg:cargo/miden-remote-prover-client
 pkg:cargo/miden-rpc-proto
 pkg:cargo/miden-sdk
 pkg:cargo/miden-sdk-alloc
+pkg:cargo/miden-serde-utils
 pkg:cargo/miden-stdlib
 pkg:cargo/miden-stdlib-sys
 pkg:cargo/miden-test-utils
@@ -116816,6 +116953,7 @@ pkg:cargo/myriam
 pkg:cargo/myrient-filter
 pkg:cargo/myrmic
 pkg:cargo/myrmidon
+pkg:cargo/myrmos
 pkg:cargo/myrtio-light-composer
 pkg:cargo/myrtio-mqtt
 pkg:cargo/myrtio-mqtt-homeassistant
@@ -117158,6 +117296,7 @@ pkg:cargo/n-cli
 pkg:cargo/n-functor
 pkg:cargo/n-letter-wordle
 pkg:cargo/n-mb
+pkg:cargo/n-observer
 pkg:cargo/n-roman
 pkg:cargo/n-rustc-codegen-cranelift-pre-t-x64-win-msvc-p1
 pkg:cargo/n-rustc-dev-t-x64-win-msvc-p1
@@ -117652,6 +117791,7 @@ pkg:cargo/nanny-sys
 pkg:cargo/nano
 pkg:cargo/nano-ai
 pkg:cargo/nano-arrow
+pkg:cargo/nano-banana-1
 pkg:cargo/nano-consciousness
 pkg:cargo/nano-gcp-logging
 pkg:cargo/nano-gemm
@@ -119252,6 +119392,7 @@ pkg:cargo/netlify_lambda_http
 pkg:cargo/netlify_toml
 pkg:cargo/netlink
 pkg:cargo/netlink-bindings
+pkg:cargo/netlink-ddns
 pkg:cargo/netlink-ip
 pkg:cargo/netlink-packet
 pkg:cargo/netlink-packet-amneziawg
@@ -125010,6 +125151,7 @@ pkg:cargo/oid4vp-rs
 pkg:cargo/oidc
 pkg:cargo/oidc-cli
 pkg:cargo/oidc-jwt-validator
+pkg:cargo/oidc-publish-lab-swept-invites
 pkg:cargo/oidc-rp
 pkg:cargo/oidc-rs
 pkg:cargo/oidc-util
@@ -125600,6 +125742,7 @@ pkg:cargo/ones-cli
 pkg:cargo/ones-manhour-record-alert
 pkg:cargo/ones-oidc
 pkg:cargo/onescript-preprocessor
+pkg:cargo/oneseed
 pkg:cargo/oneshot
 pkg:cargo/oneshot-broadcast
 pkg:cargo/oneshot-fused-workaround
@@ -126117,6 +126260,7 @@ pkg:cargo/openapi-schema
 pkg:cargo/openapi-sdk
 pkg:cargo/openapi-sdk-status
 pkg:cargo/openapi-service-fabric
+pkg:cargo/openapi-snapshot
 pkg:cargo/openapi-struct-gen
 pkg:cargo/openapi-sync
 pkg:cargo/openapi-to-hurl
@@ -126797,6 +126941,7 @@ pkg:cargo/openusd-rs
 pkg:cargo/openv
 pkg:cargo/openval
 pkg:cargo/openvariant
+pkg:cargo/openvcs-sdk
 pkg:cargo/openvdb
 pkg:cargo/openvdb-sys
 pkg:cargo/openvex
@@ -127602,6 +127747,7 @@ pkg:cargo/orion_cfmt
 pkg:cargo/orion_conf
 pkg:cargo/orion_lib
 pkg:cargo/oris
+pkg:cargo/orismos
 pkg:cargo/orium
 pkg:cargo/orizentic
 pkg:cargo/orizuru
@@ -128648,6 +128794,7 @@ pkg:cargo/oxc_transformer_plugins
 pkg:cargo/oxc_traverse
 pkg:cargo/oxcable
 pkg:cargo/oxcable-basic-devices
+pkg:cargo/oxcache
 pkg:cargo/oxcc-nucleo-f767zi
 pkg:cargo/oxcc-stm32f767
 pkg:cargo/oxcc-stm32f767-hal
@@ -130866,6 +131013,7 @@ pkg:cargo/parsercher
 pkg:cargo/parsers
 pkg:cargo/parsers_sv2
 pkg:cargo/parserst
+pkg:cargo/parsevm
 pkg:cargo/parsex
 pkg:cargo/parsey
 pkg:cargo/parsey-derive
@@ -131326,6 +131474,7 @@ pkg:cargo/path_encoding_utils
 pkg:cargo/path_end
 pkg:cargo/path_facts
 pkg:cargo/path_finder
+pkg:cargo/path_jail
 pkg:cargo/path_lookup
 pkg:cargo/path_macro
 pkg:cargo/path_macro2
@@ -133021,21 +133170,92 @@ pkg:cargo/pezframe-system-rpc-runtime-api
 pkg:cargo/pezframe-try-runtime
 pkg:cargo/pezkuwi
 pkg:cargo/pezkuwi-ckb-merkle-mountain-range
+pkg:cargo/pezkuwi-sdk-frame
 pkg:cargo/pezkuwi-ss58-registry
 pkg:cargo/pezkuwichain-runtime-constants
 pkg:cargo/pezkuwichain-system-emulated-network
 pkg:cargo/pezkuwichain-teyrchain-runtime
 pkg:cargo/pezkuwichain-zagros-system-emulated-network
 pkg:cargo/pezmmr-gadget
+pkg:cargo/pezpallet-asset-conversion
+pkg:cargo/pezpallet-asset-conversion-ops
+pkg:cargo/pezpallet-asset-conversion-tx-payment
+pkg:cargo/pezpallet-asset-rate
+pkg:cargo/pezpallet-asset-rewards
+pkg:cargo/pezpallet-asset-tx-payment
+pkg:cargo/pezpallet-assets
+pkg:cargo/pezpallet-assets-freezer
+pkg:cargo/pezpallet-assets-holder
+pkg:cargo/pezpallet-atomic-swap
 pkg:cargo/pezpallet-aura
+pkg:cargo/pezpallet-authority-discovery
 pkg:cargo/pezpallet-authorship
+pkg:cargo/pezpallet-babe
+pkg:cargo/pezpallet-bags-list
 pkg:cargo/pezpallet-balances
+pkg:cargo/pezpallet-beefy
+pkg:cargo/pezpallet-beefy-mmr
+pkg:cargo/pezpallet-bounties
+pkg:cargo/pezpallet-broker
+pkg:cargo/pezpallet-child-bounties
 pkg:cargo/pezpallet-collective
+pkg:cargo/pezpallet-collective-content
+pkg:cargo/pezpallet-conviction-voting
+pkg:cargo/pezpallet-core-fellowship
+pkg:cargo/pezpallet-delegated-staking
+pkg:cargo/pezpallet-democracy
+pkg:cargo/pezpallet-election-provider-support-benchmarking
+pkg:cargo/pezpallet-elections-phragmen
+pkg:cargo/pezpallet-fast-unstake
+pkg:cargo/pezpallet-glutton
+pkg:cargo/pezpallet-grandpa
+pkg:cargo/pezpallet-identity
+pkg:cargo/pezpallet-im-online
+pkg:cargo/pezpallet-indices
+pkg:cargo/pezpallet-insecure-randomness-collective-flip
+pkg:cargo/pezpallet-lottery
+pkg:cargo/pezpallet-membership
+pkg:cargo/pezpallet-message-queue
+pkg:cargo/pezpallet-migrations
+pkg:cargo/pezpallet-mixnet
+pkg:cargo/pezpallet-mmr
+pkg:cargo/pezpallet-multisig
+pkg:cargo/pezpallet-nft-fractionalization
+pkg:cargo/pezpallet-nfts
+pkg:cargo/pezpallet-nfts-runtime-api
+pkg:cargo/pezpallet-nis
+pkg:cargo/pezpallet-node-authorization
+pkg:cargo/pezpallet-nomination-pools
+pkg:cargo/pezpallet-nomination-pools-benchmarking
+pkg:cargo/pezpallet-nomination-pools-runtime-api
+pkg:cargo/pezpallet-offences
+pkg:cargo/pezpallet-offences-benchmarking
+pkg:cargo/pezpallet-paged-list
+pkg:cargo/pezpallet-parameters
+pkg:cargo/pezpallet-preimage
+pkg:cargo/pezpallet-proxy
+pkg:cargo/pezpallet-ranked-collective
+pkg:cargo/pezpallet-recovery
+pkg:cargo/pezpallet-referenda
+pkg:cargo/pezpallet-remark
+pkg:cargo/pezpallet-safe-mode
+pkg:cargo/pezpallet-scheduler
+pkg:cargo/pezpallet-scored-pool
 pkg:cargo/pezpallet-session
+pkg:cargo/pezpallet-society
+pkg:cargo/pezpallet-staking
+pkg:cargo/pezpallet-staking-reward-curve
 pkg:cargo/pezpallet-sudo
 pkg:cargo/pezpallet-timestamp
+pkg:cargo/pezpallet-tips
 pkg:cargo/pezpallet-transaction-payment
+pkg:cargo/pezpallet-transaction-payment-rpc-runtime-api
+pkg:cargo/pezpallet-treasury
+pkg:cargo/pezpallet-tx-pause
+pkg:cargo/pezpallet-uniques
 pkg:cargo/pezpallet-utility
+pkg:cargo/pezpallet-vesting
+pkg:cargo/pezpallet-whitelist
 pkg:cargo/pezsnowbridge-beacon-primitives
 pkg:cargo/pezsnowbridge-core
 pkg:cargo/pezsnowbridge-inbound-queue-primitives
@@ -133919,6 +134139,7 @@ pkg:cargo/picante-macros
 pkg:cargo/picard
 pkg:cargo/picard-core
 pkg:cargo/picard-ica
+pkg:cargo/picasso
 pkg:cargo/picasso-core
 pkg:cargo/picat
 pkg:cargo/piccolo
@@ -133974,9 +134195,15 @@ pkg:cargo/pico-detect
 pkg:cargo/pico-device
 pkg:cargo/pico-download
 pkg:cargo/pico-driver
+pkg:cargo/pico-ecs
+pkg:cargo/pico-engine-core
+pkg:cargo/pico-engine-hal
+pkg:cargo/pico-engine-hardware
+pkg:cargo/pico-engine-shell
 pkg:cargo/pico-enumeration
 pkg:cargo/pico-lang
 pkg:cargo/pico-otp
+pkg:cargo/pico-rendering
 pkg:cargo/pico-rs
 pkg:cargo/pico-sdk
 pkg:cargo/pico-sdk-sys
@@ -134580,6 +134807,7 @@ pkg:cargo/pinyin-tool
 pkg:cargo/pinyin-translator
 pkg:cargo/pinyin2ch
 pkg:cargo/pinyin_zhuyin
+pkg:cargo/pinzh
 pkg:cargo/pio
 pkg:cargo/pio-command-line-client
 pkg:cargo/pio-core
@@ -134792,6 +135020,7 @@ pkg:cargo/piston-float
 pkg:cargo/piston-gfx_texture
 pkg:cargo/piston-graphics_api_version
 pkg:cargo/piston-history_tree
+pkg:cargo/piston-mc
 pkg:cargo/piston-music
 pkg:cargo/piston-opengex
 pkg:cargo/piston-rect
@@ -135060,6 +135289,7 @@ pkg:cargo/pkarr-cli
 pkg:cargo/pkarr-client
 pkg:cargo/pkarr-relay
 pkg:cargo/pkarr-republisher
+pkg:cargo/pkboost
 pkg:cargo/pkbuffer
 pkg:cargo/pkbuffer_derive
 pkg:cargo/pkce
@@ -135633,6 +135863,7 @@ pkg:cargo/plotters-fullerene
 pkg:cargo/plotters-gpui
 pkg:cargo/plotters-gtk4
 pkg:cargo/plotters-iced
+pkg:cargo/plotters-iced2
 pkg:cargo/plotters-layout
 pkg:cargo/plotters-piet
 pkg:cargo/plotters-piston
@@ -136433,6 +136664,7 @@ pkg:cargo/polestar
 pkg:cargo/polestar-api
 pkg:cargo/polib
 pkg:cargo/policy
+pkg:cargo/policy-core
 pkg:cargo/policy-engine
 pkg:cargo/policyai
 pkg:cargo/policyd-rate-limit
@@ -136618,6 +136850,7 @@ pkg:cargo/poly-cool
 pkg:cargo/poly-mesher
 pkg:cargo/poly-once
 pkg:cargo/poly-ring-xnp1
+pkg:cargo/poly-translator
 pkg:cargo/poly1305
 pkg:cargo/poly1305-nostd
 pkg:cargo/poly1743
@@ -137530,6 +137763,7 @@ pkg:cargo/posum
 pkg:cargo/posy
 pkg:cargo/pot
 pkg:cargo/pot-conditioner
+pkg:cargo/pot-head
 pkg:cargo/pot-rs
 pkg:cargo/pota-adif-upload
 pkg:cargo/potassium
@@ -137956,12 +138190,17 @@ pkg:cargo/prax-armature
 pkg:cargo/prax-axum
 pkg:cargo/prax-cli
 pkg:cargo/prax-codegen
+pkg:cargo/prax-duckdb
 pkg:cargo/prax-migrate
+pkg:cargo/prax-mongodb
+pkg:cargo/prax-mssql
 pkg:cargo/prax-mysql
 pkg:cargo/prax-orm
+pkg:cargo/prax-orm-cli
 pkg:cargo/prax-postgres
 pkg:cargo/prax-query
 pkg:cargo/prax-schema
+pkg:cargo/prax-scylladb
 pkg:cargo/prax-sqlite
 pkg:cargo/prax-sqlx
 pkg:cargo/praxio
@@ -138152,6 +138391,7 @@ pkg:cargo/preftool-toml
 pkg:cargo/preftree
 pkg:cargo/pregel-rs
 pkg:cargo/prehash
+pkg:cargo/prehnite
 pkg:cargo/prehrajto-core
 pkg:cargo/prehrajto-tauri
 pkg:cargo/prei
@@ -139742,6 +139982,7 @@ pkg:cargo/protocol_v3_macro
 pkg:cargo/protocoll
 pkg:cargo/protocols
 pkg:cargo/protocool
+pkg:cargo/protocrap
 pkg:cargo/protocrate
 pkg:cargo/protodef-parser
 pkg:cargo/protofetch
@@ -141483,6 +141724,7 @@ pkg:cargo/pythnet-sdk
 pkg:cargo/pythnet-sdk-legacy
 pkg:cargo/python-assembler
 pkg:cargo/python-ast
+pkg:cargo/python-check-updates
 pkg:cargo/python-config
 pkg:cargo/python-config-rs
 pkg:cargo/python-core
@@ -146195,6 +146437,9 @@ pkg:cargo/rdownloader
 pkg:cargo/rdp
 pkg:cargo/rdp-rs
 pkg:cargo/rdp-rs-2
+pkg:cargo/rdpe
+pkg:cargo/rdpe-derive
+pkg:cargo/rdpe-editor
 pkg:cargo/rdr
 pkg:cargo/rdrand
 pkg:cargo/rdrive
@@ -147067,6 +147312,7 @@ pkg:cargo/redhac
 pkg:cargo/redhook
 pkg:cargo/redi-rs
 pkg:cargo/redicat
+pkg:cargo/redicks
 pkg:cargo/redict
 pkg:cargo/redid
 pkg:cargo/redif
@@ -147595,6 +147841,7 @@ pkg:cargo/regex-mumu
 pkg:cargo/regex-parse
 pkg:cargo/regex-parse-proc-macro
 pkg:cargo/regex-rs
+pkg:cargo/regex-specificity
 pkg:cargo/regex-split
 pkg:cargo/regex-syntax
 pkg:cargo/regex-test
@@ -150816,6 +151063,7 @@ pkg:cargo/riprop
 pkg:cargo/rips
 pkg:cargo/rips-packets
 pkg:cargo/ripsecrets
+pkg:cargo/ripset
 pkg:cargo/ripsolve
 pkg:cargo/ripsy
 pkg:cargo/ripsy-macros
@@ -153584,6 +153832,7 @@ pkg:cargo/rs-hack
 pkg:cargo/rs-hack-mcp
 pkg:cargo/rs-hello-world
 pkg:cargo/rs-hex2int
+pkg:cargo/rs-hook
 pkg:cargo/rs-hosts2arrow-ipc-stream
 pkg:cargo/rs-humanize
 pkg:cargo/rs-i18n
@@ -153696,6 +153945,9 @@ pkg:cargo/rs-sandbox-derive
 pkg:cargo/rs-sandbox-macros
 pkg:cargo/rs-sasl
 pkg:cargo/rs-sb3
+pkg:cargo/rs-schema
+pkg:cargo/rs-schema-derive
+pkg:cargo/rs-schema-derive-impl
 pkg:cargo/rs-sci
 pkg:cargo/rs-script
 pkg:cargo/rs-secp256k1
@@ -159558,6 +159810,7 @@ pkg:cargo/rustywind_vite
 pkg:cargo/rustywitness
 pkg:cargo/rustyword
 pkg:cargo/rustywt
+pkg:cargo/rustyx
 pkg:cargo/rustz
 pkg:cargo/rustzot_api
 pkg:cargo/rustzx
@@ -160363,6 +160616,7 @@ pkg:cargo/sacn
 pkg:cargo/sacn-unofficial
 pkg:cargo/sacp
 pkg:cargo/sacp-conductor
+pkg:cargo/sacp-cookbook
 pkg:cargo/sacp-derive
 pkg:cargo/sacp-proxy
 pkg:cargo/sacp-rmcp
@@ -163381,6 +163635,8 @@ pkg:cargo/secpar
 pkg:cargo/secpass
 pkg:cargo/secq256k1
 pkg:cargo/secr
+pkg:cargo/secra-logger
+pkg:cargo/secra-orm
 pkg:cargo/secra-pluginctl
 pkg:cargo/secrecy
 pkg:cargo/secret
@@ -165558,6 +165814,7 @@ pkg:cargo/seven-client
 pkg:cargo/seven-layer-symphony
 pkg:cargo/seven_seg
 pkg:cargo/seven_segment
+pkg:cargo/sevenate
 pkg:cargo/sevens-neural-network
 pkg:cargo/sevensegment
 pkg:cargo/sevensegment-parser
@@ -166048,6 +166305,7 @@ pkg:cargo/shaft
 pkg:cargo/shafu-rs
 pkg:cargo/shah
 pkg:cargo/shah-macros
+pkg:cargo/shaha
 pkg:cargo/shahulud
 pkg:cargo/shai
 pkg:cargo/shake
@@ -166263,6 +166521,7 @@ pkg:cargo/sharkdown
 pkg:cargo/sharkey
 pkg:cargo/sharks
 pkg:cargo/sharky
+pkg:cargo/sharp
 pkg:cargo/sharp-bindgen
 pkg:cargo/sharp-bindgen-macros
 pkg:cargo/sharp-memory-display
@@ -166462,6 +166721,7 @@ pkg:cargo/sherpack-engine
 pkg:cargo/sherpack-kube
 pkg:cargo/sherpack-repo
 pkg:cargo/sherr
+pkg:cargo/sherwood
 pkg:cargo/shesek-bitcoincore-rpc
 pkg:cargo/shesek-bitcoincore-rpc-json
 pkg:cargo/shesh
@@ -168861,6 +169121,7 @@ pkg:cargo/size_fmt
 pkg:cargo/size_format
 pkg:cargo/size_hint
 pkg:cargo/size_hinter
+pkg:cargo/size_lru
 pkg:cargo/size_of_const_macro
 pkg:cargo/sized
 pkg:cargo/sized-chunks
@@ -169781,6 +170042,7 @@ pkg:cargo/slycer
 pkg:cargo/slyde
 pkg:cargo/sm
 pkg:cargo/sm-2
+pkg:cargo/sm-ai-pose-generator
 pkg:cargo/sm-ext
 pkg:cargo/sm-ext-derive
 pkg:cargo/sm-search
@@ -172602,6 +172864,7 @@ pkg:cargo/soteria
 pkg:cargo/soteria-rs
 pkg:cargo/soth
 pkg:cargo/sothis
+pkg:cargo/sotto
 pkg:cargo/sotu
 pkg:cargo/souchy-tauri-specta
 pkg:cargo/souchy-tauri-specta-macros
@@ -177991,9 +178254,14 @@ pkg:cargo/streamweave-database
 pkg:cargo/streamweave-database-mysql
 pkg:cargo/streamweave-database-postgresql
 pkg:cargo/streamweave-database-sqlite
+pkg:cargo/streamweave-distributed
+pkg:cargo/streamweave-env
 pkg:cargo/streamweave-env-var
 pkg:cargo/streamweave-error
 pkg:cargo/streamweave-file
+pkg:cargo/streamweave-fs
+pkg:cargo/streamweave-graph
+pkg:cargo/streamweave-http-server
 pkg:cargo/streamweave-integration-sql
 pkg:cargo/streamweave-jsonl
 pkg:cargo/streamweave-kafka
@@ -178001,11 +178269,20 @@ pkg:cargo/streamweave-message
 pkg:cargo/streamweave-metrics
 pkg:cargo/streamweave-offset
 pkg:cargo/streamweave-parquet
+pkg:cargo/streamweave-path
 pkg:cargo/streamweave-pipeline
+pkg:cargo/streamweave-process
 pkg:cargo/streamweave-redis
+pkg:cargo/streamweave-signal
 pkg:cargo/streamweave-stateful
+pkg:cargo/streamweave-stdio
+pkg:cargo/streamweave-tempfile
+pkg:cargo/streamweave-timer
+pkg:cargo/streamweave-tokio
 pkg:cargo/streamweave-transaction
+pkg:cargo/streamweave-transformers
 pkg:cargo/streamweave-vec
+pkg:cargo/streamweave-visualization
 pkg:cargo/streamweave-window
 pkg:cargo/streamx
 pkg:cargo/streave
@@ -179541,6 +179818,7 @@ pkg:cargo/superbitty
 pkg:cargo/superbitty-macros
 pkg:cargo/superbloom
 pkg:cargo/superboring
+pkg:cargo/supercache
 pkg:cargo/supercat
 pkg:cargo/superchain
 pkg:cargo/superchain-derive
@@ -180244,6 +180522,7 @@ pkg:cargo/svg-rs
 pkg:cargo/svg-simple-parser
 pkg:cargo/svg-tikz
 pkg:cargo/svg-tileserver
+pkg:cargo/svg-to-png-cli
 pkg:cargo/svg2appicon
 pkg:cargo/svg2avif
 pkg:cargo/svg2colored-png
@@ -181386,6 +181665,7 @@ pkg:cargo/symphonia-utils-xiph
 pkg:cargo/symphonium
 pkg:cargo/symphonize
 pkg:cargo/symphony
+pkg:cargo/symphonyscript
 pkg:cargo/symphoxy
 pkg:cargo/symposium-acp-agent
 pkg:cargo/symposium-acp-proxy
@@ -181876,6 +182156,7 @@ pkg:cargo/syslog_rfc5424
 pkg:cargo/syslogio
 pkg:cargo/sysly
 pkg:cargo/sysman
+pkg:cargo/sysmap
 pkg:cargo/sysml
 pkg:cargo/sysml-model
 pkg:cargo/sysml-parser
@@ -181919,6 +182200,7 @@ pkg:cargo/system-monitor
 pkg:cargo/system-pause
 pkg:cargo/system-profile
 pkg:cargo/system-service
+pkg:cargo/system-theme
 pkg:cargo/system-timer
 pkg:cargo/system-tray
 pkg:cargo/system-updater
@@ -183294,6 +183576,7 @@ pkg:cargo/tauri-plugin-clerk
 pkg:cargo/tauri-plugin-cli
 pkg:cargo/tauri-plugin-clipboard
 pkg:cargo/tauri-plugin-clipboard-manager
+pkg:cargo/tauri-plugin-clipboard-next
 pkg:cargo/tauri-plugin-clipboard-x
 pkg:cargo/tauri-plugin-config-manager
 pkg:cargo/tauri-plugin-context-menu
@@ -184065,6 +184348,7 @@ pkg:cargo/teardown
 pkg:cargo/teardown_tree
 pkg:cargo/teardown_tree___treap
 pkg:cargo/tearor
+pkg:cargo/tears
 pkg:cargo/tearup
 pkg:cargo/tearup_macro
 pkg:cargo/tease
@@ -186732,6 +187016,7 @@ pkg:cargo/thetvdb
 pkg:cargo/theus
 pkg:cargo/thex
 pkg:cargo/they
+pkg:cargo/theymx
 pkg:cargo/thfmr-playlist
 pkg:cargo/thfmr-protocol
 pkg:cargo/thfmr-util
@@ -190033,6 +190318,7 @@ pkg:cargo/toolbelt_a_pm
 pkg:cargo/toolbox
 pkg:cargo/toolbox-rs
 pkg:cargo/toolbx
+pkg:cargo/toolcap
 pkg:cargo/toolchain
 pkg:cargo/toolchain-clean
 pkg:cargo/toolchain_find
@@ -190990,6 +191276,8 @@ pkg:cargo/traceview
 pkg:cargo/tracexec
 pkg:cargo/tracexec-opentelemetry-otlp
 pkg:cargo/tracexec-opentelemetry-proto
+pkg:cargo/tracey
+pkg:cargo/tracey-core
 pkg:cargo/tracing
 pkg:cargo/tracing-actions
 pkg:cargo/tracing-actions-otlp
@@ -192313,6 +192601,7 @@ pkg:cargo/tree_traversal
 pkg:cargo/tree_view
 pkg:cargo/treebender
 pkg:cargo/treebitmap
+pkg:cargo/treeboost
 pkg:cargo/treecap
 pkg:cargo/treeclip
 pkg:cargo/treeclocks
@@ -192728,6 +193017,7 @@ pkg:cargo/triggered
 pkg:cargo/triggr-program
 pkg:cargo/triglyceride
 pkg:cargo/trigout
+pkg:cargo/trigr
 pkg:cargo/trigram
 pkg:cargo/trigraph
 pkg:cargo/trigrs
@@ -193158,6 +193448,7 @@ pkg:cargo/try-block
 pkg:cargo/try-blocks
 pkg:cargo/try-catch
 pkg:cargo/try-cli
+pkg:cargo/try-clone
 pkg:cargo/try-continue
 pkg:cargo/try-drop
 pkg:cargo/try-exit
@@ -195793,6 +196084,7 @@ pkg:cargo/udmp-parser
 pkg:cargo/udmp-parser-rs
 pkg:cargo/udmx
 pkg:cargo/udo
+pkg:cargo/udoc
 pkg:cargo/udokai
 pkg:cargo/udokai-shared
 pkg:cargo/udokai-tui
@@ -196079,6 +196371,7 @@ pkg:cargo/uinput-tokio
 pkg:cargo/uint
 pkg:cargo/uint-crate
 pkg:cargo/uint-zigzag
+pkg:cargo/uint24le_framing
 pkg:cargo/uint256
 pkg:cargo/uints
 pkg:cargo/uintx
@@ -197768,6 +198061,7 @@ pkg:cargo/uring-file
 pkg:cargo/uring-fs
 pkg:cargo/uring-sys
 pkg:cargo/uring-sys2
+pkg:cargo/uringio
 pkg:cargo/uringx
 pkg:cargo/uringy
 pkg:cargo/uringy-macros
@@ -198859,7 +199153,14 @@ pkg:cargo/vach
 pkg:cargo/vach-cli
 pkg:cargo/vacp2p_pmtree
 pkg:cargo/vacro
+pkg:cargo/vacro-analysis
+pkg:cargo/vacro-cli
 pkg:cargo/vacro-doc-i18n
+pkg:cargo/vacro-parser
+pkg:cargo/vacro-report
+pkg:cargo/vacro-report-macro
+pkg:cargo/vacro-trace
+pkg:cargo/vacro-trace-macro
 pkg:cargo/vacuna
 pkg:cargo/vacuum
 pkg:cargo/vad
@@ -200159,6 +200460,7 @@ pkg:cargo/versatiles_derive
 pkg:cargo/versatiles_geometry
 pkg:cargo/versatiles_glyphs
 pkg:cargo/versatiles_image
+pkg:cargo/versatiles_node
 pkg:cargo/versatiles_pipeline
 pkg:cargo/versatilist
 pkg:cargo/versatus-rust
@@ -200881,6 +201183,7 @@ pkg:cargo/virtual_exec
 pkg:cargo/virtual_exec_macro
 pkg:cargo/virtual_exec_parser
 pkg:cargo/virtual_exec_type
+pkg:cargo/virtual_file_system
 pkg:cargo/virtual_joystick
 pkg:cargo/virtual_view
 pkg:cargo/virtual_view_dom
@@ -202584,6 +202887,7 @@ pkg:cargo/wallet-signer
 pkg:cargo/wallet-standard-base
 pkg:cargo/wallet-utils
 pkg:cargo/wallet-wizard
+pkg:cargo/wallet_bips
 pkg:cargo/wallet_standard
 pkg:cargo/wallet_standard_browser
 pkg:cargo/wallet_standard_wallets
@@ -202604,6 +202908,7 @@ pkg:cargo/walleth
 pkg:cargo/walletkit
 pkg:cargo/walletkit-core
 pkg:cargo/wallexerr
+pkg:cargo/walleye
 pkg:cargo/wallflow
 pkg:cargo/wallhack
 pkg:cargo/wallhaven
@@ -204155,10 +204460,13 @@ pkg:cargo/wayland-commons
 pkg:cargo/wayland-csd-frame
 pkg:cargo/wayland-cursor
 pkg:cargo/wayland-egl
+pkg:cargo/wayland-headers
+pkg:cargo/wayland-headers-generator
 pkg:cargo/wayland-interface-check
 pkg:cargo/wayland-kbd
 pkg:cargo/wayland-parser
 pkg:cargo/wayland-pipewire-idle-inhibit
+pkg:cargo/wayland-protocol
 pkg:cargo/wayland-protocol-parser
 pkg:cargo/wayland-protocols
 pkg:cargo/wayland-protocols-async
@@ -204438,6 +204746,7 @@ pkg:cargo/web-assembly
 pkg:cargo/web-assembly-whipshout
 pkg:cargo/web-async
 pkg:cargo/web-audio-api
+pkg:cargo/web-backend
 pkg:cargo/web-base
 pkg:cargo/web-bench
 pkg:cargo/web-bot-auth
@@ -210749,6 +211058,7 @@ pkg:cargo/yayo
 pkg:cargo/yayoi
 pkg:cargo/yaz0
 pkg:cargo/yazi
+pkg:cargo/yazi-actor
 pkg:cargo/yazi-adapter
 pkg:cargo/yazi-adaptor
 pkg:cargo/yazi-binding
@@ -210763,13 +211073,19 @@ pkg:cargo/yazi-ffi
 pkg:cargo/yazi-fm
 pkg:cargo/yazi-fs
 pkg:cargo/yazi-macro
+pkg:cargo/yazi-packing
+pkg:cargo/yazi-parser
 pkg:cargo/yazi-plugin
 pkg:cargo/yazi-prebuild
 pkg:cargo/yazi-prebuilt
 pkg:cargo/yazi-proxy
 pkg:cargo/yazi-scheduler
+pkg:cargo/yazi-sftp
 pkg:cargo/yazi-shared
+pkg:cargo/yazi-shim
 pkg:cargo/yazi-term
+pkg:cargo/yazi-vfs
+pkg:cargo/yazi-watcher
 pkg:cargo/yazi-widgets
 pkg:cargo/yb-postgres
 pkg:cargo/yb-postgres-native-tls
@@ -212507,6 +212823,7 @@ pkg:cargo/zettel-core
 pkg:cargo/zettelkasten
 pkg:cargo/zettelkasten-cli
 pkg:cargo/zettels
+pkg:cargo/zetten
 pkg:cargo/zettera
 pkg:cargo/zettl
 pkg:cargo/zetty
@@ -213658,6 +213975,7 @@ pkg:cargo/zoomer
 pkg:cargo/zoomies
 pkg:cargo/zoomtiler
 pkg:cargo/zoon
+pkg:cargo/zoon-format
 pkg:cargo/zoop
 pkg:cargo/zoozle
 pkg:cargo/zopen
