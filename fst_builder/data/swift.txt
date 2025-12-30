@@ -537,6 +537,7 @@ pkg:swift/github.com/ChimeHQ/Wells
 pkg:swift/github.com/ChimeHQ/WindowTreatment
 pkg:swift/github.com/ChimeHQ/XPCConnectionSession
 pkg:swift/github.com/ChimeHQ/chime-swift
+pkg:swift/github.com/ChrisGVE/LuaSwift
 pkg:swift/github.com/ChrisMash/AlertPresenter
 pkg:swift/github.com/ChrisMash/ProvisioningProfile
 pkg:swift/github.com/ChristianFox/EventTracker
@@ -1345,6 +1346,7 @@ pkg:swift/github.com/Kochava/Apple-SwiftPackage-KochavaNetworking-XCFramework
 pkg:swift/github.com/Kochava/Apple-SwiftPackage-KochavaTracking-XCFramework
 pkg:swift/github.com/Kochava/Apple-SwiftPackage-KochavaUI-XCFramework
 pkg:swift/github.com/Kolos65/Mockable
+pkg:swift/github.com/Koshimizu-Takehito/Confetti
 pkg:swift/github.com/Koshimizu-Takehito/ScreenMacros
 pkg:swift/github.com/Kosikowski/fractal-generators
 pkg:swift/github.com/Kosikowski/genetic-solver
@@ -5734,6 +5736,9 @@ pkg:swift/github.com/johnfairh/steamworks-swift
 pkg:swift/github.com/johnfairh/swift-sass
 pkg:swift/github.com/johngarrett/HyperSwift
 pkg:swift/github.com/johnhaney/ARUnderstanding
+pkg:swift/github.com/johnhaney/AutoMultipeer
+pkg:swift/github.com/johnhaney/ComponentsFromOuterSpace
+pkg:swift/github.com/johnhaney/HandGesture
 pkg:swift/github.com/johnnewman/CircularSpinner
 pkg:swift/github.com/johnno1962/DLKit
 pkg:swift/github.com/johnno1962/Fortify
@@ -7364,6 +7369,7 @@ pkg:swift/github.com/p-x9/SwiftUIColor
 pkg:swift/github.com/p-x9/TouchTracker
 pkg:swift/github.com/p-x9/swift-anti-fishhook
 pkg:swift/github.com/p-x9/swift-cpu-info
+pkg:swift/github.com/p-x9/swift-dwarf
 pkg:swift/github.com/p-x9/swift-edf
 pkg:swift/github.com/p-x9/swift-fileio
 pkg:swift/github.com/p-x9/swift-fishhook
