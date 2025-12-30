@@ -5793,6 +5793,7 @@ pkg:apk/alpine/dropbear
 pkg:apk/alpine/dropbear-convert
 pkg:apk/alpine/dropbear-dbclient
 pkg:apk/alpine/dropbear-doc
+pkg:apk/alpine/dropbear-nftrules
 pkg:apk/alpine/dropbear-openrc
 pkg:apk/alpine/dropbear-scp
 pkg:apk/alpine/dropbear-ssh
@@ -30506,6 +30507,7 @@ pkg:apk/alpine/py3-gnucash
 pkg:apk/alpine/py3-gnupg
 pkg:apk/alpine/py3-gnupg-pyc
 pkg:apk/alpine/py3-gobject3
+pkg:apk/alpine/py3-gobject3-atspi
 pkg:apk/alpine/py3-gobject3-dev
 pkg:apk/alpine/py3-gobject3-pyc
 pkg:apk/alpine/py3-goodreads
@@ -36048,6 +36050,7 @@ pkg:apk/alpine/samba-libnss-winbind
 pkg:apk/alpine/samba-libs
 pkg:apk/alpine/samba-libs-py
 pkg:apk/alpine/samba-libs-py3
+pkg:apk/alpine/samba-nftrules
 pkg:apk/alpine/samba-ntdb-tools
 pkg:apk/alpine/samba-pidl
 pkg:apk/alpine/samba-server
