@@ -18,6 +18,7 @@ pkg:conan/ags
 pkg:conan/alac
 pkg:conan/alembic
 pkg:conan/alpaca
+pkg:conan/alpaka
 pkg:conan/amgcl
 pkg:conan/amqp-cpp
 pkg:conan/andreasbuhr-cppcoro
