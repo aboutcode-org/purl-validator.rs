@@ -15952,6 +15952,10 @@ pkg:apk/alpine/libspnav-dev
 pkg:apk/alpine/libspnav-static
 pkg:apk/alpine/libspng
 pkg:apk/alpine/libspng-dev
+pkg:apk/alpine/libsquish
+pkg:apk/alpine/libsquish-dev
+pkg:apk/alpine/libsquish-doc
+pkg:apk/alpine/libsquish-libs
 pkg:apk/alpine/libsrt
 pkg:apk/alpine/libsrt-dev
 pkg:apk/alpine/libsrt-progs
@@ -32599,6 +32603,9 @@ pkg:apk/alpine/py3-quebra-frases
 pkg:apk/alpine/py3-quebra-frases-pyc
 pkg:apk/alpine/py3-queuelib
 pkg:apk/alpine/py3-queuelib-pyc
+pkg:apk/alpine/py3-r2pipe
+pkg:apk/alpine/py3-r2pipe-doc
+pkg:apk/alpine/py3-r2pipe-pyc
 pkg:apk/alpine/py3-rabbit
 pkg:apk/alpine/py3-rabbit-pyc
 pkg:apk/alpine/py3-racksdb
@@ -35180,6 +35187,11 @@ pkg:apk/alpine/rmpc-bash-completion
 pkg:apk/alpine/rmpc-doc
 pkg:apk/alpine/rmpc-fish-completion
 pkg:apk/alpine/rmpc-zsh-completion
+pkg:apk/alpine/rmtfs
+pkg:apk/alpine/rmtfs-doc
+pkg:apk/alpine/rmtfs-openrc
+pkg:apk/alpine/rmtfs-systemd
+pkg:apk/alpine/rmtfs-udev
 pkg:apk/alpine/rnc2rng
 pkg:apk/alpine/rnc2rng-pyc
 pkg:apk/alpine/rng-tools
