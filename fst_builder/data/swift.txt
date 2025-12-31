@@ -473,6 +473,7 @@ pkg:swift/github.com/Cay-Zhang/SwiftSpeech
 pkg:swift/github.com/Ceylo/Zoomable
 pkg:swift/github.com/Ch0uti/ChouTi
 pkg:swift/github.com/Chandlerdea/HTTPKit
+pkg:swift/github.com/Chandram-Dutta/Iris
 pkg:swift/github.com/ChangYeop-Yang/Universal-SystemKit
 pkg:swift/github.com/ChargePoint/xcparse
 pkg:swift/github.com/CharlZKP/shamir-secret-sharing-swift
@@ -1397,6 +1398,7 @@ pkg:swift/github.com/LeoNatan/LNSwiftUIUtils
 pkg:swift/github.com/LeoNatan/LNTouchVisualizer
 pkg:swift/github.com/LeoNatan/LNViewHierarchyDumper
 pkg:swift/github.com/LiYanan2004/AdaptiveGrid
+pkg:swift/github.com/LiYanan2004/Aperture
 pkg:swift/github.com/LiYanan2004/MarkdownView
 pkg:swift/github.com/LiYanan2004/RichText
 pkg:swift/github.com/LiYanan2004/SFSymbolKit
@@ -3665,6 +3667,7 @@ pkg:swift/github.com/capturecontext/swift-capture
 pkg:swift/github.com/capturecontext/swift-declarative-configuration
 pkg:swift/github.com/capturecontext/swift-generic-color
 pkg:swift/github.com/capturecontext/swift-interception
+pkg:swift/github.com/capturecontext/swift-keypaths-extensions
 pkg:swift/github.com/capturecontext/swift-prelude
 pkg:swift/github.com/capturecontext/swift-standard-clients
 pkg:swift/github.com/capturecontext/swiftui-dynamic-forms
@@ -3749,6 +3752,7 @@ pkg:swift/github.com/chrisnyw/CNTimelineCell
 pkg:swift/github.com/chrisnyw/NavigationProgress
 pkg:swift/github.com/chrisnyw/SwiftUI-Snackbar
 pkg:swift/github.com/chrispomeroyhale/csv-dialect-swift
+pkg:swift/github.com/chrisstampar/fx-swift
 pkg:swift/github.com/christiankm/FinanceKit
 pkg:swift/github.com/christianselig/JunoSlider
 pkg:swift/github.com/christianselig/Markdownosaur
@@ -8605,6 +8609,7 @@ pkg:swift/github.com/stefc/xprocs
 pkg:swift/github.com/steipete/Commander
 pkg:swift/github.com/steipete/Demark
 pkg:swift/github.com/steipete/InterposeKit
+pkg:swift/github.com/steipete/SweetCookieKit
 pkg:swift/github.com/steipete/Swiftdansi
 pkg:swift/github.com/steipete/TauTUI
 pkg:swift/github.com/stencilproject/Stencil
@@ -9146,6 +9151,7 @@ pkg:swift/github.com/tijs/ATProtoFoundation
 pkg:swift/github.com/tikhop/ASN1Swift
 pkg:swift/github.com/tikhop/Mercato
 pkg:swift/github.com/tikhop/TPInAppReceipt
+pkg:swift/github.com/tiktok/tiktok-business-ios-sdk
 pkg:swift/github.com/tiktok/tiktok-opensdk-ios
 pkg:swift/github.com/timdonnelly/Advance
 pkg:swift/github.com/timdonnelly/DisplayLink
@@ -9272,6 +9278,7 @@ pkg:swift/github.com/tuist/GraphViz
 pkg:swift/github.com/tuist/ProjectAutomation
 pkg:swift/github.com/tuist/ProjectDescription
 pkg:swift/github.com/tuist/Rosalind
+pkg:swift/github.com/tuist/SwiftGen
 pkg:swift/github.com/tuist/SwiftyESBuild
 pkg:swift/github.com/tuist/SwiftyTailwind
 pkg:swift/github.com/tuist/XCLogParser
@@ -9744,6 +9751,7 @@ pkg:swift/github.com/xcodereleases/data
 pkg:swift/github.com/xcodereleases/xcinfo
 pkg:swift/github.com/xcodereleases/xcodereleases
 pkg:swift/github.com/xcodesorg/swift-srp
+pkg:swift/github.com/xiaoxiaowesley/FlowRouter
 pkg:swift/github.com/xiaoxiaowesley/PhotoPreview
 pkg:swift/github.com/xiiagency/SwiftConcurrency
 pkg:swift/github.com/xiiagency/SwiftCoreData
