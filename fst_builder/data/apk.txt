@@ -26802,6 +26802,7 @@ pkg:apk/alpine/php84-pecl-protobuf
 pkg:apk/alpine/php84-pecl-psr
 pkg:apk/alpine/php84-pecl-rdkafka
 pkg:apk/alpine/php84-pecl-redis
+pkg:apk/alpine/php84-pecl-runkit7
 pkg:apk/alpine/php84-pecl-smbclient
 pkg:apk/alpine/php84-pecl-solr
 pkg:apk/alpine/php84-pecl-ssh2
@@ -26913,6 +26914,7 @@ pkg:apk/alpine/php85-pecl-protobuf
 pkg:apk/alpine/php85-pecl-psr
 pkg:apk/alpine/php85-pecl-rdkafka
 pkg:apk/alpine/php85-pecl-redis
+pkg:apk/alpine/php85-pecl-runkit7
 pkg:apk/alpine/php85-pecl-smbclient
 pkg:apk/alpine/php85-pecl-solr
 pkg:apk/alpine/php85-pecl-ssh2
@@ -33931,6 +33933,10 @@ pkg:apk/alpine/pythonispython3
 pkg:apk/alpine/pythran
 pkg:apk/alpine/pythran-pyc
 pkg:apk/alpine/pzstd
+pkg:apk/alpine/q6voiced
+pkg:apk/alpine/q6voiced-doc
+pkg:apk/alpine/q6voiced-openrc
+pkg:apk/alpine/q6voiced-systemd
 pkg:apk/alpine/qadwaitadecorations
 pkg:apk/alpine/qalc
 pkg:apk/alpine/qalc-doc
@@ -38875,6 +38881,9 @@ pkg:apk/alpine/tpm2-tss-tcti-spi-helper
 pkg:apk/alpine/tpm2-tss-tcti-swtpm
 pkg:apk/alpine/tpm2-tss-tctildr
 pkg:apk/alpine/tpp-bypass
+pkg:apk/alpine/tqftpserv
+pkg:apk/alpine/tqftpserv-doc
+pkg:apk/alpine/tqftpserv-openrc
 pkg:apk/alpine/tqm
 pkg:apk/alpine/trac
 pkg:apk/alpine/trace-cmd
