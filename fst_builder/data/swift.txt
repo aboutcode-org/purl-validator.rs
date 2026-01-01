@@ -562,6 +562,7 @@ pkg:swift/github.com/CleanCocoa/SearchExpressionParser
 pkg:swift/github.com/CleanCocoa/SwiftXattrs
 pkg:swift/github.com/CleanCocoa/TextBuffer
 pkg:swift/github.com/CleanCocoa/TrialLicensing
+pkg:swift/github.com/CleanCocoa/timeline-ui
 pkg:swift/github.com/Clipy/KeyHolder
 pkg:swift/github.com/Clipy/LoginServiceKit
 pkg:swift/github.com/Clipy/Magnet
@@ -1997,6 +1998,7 @@ pkg:swift/github.com/RougeWare/Swift-Simple-Logging
 pkg:swift/github.com/RougeWare/Swift-Special-String
 pkg:swift/github.com/RougeWare/Swift-String-Integer-Access
 pkg:swift/github.com/RougeWare/Swift-TODO
+pkg:swift/github.com/RouraIO/ios.roura.io.imagekit
 pkg:swift/github.com/RowBotics/Concept2-SDK
 pkg:swift/github.com/Roy-wonji/AsyncMoya
 pkg:swift/github.com/Roy-wonji/AsyncURLSession
@@ -2340,6 +2342,7 @@ pkg:swift/github.com/SwiftPackageIndex/SemanticVersion
 pkg:swift/github.com/SwiftPackageIndex/ShellOut
 pkg:swift/github.com/SwiftPackageIndex/ShellQuote
 pkg:swift/github.com/SwiftPackageIndex/SwiftPackageIndex-Server
+pkg:swift/github.com/SwiftPackageIndex/swift-package-manager
 pkg:swift/github.com/SwiftPackageRepository/GameKitService.swift
 pkg:swift/github.com/SwiftPackageRepository/GameKitUI.swift
 pkg:swift/github.com/SwiftPackageRepository/ISO639.swift
@@ -2948,6 +2951,7 @@ pkg:swift/github.com/alfianlosari/ITunesFeedGenerator
 pkg:swift/github.com/algolia/algoliasearch-client-swift
 pkg:swift/github.com/aliadam/imagewithactivityindicator
 pkg:swift/github.com/alibaba/HandyJSON
+pkg:swift/github.com/alima-webdev/SmartLogs-Swift
 pkg:swift/github.com/allaboutapps/DataSource
 pkg:swift/github.com/allaboutapps/Fetch
 pkg:swift/github.com/allaboutapps/Toolbox
@@ -4687,6 +4691,7 @@ pkg:swift/github.com/exyte/fan-menu
 pkg:swift/github.com/exyte/macaw
 pkg:swift/github.com/ez-push/ios
 pkg:swift/github.com/ez-push/ios-core
+pkg:swift/github.com/ezefranca/BibTeXKit
 pkg:swift/github.com/ezefranca/GoogleScholarSwift
 pkg:swift/github.com/ezefranca/SpeedManagerModule
 pkg:swift/github.com/ezefranca/check-permissions
@@ -6331,6 +6336,7 @@ pkg:swift/github.com/m-housh/swift-validations
 pkg:swift/github.com/m1guelpf/EventSource
 pkg:swift/github.com/m1guelpf/GeneralAgentsKit
 pkg:swift/github.com/m1guelpf/WatchEye
+pkg:swift/github.com/m1guelpf/navigationkit
 pkg:swift/github.com/m1guelpf/swift-openai-images
 pkg:swift/github.com/m1guelpf/swift-openai-responses
 pkg:swift/github.com/m1guelpf/swift-openai-videos
@@ -9411,6 +9417,7 @@ pkg:swift/github.com/valeriyvan/swift-blurhash
 pkg:swift/github.com/valeriyvan/swift-geometrize
 pkg:swift/github.com/valkey-io/valkey-swift
 pkg:swift/github.com/valpackett/SwiftCBOR
+pkg:swift/github.com/valzevul/Theseus
 pkg:swift/github.com/vamsii777/AMKit
 pkg:swift/github.com/vamsii777/DIGIPIN
 pkg:swift/github.com/vamsii777/SwiftTZ
@@ -9633,6 +9640,7 @@ pkg:swift/github.com/wendylabsinc/gstreamer
 pkg:swift/github.com/wendylabsinc/jq
 pkg:swift/github.com/wendylabsinc/pulsar-client
 pkg:swift/github.com/wendylabsinc/sqlite-extension-kit
+pkg:swift/github.com/wendylabsinc/tensorrt-swift
 pkg:swift/github.com/wendyliga/ConsoleIO
 pkg:swift/github.com/wendyliga/Explorer
 pkg:swift/github.com/wendyliga/SwiftKit
