@@ -1412,6 +1412,7 @@ pkg:cran/DRaWR
 pkg:cran/DRclass
 pkg:cran/DRomics
 pkg:cran/DRquality
+pkg:cran/DRsurvCRT
 pkg:cran/DRviaSPCN
 pkg:cran/DSAIDE
 pkg:cran/DSAIRM
@@ -17459,6 +17460,7 @@ pkg:cran/plater
 pkg:cran/platetools
 pkg:cran/platowork
 pkg:cran/plattice
+pkg:cran/plavaan
 pkg:cran/play
 pkg:cran/player
 pkg:cran/pldamixture
@@ -20038,6 +20040,7 @@ pkg:cran/sensitivitymv
 pkg:cran/sensitivitymw
 pkg:cran/sensmediation
 pkg:cran/sensobol
+pkg:cran/sensortowerR
 pkg:cran/sensory
 pkg:cran/senstrat
 pkg:cran/sentencepiece
