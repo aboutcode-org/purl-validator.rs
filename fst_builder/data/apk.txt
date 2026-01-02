@@ -8843,6 +8843,7 @@ pkg:apk/alpine/gmnisrv-openrc
 pkg:apk/alpine/gmnitohtml
 pkg:apk/alpine/gmnitohtml-doc
 pkg:apk/alpine/gmobile
+pkg:apk/alpine/gmobile-dbg
 pkg:apk/alpine/gmobile-dev
 pkg:apk/alpine/gmobile-udev
 pkg:apk/alpine/gmock
@@ -9141,6 +9142,7 @@ pkg:apk/alpine/gnss-share
 pkg:apk/alpine/gnss-share-doc
 pkg:apk/alpine/gnss-share-geoclue
 pkg:apk/alpine/gnss-share-openrc
+pkg:apk/alpine/gnss-share-systemd
 pkg:apk/alpine/gnss-share-tools
 pkg:apk/alpine/gnu-apl
 pkg:apk/alpine/gnu-apl-dev
@@ -9783,6 +9785,7 @@ pkg:apk/alpine/greetd-mini-wl-greeter-bash-completion
 pkg:apk/alpine/greetd-mini-wl-greeter-doc
 pkg:apk/alpine/greetd-openrc
 pkg:apk/alpine/greetd-phrog
+pkg:apk/alpine/greetd-phrog-dbg
 pkg:apk/alpine/greetd-phrog-schemas
 pkg:apk/alpine/greetd-phrog-systemd
 pkg:apk/alpine/greetd-regreet
@@ -28045,6 +28048,7 @@ pkg:apk/alpine/pulseaudio-bluez
 pkg:apk/alpine/pulseaudio-ctl
 pkg:apk/alpine/pulseaudio-ctl-doc
 pkg:apk/alpine/pulseaudio-ctl-zsh-completion
+pkg:apk/alpine/pulseaudio-dbg
 pkg:apk/alpine/pulseaudio-dev
 pkg:apk/alpine/pulseaudio-doc
 pkg:apk/alpine/pulseaudio-equalizer
@@ -28119,6 +28123,12 @@ pkg:apk/alpine/pwclient-doc
 pkg:apk/alpine/pwclient-pyc
 pkg:apk/alpine/pwgen
 pkg:apk/alpine/pwgen-doc
+pkg:apk/alpine/pwndbg
+pkg:apk/alpine/pwndbg-doc
+pkg:apk/alpine/pwndbg-pyc
+pkg:apk/alpine/pwntools
+pkg:apk/alpine/pwntools-doc
+pkg:apk/alpine/pwntools-pyc
 pkg:apk/alpine/pwru
 pkg:apk/alpine/pwsafe
 pkg:apk/alpine/pwsafe-doc
@@ -35271,6 +35281,8 @@ pkg:apk/alpine/rook-getattr
 pkg:apk/alpine/rootlesskit
 pkg:apk/alpine/rootlesskit-doc
 pkg:apk/alpine/rootlesskit-docker-proxy
+pkg:apk/alpine/ropgadget
+pkg:apk/alpine/ropgadget-pyc
 pkg:apk/alpine/rosdep
 pkg:apk/alpine/rosdep-pyc
 pkg:apk/alpine/rosenpass
@@ -37520,6 +37532,7 @@ pkg:apk/alpine/stern-bash-completion
 pkg:apk/alpine/stern-fish-completion
 pkg:apk/alpine/stern-zsh-completion
 pkg:apk/alpine/stevia
+pkg:apk/alpine/stevia-dbg
 pkg:apk/alpine/stevia-doc
 pkg:apk/alpine/stevia-lang
 pkg:apk/alpine/stevia-systemd
