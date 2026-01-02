@@ -539,6 +539,7 @@ pkg:swift/github.com/ChimeHQ/WindowTreatment
 pkg:swift/github.com/ChimeHQ/XPCConnectionSession
 pkg:swift/github.com/ChimeHQ/chime-swift
 pkg:swift/github.com/ChrisGVE/LuaSwift
+pkg:swift/github.com/ChrisGVE/MarkdownExtendedView
 pkg:swift/github.com/ChrisMash/AlertPresenter
 pkg:swift/github.com/ChrisMash/ProvisioningProfile
 pkg:swift/github.com/ChristianFox/EventTracker
@@ -1956,6 +1957,7 @@ pkg:swift/github.com/RedMadRobot/parser-autograph
 pkg:swift/github.com/RedMadRobot/service-autograph
 pkg:swift/github.com/RedMadRobot/synopsis
 pkg:swift/github.com/Restofire/Restofire
+pkg:swift/github.com/Rev0212/iOS-NetworkInspector
 pkg:swift/github.com/RevenueCat/purchases-ios
 pkg:swift/github.com/RevenueCat/purchases-ios-spm
 pkg:swift/github.com/RiftValleySoftware/RVS_AutofillTextField
@@ -2438,6 +2440,7 @@ pkg:swift/github.com/TheCoderMerlin/Curses
 pkg:swift/github.com/TheEZProducts/SwiftEZSDK
 pkg:swift/github.com/TheRakiburKhan/RKAPIService
 pkg:swift/github.com/TheRakiburKhan/RKUtils
+pkg:swift/github.com/TheRogue76/SwiftMockk
 pkg:swift/github.com/TheiPhoneDev/UpdateKit
 pkg:swift/github.com/ThomasCle/events
 pkg:swift/github.com/Thomvis/BrightFutures
@@ -9013,6 +9016,7 @@ pkg:swift/github.com/teco-project/teco-core
 pkg:swift/github.com/telemtobi/swift-localization
 pkg:swift/github.com/telemtobi/swift-networking
 pkg:swift/github.com/telhawasim/text-truncation-effect
+pkg:swift/github.com/telhawasim/toast-swiftui
 pkg:swift/github.com/terhechte/swift-x11-example
 pkg:swift/github.com/terlan98/CircularReveal
 pkg:swift/github.com/terlan98/CircularSlider
@@ -9207,6 +9211,7 @@ pkg:swift/github.com/toineheuvelmans/Metron
 pkg:swift/github.com/tokopedia/RxComposableArchitecture
 pkg:swift/github.com/tolgee/tolgee-mobile-swift-sdk
 pkg:swift/github.com/tom-muchadostudio/onboardsync_ios
+pkg:swift/github.com/tomasf/Apus
 pkg:swift/github.com/tomasf/Cadova
 pkg:swift/github.com/tomasf/FindFont
 pkg:swift/github.com/tomasf/Helical
