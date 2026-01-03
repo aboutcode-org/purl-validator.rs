@@ -2573,6 +2573,7 @@ pkg:swift/github.com/William-Weng/WWDetectDevice
 pkg:swift/github.com/William-Weng/WWDonutChartView
 pkg:swift/github.com/William-Weng/WWDualCamera
 pkg:swift/github.com/William-Weng/WWEither
+pkg:swift/github.com/William-Weng/WWEmitterLayerEffect
 pkg:swift/github.com/William-Weng/WWEmojiTextField
 pkg:swift/github.com/William-Weng/WWEventSource
 pkg:swift/github.com/William-Weng/WWExpandableCell
@@ -2643,6 +2644,7 @@ pkg:swift/github.com/William-Weng/WWSimpleAI_Claude
 pkg:swift/github.com/William-Weng/WWSimpleAI_DeepSeek
 pkg:swift/github.com/William-Weng/WWSimpleAI_Gemini
 pkg:swift/github.com/William-Weng/WWSimpleAI_Ollama
+pkg:swift/github.com/William-Weng/WWSimpleAI_Perplexity
 pkg:swift/github.com/William-Weng/WWSimpleZipDirectoryReader
 pkg:swift/github.com/William-Weng/WWSimplifiedMusicalNotationPlayer
 pkg:swift/github.com/William-Weng/WWSkeletonView
@@ -4696,6 +4698,7 @@ pkg:swift/github.com/ez-push/ios
 pkg:swift/github.com/ez-push/ios-core
 pkg:swift/github.com/ezefranca/BibTeXKit
 pkg:swift/github.com/ezefranca/GoogleScholarSwift
+pkg:swift/github.com/ezefranca/OrcidSwift
 pkg:swift/github.com/ezefranca/SpeedManagerModule
 pkg:swift/github.com/ezefranca/check-permissions
 pkg:swift/github.com/ezefranca/youtube-metadata-swift
@@ -6667,6 +6670,7 @@ pkg:swift/github.com/mhayes853/swift-uuidv7
 pkg:swift/github.com/mhdhejazi/Dynamic
 pkg:swift/github.com/mhennemeyer/singlepagescanner
 pkg:swift/github.com/mhennemeyer/swift-toolbox
+pkg:swift/github.com/mi11ione/OpenGlass
 pkg:swift/github.com/mi12labs/SwiftAI
 pkg:swift/github.com/michael-groble/geohash
 pkg:swift/github.com/michael94ellis/SwiftUIJoystick
@@ -8617,6 +8621,7 @@ pkg:swift/github.com/stefanspringer1/SwiftXMLParser
 pkg:swift/github.com/stefc/xprocs
 pkg:swift/github.com/steipete/Commander
 pkg:swift/github.com/steipete/Demark
+pkg:swift/github.com/steipete/ElevenLabsKit
 pkg:swift/github.com/steipete/InterposeKit
 pkg:swift/github.com/steipete/SweetCookieKit
 pkg:swift/github.com/steipete/Swiftdansi
