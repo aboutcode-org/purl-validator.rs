@@ -89530,6 +89530,7 @@ pkg:composer/errogaht/cdek
 pkg:composer/errogaht/delivery-aggregator
 pkg:composer/errogaht/yandex-ocr-php
 pkg:composer/errohitsinghal/yii2-ajaxcrud-bs5-advanced
+pkg:composer/errohitsinghal/yii2-tom-select
 pkg:composer/error-explorer/error-reporter
 pkg:composer/error-explorer/laravel-error-reporter
 pkg:composer/error-explorer/php-sdk
@@ -90077,6 +90078,7 @@ pkg:composer/eslavondigital/olx-parser
 pkg:composer/eslavondigital/ozzz-ru-api
 pkg:composer/eslavondigital/vk-bot-api
 pkg:composer/eslavondigital/vk-dialog-scanner
+pkg:composer/eslazarev/wildberries-sdk
 pkg:composer/esler/json-rpc
 pkg:composer/esler/phpunit-graceful-interrupt
 pkg:composer/eslider/data-tables
@@ -100966,6 +100968,7 @@ pkg:composer/fos1/sf-doctrine-guard-plugin
 pkg:composer/fos1/sf-form-i18n-number-plugin
 pkg:composer/fos1/sf-s-q-l-tools-plugin
 pkg:composer/fosa-framework/fosa
+pkg:composer/fosa-framework/fosa-core
 pkg:composer/fosbury/fosbury
 pkg:composer/fosforus/authblock-shortcode
 pkg:composer/fosker/auth
@@ -101250,6 +101253,7 @@ pkg:composer/fpdo/fluentpdo
 pkg:composer/fperdomo/http
 pkg:composer/fperdomo/laravel-api-starter-kit
 pkg:composer/fperdomo/laravel-comments
+pkg:composer/fperdomo/php-agi
 pkg:composer/fperdomo/scanner
 pkg:composer/fperezco/captainhook-conventional-branchs-commits
 pkg:composer/fperezco/ratchetphp
@@ -109333,6 +109337,7 @@ pkg:composer/gitfei1231/webman-statistic
 pkg:composer/gitfei1231/webman-storage
 pkg:composer/gitfei1231/webman-throttle
 pkg:composer/gitfullstacker/laravel-csv-parser
+pkg:composer/gitfullstacker/laravel-excel-parser
 pkg:composer/githabbe/me-module
 pkg:composer/githen/cmsengine
 pkg:composer/githen/iflytek-php-sdk
@@ -114138,6 +114143,7 @@ pkg:composer/guillaumeferron/post-content
 pkg:composer/guillaumepotier/pdfxtractor
 pkg:composer/guillaumesmo/rector-simple
 pkg:composer/guillaumesmo/twig-to-html
+pkg:composer/guillaumetissier/path-utilities
 pkg:composer/guillaumevar/php-ga4-mp
 pkg:composer/guillecomsitec/chain-builder
 pkg:composer/guillegf/php-tools
@@ -123269,6 +123275,7 @@ pkg:composer/ht3aa/link-to-relation-text-column
 pkg:composer/ht3aa/only-one-active-toggle
 pkg:composer/ht3aa/status-tabs
 pkg:composer/ht3aa/title-with-image-select-label
+pkg:composer/ht3aa/zaeem-delivery
 pkg:composer/htc/now-taxi-bundle
 pkg:composer/htccs/bitrix_custom_properties_module
 pkg:composer/htcmage/adminnoticeregistration
@@ -134918,6 +134925,8 @@ pkg:composer/ismail1432/database-anonymizer
 pkg:composer/ismail1432/database-anonymizer-bundle
 pkg:composer/ismail1k/laravel-analytics
 pkg:composer/ismail1k/laravel-cart
+pkg:composer/ismaildasci/laravel-sapb1
+pkg:composer/ismaildasci/laravel-sapb1-toolkit
 pkg:composer/ismailocal/laravel-version
 pkg:composer/ismailocal/text-replacer
 pkg:composer/ismailraji/yii2-alert-nf
@@ -136368,6 +136377,7 @@ pkg:composer/ivansotelo/cfdistate
 pkg:composer/ivansotelo/twilio-verify
 pkg:composer/ivanstan/php-csv
 pkg:composer/ivanstan/symfony-extend-request
+pkg:composer/ivanstan/symfony-support
 pkg:composer/ivanstan/tle-php
 pkg:composer/ivantage/ivantagejobqueue
 pkg:composer/ivantage/ivantagemail
@@ -152117,6 +152127,7 @@ pkg:composer/kenmaclord/potassium
 pkg:composer/kenmush/ujumbesms
 pkg:composer/kennedy-osaze/laravel-api-response
 pkg:composer/kennedy-osaze/php-cs-fixer-config
+pkg:composer/kennedymbale/zynle-pay-php-sdk
 pkg:composer/kennedyosaze/random-jokes
 pkg:composer/kennedytedesco/hashids-wrapper
 pkg:composer/kennedytedesco/meilisearch-search-filter
@@ -152569,6 +152580,7 @@ pkg:composer/kevinkiel/wp-yaml-loader
 pkg:composer/kevinkl3/browser-detector
 pkg:composer/kevinkl3/mongomock
 pkg:composer/kevinkl3/neteller
+pkg:composer/kevinkl3/php-mongo-migrator
 pkg:composer/kevinkone/contact
 pkg:composer/kevinkopf/finik-kg-symfony-bundle
 pkg:composer/kevinkorb/opentok
@@ -152610,6 +152622,7 @@ pkg:composer/kevinpurwito/php-constant
 pkg:composer/kevinquillen/bigcommerce-api-php-v3
 pkg:composer/kevinquillen/http-client-generator
 pkg:composer/kevinquillen/recipe-generator
+pkg:composer/kevinrider/laravel-etrade
 pkg:composer/kevinrider/phpetrade
 pkg:composer/kevinrob/guzzle-cache-middleware
 pkg:composer/kevinruscoe/autosortingmodel
@@ -157877,6 +157890,7 @@ pkg:composer/kuasar/base
 pkg:composer/kuaukutsu/ds-collection
 pkg:composer/kuaukutsu/ds-dto
 pkg:composer/kuaukutsu/poc-migration
+pkg:composer/kuaukutsu/poc-queue-redis
 pkg:composer/kuaukutsu/queue-core
 pkg:composer/kub-at/php-simple-html-dom-parser
 pkg:composer/kuba/composer-lock
@@ -167402,6 +167416,7 @@ pkg:composer/limoncello-php/redis-tagged-cache
 pkg:composer/limoncello-php/templates
 pkg:composer/limoncello-php/testing
 pkg:composer/limoncello-php/validation
+pkg:composer/limonhasan/social-autoposter
 pkg:composer/limonte/google-safebrowsing
 pkg:composer/limonte/mcafee-siteadvisor
 pkg:composer/limonte/php-adblock-parser
@@ -173675,6 +173690,7 @@ pkg:composer/lwp145/apollo-client-php
 pkg:composer/lws/exportactions
 pkg:composer/lws/import
 pkg:composer/lws/import-export
+pkg:composer/lwsoftbd/site-settings
 pkg:composer/lwtcumt/testcomp
 pkg:composer/lwwcas/holo-builder
 pkg:composer/lwwcas/laravel-countries
@@ -179683,6 +179699,7 @@ pkg:composer/marijnvdwerf/teletekst
 pkg:composer/marijoo/nova-indicator-field
 pkg:composer/marilesbeard5/laravel-sitemap
 pkg:composer/marin-dev/composer-example-package
+pkg:composer/marin-solutions/checkybot-laravel
 pkg:composer/marin/phpwechat-for-laravel
 pkg:composer/marina-lubnik/package-uppercase
 pkg:composer/marina/hex1
@@ -180646,6 +180663,7 @@ pkg:composer/martincamen/nzbget-php
 pkg:composer/martincamen/php-arr-core
 pkg:composer/martincamen/php-file-size
 pkg:composer/martincamen/radarr-php
+pkg:composer/martincamen/sonarr-php
 pkg:composer/martinclaro/tacacs-php
 pkg:composer/martincodes-de/php-yaml-changelog-generator
 pkg:composer/martincv/wordpress-plugin-boilerplate
@@ -184173,6 +184191,7 @@ pkg:composer/medatc/authorization
 pkg:composer/medbanks/thrift-lib
 pkg:composer/medboubazine/binance-pay
 pkg:composer/medboubazine/chargily-checkout
+pkg:composer/medboubazine/chargily-pro
 pkg:composer/medboubazine/facebook-pixel
 pkg:composer/medboubazine/laravel-commands
 pkg:composer/medboubazine/moogold
@@ -189732,6 +189751,7 @@ pkg:composer/mindtouch/mindtouch-http
 pkg:composer/mindtwo/appointable
 pkg:composer/mindtwo/decorator
 pkg:composer/mindtwo/laravel-auto-create-uuid
+pkg:composer/mindtwo/laravel-auto-translatable
 pkg:composer/mindtwo/laravel-blade-spaceless
 pkg:composer/mindtwo/laravel-clickup-api
 pkg:composer/mindtwo/laravel-decorator
@@ -190971,6 +190991,7 @@ pkg:composer/mitirrli/webman
 pkg:composer/mitirrli/yii2-gii-rest
 pkg:composer/mitirrli/yii2-ide-helper
 pkg:composer/mitirrli/yunpian
+pkg:composer/mitisk/yii2-admin
 pkg:composer/mitisk/yii2-phone-input
 pkg:composer/mitismirza/flarum-rtl
 pkg:composer/mitismirza/jalali
@@ -196303,6 +196324,7 @@ pkg:composer/mralston/laravel-fullcalendar
 pkg:composer/mralston/laravel-passwordless-login
 pkg:composer/mralston/lockout
 pkg:composer/mralston/mug
+pkg:composer/mralston/payment
 pkg:composer/mralston/pdf
 pkg:composer/mralston/quake-sdk
 pkg:composer/mralston/trustpilot
@@ -200115,6 +200137,7 @@ pkg:composer/n4b/n4b
 pkg:composer/n4m-ward/laravel-perry
 pkg:composer/n5s/brotli
 pkg:composer/n5s/deployer-recipes
+pkg:composer/n5s/http-cli
 pkg:composer/n5s/local-bin
 pkg:composer/n5s/local-bin-advpng
 pkg:composer/n5s/local-bin-apngasm
@@ -201641,6 +201664,12 @@ pkg:composer/nativephp/geolocation
 pkg:composer/nativephp/laravel
 pkg:composer/nativephp/laravel-cloud-deploy
 pkg:composer/nativephp/microphone
+pkg:composer/nativephp/mobile-device
+pkg:composer/nativephp/mobile-dialog
+pkg:composer/nativephp/mobile-file
+pkg:composer/nativephp/mobile-network
+pkg:composer/nativephp/mobile-share
+pkg:composer/nativephp/mobile-system
 pkg:composer/nativephp/php-bin
 pkg:composer/nativerank/pagekit-logger
 pkg:composer/nativerank/silktide-semrush-api
@@ -210566,6 +210595,10 @@ pkg:composer/nut.php/enrutador
 pkg:composer/nut302/cold-hot
 pkg:composer/nutaku/common
 pkg:composer/nutama/mattermost-webhook
+pkg:composer/nutandc/api-crud-generator
+pkg:composer/nutandc/laravel-postman-generator
+pkg:composer/nutandc/nepal-payment-gateway
+pkg:composer/nutandc/nepali-date-converter
 pkg:composer/nutgram/async
 pkg:composer/nutgram/hydrator
 pkg:composer/nutgram/laravel
@@ -212523,6 +212556,7 @@ pkg:composer/ohffs/laravel-msteams-alerts
 pkg:composer/ohffs/php-pathlib
 pkg:composer/ohffs/simple-api-key-middleware
 pkg:composer/ohffs/simple-laravel-ldap
+pkg:composer/ohffs/simple-php-llm
 pkg:composer/ohffs/simple-reactphp-router
 pkg:composer/ohffs/simple-spout
 pkg:composer/ohffs/transmission-client
@@ -216314,6 +216348,7 @@ pkg:composer/opscale-co/nova-api
 pkg:composer/opscale-co/nova-authorization
 pkg:composer/opscale-co/nova-catalogs
 pkg:composer/opscale-co/nova-dynamic-resources
+pkg:composer/opscale-co/nova-mcp
 pkg:composer/opscale-co/nova-package-tools
 pkg:composer/opscale-co/nova-webhooks
 pkg:composer/opscale-co/nova-widgets
@@ -224860,6 +224895,7 @@ pkg:composer/petro-prots/module-products-bulk-update
 pkg:composer/petrobolos/fixed-array-functions
 pkg:composer/petrofcikmatus/zf-layout-change
 pkg:composer/petrorud/mererouter
+pkg:composer/petrosoft-fi/mailchimp-marketing-php
 pkg:composer/petrov-aa/otus-hw4-2
 pkg:composer/petrova-a/verify-email
 pkg:composer/petrovgit/php_zklib
@@ -231058,6 +231094,7 @@ pkg:composer/pixeloven/framework
 pkg:composer/pixelpay/sdk
 pkg:composer/pixelpenguin/moneris-api
 pkg:composer/pixelperfectat/module-cms-importer
+pkg:composer/pixelperfectat/module-hyva-cookie-consent
 pkg:composer/pixelpeter/filament-language-tabs
 pkg:composer/pixelpeter/laravel-genderize-api-client
 pkg:composer/pixelpeter/laravel-isocodes-validation
@@ -251322,6 +251359,8 @@ pkg:composer/roskovynskyi/ubki
 pkg:composer/roslov/fibonacci
 pkg:composer/roslov/location
 pkg:composer/roslov/log-obfuscator
+pkg:composer/roslov/migration-checker
+pkg:composer/roslov/migration-checker-bundle
 pkg:composer/roslov/psr12ext
 pkg:composer/roslov/queue-bundle
 pkg:composer/roslov/yii2-compact-file-target
@@ -256865,6 +256904,7 @@ pkg:composer/saturn/image
 pkg:composer/saturn/session
 pkg:composer/saturn/taurus
 pkg:composer/saturn/twarpy
+pkg:composer/satwareag/php-firebird-stubs
 pkg:composer/satya/eloquent-activity
 pkg:composer/satyakresna/json-response
 pkg:composer/satyakresna/masehi
@@ -261531,6 +261571,7 @@ pkg:composer/seuuser/ms-framework
 pkg:composer/sev/s-test
 pkg:composer/sevada/nie-validator
 pkg:composer/sevakode/omnipay-rbsuat
+pkg:composer/sevaske/api-response-payload
 pkg:composer/sevaske/discourse
 pkg:composer/sevaske/git-webhook-handler
 pkg:composer/sevaske/laravel-discourse
@@ -264513,6 +264554,7 @@ pkg:composer/shyamsasit/laravelblog5.6
 pkg:composer/shyevsa/yii2-ipbehavior
 pkg:composer/shyevsa/yii2-redis-sentinel
 pkg:composer/shyim/adminer-for-shopware
+pkg:composer/shyim/check-if-email-exists
 pkg:composer/shyim/danger-php
 pkg:composer/shyim/database-entities-builder
 pkg:composer/shyim/database-entities-builder-bundle
@@ -265875,6 +265917,7 @@ pkg:composer/simbiot1954/whoops
 pkg:composer/simbiotica/cartodbclient-php
 pkg:composer/simblo/environment-service-provider
 pkg:composer/simboss/sdk
+pkg:composer/simcript/pano
 pkg:composer/simcu/speedycloud-storage
 pkg:composer/simenbkr/groupmanage
 pkg:composer/simensen/rector
@@ -268360,6 +268403,7 @@ pkg:composer/skuhnow/lexorank-php
 pkg:composer/skuilplek/themed
 pkg:composer/skuio/sku-sdk
 pkg:composer/skukunin/phpstan-rules
+pkg:composer/skulich/laravel-clavis
 pkg:composer/skulich/laravel-user-token-management-cli
 pkg:composer/skullyframework/project
 pkg:composer/skullyframework/skully
@@ -271540,6 +271584,7 @@ pkg:composer/socialiteproviders/stripe
 pkg:composer/socialiteproviders/subscribestar
 pkg:composer/socialiteproviders/superoffice
 pkg:composer/socialiteproviders/surfconext
+pkg:composer/socialiteproviders/tailscale
 pkg:composer/socialiteproviders/teamleader
 pkg:composer/socialiteproviders/teamweek
 pkg:composer/socialiteproviders/telegram
@@ -271732,6 +271777,7 @@ pkg:composer/soderlind/super-admin-performance-boost
 pkg:composer/soderlind/super-admin-switch-to-admin
 pkg:composer/soderlind/unprotect-protected-posts
 pkg:composer/soderlind/virtual-media-folders
+pkg:composer/soderlind/vmfa-ai-organizer
 pkg:composer/soderlind/wp-loupe
 pkg:composer/sodonnell/slack-alerts
 pkg:composer/sodonnell/spacetrack
