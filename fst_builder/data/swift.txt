@@ -3295,6 +3295,7 @@ pkg:swift/github.com/b9swift/Action
 pkg:swift/github.com/b9swift/AssociatedObject
 pkg:swift/github.com/b9swift/Condition
 pkg:swift/github.com/b9swift/MulticastDelegate
+pkg:swift/github.com/ba01ei/swift-mini-redux
 pkg:swift/github.com/backslash-f/aescryptable
 pkg:swift/github.com/backslash-f/applogger
 pkg:swift/github.com/backslash-f/gcoverseer
@@ -7429,6 +7430,7 @@ pkg:swift/github.com/paulsamuels/MaestroDSL
 pkg:swift/github.com/paulw11/Seam3
 pkg:swift/github.com/paulyhedral/ThemingKit
 pkg:swift/github.com/paulz/ImageCoordinateSpace
+pkg:swift/github.com/pavankumar-n-46/SwiftSafeCollections
 pkg:swift/github.com/pawello2222/AppIconGenerator
 pkg:swift/github.com/pawello2222/Appliable
 pkg:swift/github.com/pawello2222/PhantomKit
