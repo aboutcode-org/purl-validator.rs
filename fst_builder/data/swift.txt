@@ -3768,8 +3768,10 @@ pkg:swift/github.com/christianselig/JunoSlider
 pkg:swift/github.com/christianselig/Markdownosaur
 pkg:swift/github.com/christianselig/TinyStorage
 pkg:swift/github.com/christopher-fredregill/NumericalAnalysisKit
+pkg:swift/github.com/christopherkarani/Conduit
 pkg:swift/github.com/christopherkarani/Rooster
 pkg:swift/github.com/christopherkarani/Sukari
+pkg:swift/github.com/christopherkarani/SwiftAgents
 pkg:swift/github.com/christopherweems/Resultto
 pkg:swift/github.com/christopherweems/_AsyncParsableCommand
 pkg:swift/github.com/christopherweems/unstandard
