@@ -11022,6 +11022,7 @@ pkg:apk/alpine/iceauth-doc
 pkg:apk/alpine/icecast
 pkg:apk/alpine/icecast-doc
 pkg:apk/alpine/icecast-openrc
+pkg:apk/alpine/iced
 pkg:apk/alpine/icedtea-web
 pkg:apk/alpine/icedtea-web-doc
 pkg:apk/alpine/icedtea-web-mozilla
