@@ -39073,6 +39073,7 @@ pkg:apk/alpine/tree-sitter-static
 pkg:apk/alpine/tree-sitter-toml
 pkg:apk/alpine/tree-sitter-tsq
 pkg:apk/alpine/tree-sitter-typescript
+pkg:apk/alpine/tree-sitter-typst
 pkg:apk/alpine/tree-sitter-vim
 pkg:apk/alpine/tree-sitter-vim-doc
 pkg:apk/alpine/tree-sitter-vimdoc
