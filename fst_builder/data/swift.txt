@@ -178,6 +178,7 @@ pkg:swift/github.com/AgoraIO/AgoraRtcEngine_macOS
 pkg:swift/github.com/AgoraIO/AgoraRtm_Apple
 pkg:swift/github.com/AgoraIO/AgoraRtm_iOS
 pkg:swift/github.com/AgoraIO/AgoraRtm_macOS
+pkg:swift/github.com/Aharonik1/AEOTPTextField
 pkg:swift/github.com/Ahmed-Ali/BuildDSL
 pkg:swift/github.com/Al00X/LanguageDetector
 pkg:swift/github.com/AlTavares/Ciao
@@ -628,6 +629,25 @@ pkg:swift/github.com/CoreOffice/CoreXLSX
 pkg:swift/github.com/CoreOffice/CryptoOffice
 pkg:swift/github.com/CoreOffice/OLEKit
 pkg:swift/github.com/CoreOffice/XMLCoder
+pkg:swift/github.com/CorvidLabs/swift-algokit
+pkg:swift/github.com/CorvidLabs/swift-algorand
+pkg:swift/github.com/CorvidLabs/swift-arc
+pkg:swift/github.com/CorvidLabs/swift-art
+pkg:swift/github.com/CorvidLabs/swift-ascii
+pkg:swift/github.com/CorvidLabs/swift-cli
+pkg:swift/github.com/CorvidLabs/swift-color
+pkg:swift/github.com/CorvidLabs/swift-env
+pkg:swift/github.com/CorvidLabs/swift-graph
+pkg:swift/github.com/CorvidLabs/swift-mint
+pkg:swift/github.com/CorvidLabs/swift-music
+pkg:swift/github.com/CorvidLabs/swift-parse
+pkg:swift/github.com/CorvidLabs/swift-pinata
+pkg:swift/github.com/CorvidLabs/swift-qr
+pkg:swift/github.com/CorvidLabs/swift-retry
+pkg:swift/github.com/CorvidLabs/swift-stats
+pkg:swift/github.com/CorvidLabs/swift-units
+pkg:swift/github.com/CorvidLabs/swift-valid
+pkg:swift/github.com/CorvidLabs/swift-weather
 pkg:swift/github.com/Cosmo/GrammaticalNumber
 pkg:swift/github.com/Cosmo/HackMan
 pkg:swift/github.com/Cosmo/Nodes
@@ -3682,6 +3702,7 @@ pkg:swift/github.com/capturecontext/swift-prelude
 pkg:swift/github.com/capturecontext/swift-standard-clients
 pkg:swift/github.com/capturecontext/swiftui-dynamic-forms
 pkg:swift/github.com/carekit-apple/carekit
+pkg:swift/github.com/carloskekwa/Custom-Keyboard-Prediction
 pkg:swift/github.com/carson-katri/attributedstringbuilder
 pkg:swift/github.com/carson-katri/swift-request
 pkg:swift/github.com/carsxe/carsxe-swift-package
@@ -5351,6 +5372,7 @@ pkg:swift/github.com/hsharghi/vapor-wallet
 pkg:swift/github.com/htmlprogrammist/EmojiPicker
 pkg:swift/github.com/httpswift/swifter
 pkg:swift/github.com/hugehoge/Snappable
+pkg:swift/github.com/huggingface/swift-huggingface
 pkg:swift/github.com/huggingface/swift-jinja
 pkg:swift/github.com/huggingface/swift-transformers
 pkg:swift/github.com/hughbe/DataStream
@@ -5432,6 +5454,8 @@ pkg:swift/github.com/iankoex/UnifiedBlurHash
 pkg:swift/github.com/iankoex/media-utilities
 pkg:swift/github.com/iankoex/steampress-core
 pkg:swift/github.com/ianpartridge/swift-log-syslog
+pkg:swift/github.com/iansampson/Anchor
+pkg:swift/github.com/iansampson/AppAttest
 pkg:swift/github.com/iballan/BasicServiceLocator
 pkg:swift/github.com/iballan/SwiftyTimber
 pkg:swift/github.com/ibdecodable/danger-iblinter
@@ -5485,6 +5509,7 @@ pkg:swift/github.com/imac0de/perfect-fcm-server
 pkg:swift/github.com/imaginary-cloud/CameraManager
 pkg:swift/github.com/imbue11235/EventHub
 pkg:swift/github.com/imgly/IMGLYEngine-swift
+pkg:swift/github.com/imgly/IMGLYUI-swift
 pkg:swift/github.com/imgly/imglykit-sp
 pkg:swift/github.com/imgly/pesdk-ios-build
 pkg:swift/github.com/imgly/vesdk-ios-build
@@ -5676,6 +5701,7 @@ pkg:swift/github.com/jessesquires/Nine41
 pkg:swift/github.com/jessesquires/PresenterKit
 pkg:swift/github.com/jessesquires/ReactiveCollectionsKit
 pkg:swift/github.com/jessesquires/mariposa
+pkg:swift/github.com/jessetipton/swift-nice-things
 pkg:swift/github.com/jevonmao/PermissionsSwiftUI
 pkg:swift/github.com/jflinter/Dwifft
 pkg:swift/github.com/jgvanwyk/SwiftFileSystemEvents
@@ -5707,6 +5733,7 @@ pkg:swift/github.com/jkrukowski/SQLiteVec
 pkg:swift/github.com/jkrukowski/SwiftFaiss
 pkg:swift/github.com/jkrukowski/SwiftMistral
 pkg:swift/github.com/jkrukowski/swift-embeddings
+pkg:swift/github.com/jkrukowski/swift-gguf
 pkg:swift/github.com/jkrukowski/swift-safetensors
 pkg:swift/github.com/jkrukowski/swift-sentencepiece
 pkg:swift/github.com/jlarmstrongiv/bunny-sdk-swift
@@ -8478,6 +8505,7 @@ pkg:swift/github.com/softsuave-tech-matrix/custom_filter_and_search_bar
 pkg:swift/github.com/song-react/Extension
 pkg:swift/github.com/song-react/Network
 pkg:swift/github.com/songshift/chitouchysuperbutton
+pkg:swift/github.com/sonqyau/sing-lib
 pkg:swift/github.com/sonsongithub/HTMLSpecialCharacters
 pkg:swift/github.com/soo941226/VEM
 pkg:swift/github.com/soracom/soracom-sdk-swift
@@ -9887,6 +9915,7 @@ pkg:swift/github.com/yoshiysh/adaptive-modal
 pkg:swift/github.com/yosina-lib/yosina-swift
 pkg:swift/github.com/yourssu/Parchment
 pkg:swift/github.com/yourssu/YDS-iOS
+pkg:swift/github.com/yoxisem544/ScreenshotPreventing-iOS
 pkg:swift/github.com/yshrkt/Elapse
 pkg:swift/github.com/yshrkt/NFCSupport
 pkg:swift/github.com/yuchan-archive/multiple-package-sample
