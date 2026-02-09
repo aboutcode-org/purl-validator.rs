@@ -21,14 +21,22 @@ fn main() {
 
     if !fst_path.exists() {
         println!("cargo::warning=Downloading PURL v{} FST map.", version);
-        download_purl_fst(&fst_path, version);
+        if !download_purl_fst(&fst_path, version.clone()) {
+            // Fallback to local purls.fst if download fails
+            if let Ok(content) = std::fs::read("purls.fst") {
+                let _ = write(&fst_path, &content);
+                println!("cargo::warning=Using local purls.fst file as fallback");
+            } else {
+                println!("cargo::error=Failed to download and no local purls.fst found");
+            }
+        }
     }
 
     println!("cargo::rerun-if-changed=build.rs");
     println!("cargo::rerun-if-changed=Cargo.toml");
 }
 
-fn download_purl_fst(path: &Path, version: String) {
+fn download_purl_fst(path: &Path, version: String) -> bool {
     let url = &format!(
         "https://raw.githubusercontent.com/aboutcode-org/purl-validator.rs/refs/tags/v{}/purls.fst",
         version
@@ -39,15 +47,27 @@ fn download_purl_fst(path: &Path, version: String) {
             let status = response.status();
 
             if status.is_success() {
-                let content = response.bytes().expect("Failed to read response body");
-                write(path, &content).expect("Failed to write");
+                match response.bytes() {
+                    Ok(content) => {
+                        let _ = write(path, &content);
+                        true
+                    }
+                    Err(e) => {
+                        println!("cargo::warning=Failed to read response body: {}", e);
+                        false
+                    }
+                }
             } else {
                 println!(
-                    "cargo::error=Failed to fetch purls.fst: {}",
+                    "cargo::warning=Failed to fetch purls.fst: {}",
                     response.status()
                 );
+                false
             }
         }
-        Err(e) => println!("cargo::error=Failed to request: {}", e),
+        Err(e) => {
+            println!("cargo::warning=Failed to request purls.fst: {}", e);
+            false
+        }
     }
 }
