@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0 (2026-03-10)
+
+ - Return error for invalid or unsupported Package-URLs
+
 ## v0.58.0 (2026-03-10)
 
  - Update FST with latest PURLs
