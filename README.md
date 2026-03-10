@@ -33,12 +33,34 @@ Add `purl-validator` to your Rust dependency
 cargo add purl-validator
 ```
 
-Use it in your code like this
+Use it in your code like this:
 
 ```rust
 use purl_validator::validate;
 
-let result: bool = validate("pkg:nuget/FluentValidation");
+fn main() {
+    let result: bool = validate("pkg:nuget/FluentValidation")
+        .expect("only fails if PURL is invalid or contains version, qualifier, or subpath");
+}
+```
+
+Examples and errors:
+
+```rust
+fn example() {
+    // This will return: Ok(true)
+    validate("pkg:nuget/FluentValidation");
+
+    // This will return: Ok(false)
+    validate("pkg:nuget/non-existent-foo-bar");
+
+
+    // This will return an error: Err(UnsupportedPurl("only base PURL is supported (no version, qualifiers, or subpath)"))
+    validate("pkg:nuget/FluentValidation@10.2.3");
+
+    // This will return an error: Err(InvalidPurl(""))
+    validate("nuget/FluentValidation");
+}
 ```
 
 ## Contribution
@@ -90,4 +112,4 @@ limitations under the License.
 ```
 
 [^1]: MineCode continuously collects package metadata from various package ecosystems to maintain an up-to-date catalog of known packages.
-[^2]: A Base Package URL is a Package URL without a version or subpath.
+[^2]: A Base Package URL is a Package URL without a version, qualifiers or subpath.
