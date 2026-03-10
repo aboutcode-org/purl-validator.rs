@@ -24,34 +24,54 @@ See https://aboutcode.org for more information about nexB OSS projects.
 //! ```
 //! use purl_validator::validate;
 //!
-//! let result: bool = validate("pkg:nuget/FluentValidation");
+//! let result: bool = validate("pkg:nuget/FluentValidation")
+//!     .expect("only fails if PURL is invalid or contains version, qualifier, or subpath");
 //! ```
 //!
 
 use fst::Set;
-
 use once_cell::sync::Lazy;
+use packageurl::PackageUrl;
 use std::env;
+use std::str::FromStr;
 
 static FST_DATA: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/purls.fst"));
 
 static VALIDATOR: Lazy<Set<&'static [u8]>> =
     Lazy::new(|| Set::new(FST_DATA).expect("Failed to load FST from embedded bytes"));
 
-fn strip_and_check_purl(packageurl: &str, fst_map: &Set<&[u8]>) -> bool {
+fn strip_and_check_purl(packageurl: &str, fst_map: &Set<&[u8]>) -> Result<bool, ValidateError> {
+    let purl = PackageUrl::from_str(packageurl).map_err(ValidateError::InvalidPurl)?;
+    if purl.version().is_some() || !purl.qualifiers().is_empty() || purl.subpath().is_some() {
+        return Err(ValidateError::UnsupportedPurl(
+            "only base PURL is supported (no version, qualifiers, or subpath)",
+        ));
+    }
+
     let trimmed_packageurl = packageurl.trim_end_matches("/");
-    fst_map.contains(trimmed_packageurl)
+    Ok(fst_map.contains(trimmed_packageurl))
 }
 
 /// Validate a Package URL (PURL)
 ///
-/// Returns `true` if the given base PURL represents an existing package,
-/// otherwise returns `false`.
+/// Return `Ok(true)` if given **base PURL** represents an existing package,
+/// `Ok(false)` if it does not, or `Err` if the PURL is invalid or contains
+/// unsupported fields (version, qualifiers, or subpath).
+///
+/// A **base PURL** is a PURL without a version, qualifiers, or subpath.
+/// PURLs containing a version, qualifiers, or subpath are **not supported**
+/// and will cause the validator to return an error.
 ///
 /// Use pre-built FST (Finite State Transducer) to perform lookups and confirm whether
 /// the **base PURL** exists.
-pub fn validate(packageurl: &str) -> bool {
+pub fn validate(packageurl: &str) -> Result<bool, ValidateError> {
     strip_and_check_purl(packageurl, &VALIDATOR)
+}
+
+#[derive(Debug)]
+pub enum ValidateError {
+    InvalidPurl(packageurl::Error),
+    UnsupportedPurl(&'static str),
 }
 
 #[cfg(test)]

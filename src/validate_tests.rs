@@ -20,11 +20,12 @@ fn test_validate_with_custom_file() {
     let data: Vec<u8> = fs::read(test_path).unwrap();
     let data_slice: &[u8] = &data;
     let validator = Set::new(data_slice).unwrap();
-    assert!(strip_and_check_purl(
-        "pkg:nuget/FluentUtils.EnumExtensions",
-        &validator
-    ));
-    assert!(!strip_and_check_purl("pkg:example/nonexistent", &validator));
+
+    let result = strip_and_check_purl("pkg:nuget/FluentUtils.EnumExtensions", &validator).unwrap();
+    assert!(result);
+
+    let result = strip_and_check_purl("pkg:example/nonexistent", &validator).unwrap();
+    assert!(!result);
 }
 
 #[test]
@@ -35,8 +36,28 @@ fn test_validate_with_packageurl_trailing_slash() {
     let validator = Set::new(data_slice).unwrap();
 
     assert!(validator.contains("pkg:nuget/FluentUtils.EnumExtensions"));
-    assert!(strip_and_check_purl(
-        "pkg:nuget/FluentUtils.EnumExtensions/",
-        &validator
-    ));
+    let result = strip_and_check_purl("pkg:nuget/FluentUtils.EnumExtensions/", &validator).unwrap();
+    assert!(result);
+}
+
+#[test]
+fn test_validate_with_packageurl_invalid_purl() {
+    let test_path = Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/data/test_purls.fst");
+    let data: Vec<u8> = fs::read(test_path).unwrap();
+    let data_slice: &[u8] = &data;
+    let validator = Set::new(data_slice).unwrap();
+
+    let result = strip_and_check_purl("nuget/foobar", &validator);
+    assert!(matches!(result, Err(ValidateError::InvalidPurl(_))));
+}
+
+#[test]
+fn test_validate_with_packageurl_unsupported_purl() {
+    let test_path = Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/data/test_purls.fst");
+    let data: Vec<u8> = fs::read(test_path).unwrap();
+    let data_slice: &[u8] = &data;
+    let validator = Set::new(data_slice).unwrap();
+
+    let result = strip_and_check_purl("pkg:nuget/FluentUtils.EnumExtensions@1.0.0", &validator);
+    assert!(matches!(result, Err(ValidateError::UnsupportedPurl(_))));
 }

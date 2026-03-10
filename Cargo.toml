@@ -24,7 +24,7 @@ include = [
 
 [dependencies]
 fst = "0.4.7"
-memmap2 = "0.9.9"
+packageurl = "0.6.0"
 once_cell = "1.21"
 
 [build-dependencies]
