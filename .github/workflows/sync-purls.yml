@@ -63,11 +63,11 @@ jobs:
           git commit -m "$(echo -e "Regenerate FST using latest PURLs\n\nSigned-off-by: AboutCode Automation <automation@aboutcode.org>")" || exit 0
           git push
 
-      - name: Bump minor version
+      - name: Bump patch version
         id: bump
         if: steps.regen_fst.outputs.changed == 'true'
         run: |-
-          output=$(cargo set-version --bump minor 2>&1)
+          output=$(cargo set-version --bump patch 2>&1)
           new_version=$(echo "$output" | awk '{print $NF}')
 
           echo "new_version=$new_version" >> $GITHUB_OUTPUT
