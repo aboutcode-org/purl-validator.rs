@@ -35,10 +35,44 @@ use packageurl::PackageUrl;
 use std::env;
 use std::str::FromStr;
 
+mod runtime;
+
 static FST_DATA: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/purls.fst"));
 
-static VALIDATOR: Lazy<Set<&'static [u8]>> =
-    Lazy::new(|| Set::new(FST_DATA).expect("Failed to load FST from embedded bytes"));
+/// Decide whether runtime mode is enabled.
+///
+/// Controlled by environment variable:
+///   PURL_VALIDATOR_FETCH_LATEST=1  or  true
+fn runtime_mode_enabled() -> bool {
+    match env::var("PURL_VALIDATOR_FETCH_LATEST") {
+        Ok(value) => value == "1" || value.eq_ignore_ascii_case("true"),
+        Err(_) => false,
+    }
+}
+
+/// Load FST bytes from the appropriate source.
+///
+/// Policy:
+/// - Default: bundled FST
+/// - If runtime mode enabled:
+///     - Try runtime FST from disk
+///     - Fallback to bundled on any failure
+fn load_fst_bytes() -> &'static [u8] {
+    if runtime_mode_enabled() {
+        if let Some(bytes) = runtime::try_load_runtime_fst_bytes() {
+            return bytes;
+        }
+        // Fallback to bundled if runtime fails
+        FST_DATA
+    } else {
+        FST_DATA
+    }
+}
+
+static VALIDATOR: Lazy<Set<&'static [u8]>> = Lazy::new(|| {
+    let bytes = load_fst_bytes();
+    Set::new(bytes).expect("Failed to load FST from embedded bytes")
+});
 
 fn strip_and_check_purl(packageurl: &str, fst_map: &Set<&[u8]>) -> Result<bool, ValidateError> {
     let purl = PackageUrl::from_str(packageurl).map_err(ValidateError::InvalidPurl)?;
