@@ -6,31 +6,31 @@
 
 **purl-validator** is a Rust library for validating [Package URLs (PURLs)](https://github.com/package-url/purl-spec). It works fully offline, including in **air-gapped** or **restricted environments**, and answers one key question: **Does the package this PURL represents actually exist?**
 
-## How It Works?
+## How It Works
 
 **purl-validator** is shipped with a pre-built FST (Finite State Transducer), a set of compact automata containing latest Package URLs mined by the MineCode[^1]. Library uses this FST to perform lookups and confirm whether the **base PURL**[^2] exists.
 
 ## Currently Supported Ecosystems
 
-- **apk**
-- **cargo**
-- **composer**
-- **conan**
-- **cpan**
-- **cran**
-- **debain**
-- **maven**
-- **npm**
-- **nuget**
-- **pypi**
-- **swift**
+- apk
+- cargo
+- composer
+- conan
+- cpan
+- cran
+- debian
+- maven
+- npm
+- nuget
+- pypi
+- swift
 
 ## Usage
 
-Add `purl-validator` to your Rust dependency
+Add `purl-validator` to your Rust dependencies:
 
 ```bash
-cargo add purl-validator
+cargo add purl_validator
 ```
 
 Use it in your code like this:
@@ -39,29 +39,43 @@ Use it in your code like this:
 use purl_validator::validate;
 
 fn main() {
-    let result: bool = validate("pkg:nuget/FluentValidation")
+    let exists: bool = validate("pkg:nuget/FluentValidation")
         .expect("only fails if PURL is invalid or contains version, qualifier, or subpath");
+
+    println!("{exists}");
 }
 ```
 
 Examples and errors:
 
 ```rust
-fn example() {
-    // This will return: Ok(true)
-    validate("pkg:nuget/FluentValidation");
+use purl_validator::ValidateError;
+use purl_validator::validate;
 
-    // This will return: Ok(false)
-    validate("pkg:nuget/non-existent-foo-bar");
+fn example() -> Result<(), ValidateError> {
+    assert_eq!(validate("pkg:nuget/FluentValidation")?, true);
+    assert_eq!(validate("pkg:nuget/non-existent-foo-bar")?, false);
 
+    let version_result = validate("pkg:nuget/FluentValidation@10.2.3");
+    assert!(matches!(version_result, Err(ValidateError::UnsupportedPurl(_))));
 
-    // This will return an error: Err(UnsupportedPurl("only base PURL is supported (no version, qualifiers, or subpath)"))
-    validate("pkg:nuget/FluentValidation@10.2.3");
+    let invalid_result = validate("nuget/FluentValidation");
+    assert!(matches!(invalid_result, Err(ValidateError::InvalidPurl(_))));
 
-    // This will return an error: Err(InvalidPurl(""))
-    validate("nuget/FluentValidation");
+    Ok(())
 }
 ```
+
+`validate` returns:
+
+- `Ok(true)` when the base PURL exists in the packaged data.
+- `Ok(false)` when the base PURL is syntactically valid but unknown.
+- `Err(ValidateError::InvalidPurl(_))` when the input is not a valid PURL.
+- `Err(ValidateError::UnsupportedPurl(_))` when the PURL contains a version,
+  qualifiers, or subpath.
+
+Use the released crate version when you need reproducible validation results.
+Use a newer patch release when you need newer packaged PURL data.
 
 ## How to get latest Package-URL data?
 
@@ -77,7 +91,7 @@ We welcome contributions from the community! If you find a bug or have an idea f
 
 ## Development Setup
 
-Run these commands, starting from a git clone of [https://github.com/aboutcode-org/purl-validator-rust.git](https://github.com/aboutcode-org/purl-validator-rust.git)
+Run these commands, starting from a git clone of [https://github.com/aboutcode-org/purl-validator.rs.git](https://github.com/aboutcode-org/purl-validator.rs.git)
 
 Generate FST:
 
@@ -117,4 +131,4 @@ limitations under the License.
 ```
 
 [^1]: MineCode continuously collects package metadata from various package ecosystems to maintain an up-to-date catalog of known packages.
-[^2]: A Base Package URL is a Package URL without a version, qualifiers or subpath.
+[^2]: A Base Package URL is a Package URL without a version, qualifiers, or subpath.
