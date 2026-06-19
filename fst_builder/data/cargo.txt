@@ -28442,6 +28442,7 @@ pkg:cargo/bmp280-driver
 pkg:cargo/bmp280-ehal
 pkg:cargo/bmp280-rs
 pkg:cargo/bmp280-spi
+pkg:cargo/bmp280_rust_no_std
 pkg:cargo/bmp3
 pkg:cargo/bmp388
 pkg:cargo/bmp388-embedded
@@ -33650,6 +33651,7 @@ pkg:cargo/caesura_options
 pkg:cargo/caet
 pkg:cargo/caf
 pkg:cargo/cafe
+pkg:cargo/cafe-gdb
 pkg:cargo/cafe_core
 pkg:cargo/cafebabe
 pkg:cargo/cafetera
@@ -36309,6 +36311,7 @@ pkg:cargo/cargo-mathfmt
 pkg:cargo/cargo-matrix
 pkg:cargo/cargo-matrix-plus
 pkg:cargo/cargo-mcp
+pkg:cargo/cargo-mdbook
 pkg:cargo/cargo-mdparse
 pkg:cargo/cargo-me
 pkg:cargo/cargo-mem
@@ -36761,6 +36764,7 @@ pkg:cargo/cargo-sgx
 pkg:cargo/cargo-sh
 pkg:cargo/cargo-shape-check
 pkg:cargo/cargo-shear
+pkg:cargo/cargo-shed
 pkg:cargo/cargo-shell
 pkg:cargo/cargo-shellcode
 pkg:cargo/cargo-shim
@@ -37104,6 +37108,7 @@ pkg:cargo/cargo-why
 pkg:cargo/cargo-why-slow
 pkg:cargo/cargo-whynot
 pkg:cargo/cargo-whys
+pkg:cargo/cargo-wiiu
 pkg:cargo/cargo-wiki
 pkg:cargo/cargo-win7
 pkg:cargo/cargo-winapp
@@ -37914,6 +37919,8 @@ pkg:cargo/catgirl-engine-server
 pkg:cargo/catgirl-engine-utils
 pkg:cargo/catgrad
 pkg:cargo/catgrad-llm
+pkg:cargo/cathar
+pkg:cargo/cathar-cli
 pkg:cargo/cathedral-probe
 pkg:cargo/cathlamet
 pkg:cargo/cathode
@@ -63224,6 +63231,7 @@ pkg:cargo/dockguard
 pkg:cargo/docki
 pkg:cargo/docki-cli
 pkg:cargo/dockinfo
+pkg:cargo/docking
 pkg:cargo/dockit
 pkg:cargo/dockpack
 pkg:cargo/dockrtui
@@ -87500,6 +87508,7 @@ pkg:cargo/gc
 pkg:cargo/gc-adapter
 pkg:cargo/gc-arena
 pkg:cargo/gc-arena-derive
+pkg:cargo/gc-download
 pkg:cargo/gc-gcm
 pkg:cargo/gc-image
 pkg:cargo/gc-lite
@@ -150995,6 +151004,7 @@ pkg:cargo/neo-cli
 pkg:cargo/neo-crypto
 pkg:cargo/neo-decompiler
 pkg:cargo/neo-devpack
+pkg:cargo/neo-devpack-solidity
 pkg:cargo/neo-email
 pkg:cargo/neo-install
 pkg:cargo/neo-lolcat
@@ -221229,6 +221239,7 @@ pkg:cargo/solana-keypair
 pkg:cargo/solana-keypair-utils
 pkg:cargo/solana-keyring-biometric
 pkg:cargo/solana-keytool
+pkg:cargo/solana-kita-cache
 pkg:cargo/solana-kite
 pkg:cargo/solana-kvstore
 pkg:cargo/solana-last-restart-slot
@@ -221237,6 +221248,7 @@ pkg:cargo/solana-leader
 pkg:cargo/solana-leader-schedule
 pkg:cargo/solana-ledger
 pkg:cargo/solana-ledger-tool
+pkg:cargo/solana-legacy-jit-cache-stats
 pkg:cargo/solana-librapay-api
 pkg:cargo/solana-light-client
 pkg:cargo/solana-limited-deserialize
@@ -221318,6 +221330,7 @@ pkg:cargo/solana-presigner
 pkg:cargo/solana-primitives
 pkg:cargo/solana-private-key
 pkg:cargo/solana-program
+pkg:cargo/solana-program-account
 pkg:cargo/solana-program-binaries
 pkg:cargo/solana-program-client
 pkg:cargo/solana-program-ed25519-dalek-bump
@@ -250103,6 +250116,7 @@ pkg:cargo/turbo-cdn
 pkg:cargo/turbo-clicker
 pkg:cargo/turbo-crates
 pkg:cargo/turbo-crates-testing-proc-macros
+pkg:cargo/turbo-dom
 pkg:cargo/turbo-engine
 pkg:cargo/turbo-fnv
 pkg:cargo/turbo-fs
@@ -250183,6 +250197,7 @@ pkg:cargo/turbolift_macros
 pkg:cargo/turbolint
 pkg:cargo/turbolite
 pkg:cargo/turbolite-ffi
+pkg:cargo/turbolog
 pkg:cargo/turbomcp
 pkg:cargo/turbomcp-auth
 pkg:cargo/turbomcp-cli
@@ -257529,6 +257544,7 @@ pkg:cargo/vectordb-cli
 pkg:cargo/vectordb-client
 pkg:cargo/vectordb-proto
 pkg:cargo/vectordraw
+pkg:cargo/vectoria-core
 pkg:cargo/vectorial
 pkg:cargo/vectorize
 pkg:cargo/vectorize-rs
