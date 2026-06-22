@@ -1,6 +1,6 @@
 [package]
 name = "purl_validator"
-version = "1.16.65"
+version = "1.16.66"
 edition = "2024"
 authors = ["Keshav Priyadarshi <git@keshav.space>", "AboutCode <info@aboutcode.org>"]
 license = "Apache-2.0"
