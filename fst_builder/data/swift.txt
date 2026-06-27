@@ -2503,6 +2503,7 @@ pkg:swift/github.com/SecondMouseAU/OCCTSwiftMesh
 pkg:swift/github.com/SecondMouseAU/OCCTSwiftScripts
 pkg:swift/github.com/SecondMouseAU/OCCTSwiftTools
 pkg:swift/github.com/SecondMouseAU/OCCTSwiftViewport
+pkg:swift/github.com/SecondMouseAU/SwiftDXF
 pkg:swift/github.com/SecondMouseAU/SwiftJWW
 pkg:swift/github.com/SecondMouseAU/SwiftMeshHeal
 pkg:swift/github.com/SecondMouseAU/SwiftPMX
@@ -5151,6 +5152,7 @@ pkg:swift/github.com/eSimplified/esimplified-ios-sdk
 pkg:swift/github.com/eansearch/UPCBarcodeLookup
 pkg:swift/github.com/eastriverlee/LLM.swift
 pkg:swift/github.com/eclipse-biscuit/biscuit-swift
+pkg:swift/github.com/edfapay/pg-ios-spm-distribution
 pkg:swift/github.com/edgeengineer/cyclic-redundancy-check
 pkg:swift/github.com/edgeengineer/dbus
 pkg:swift/github.com/edgeengineer/pulsar-client
@@ -5501,6 +5503,7 @@ pkg:swift/github.com/fdenis75/VideoHash
 pkg:swift/github.com/fdiaz/SwiftInspector
 pkg:swift/github.com/feixue299/FXPaddingLabel
 pkg:swift/github.com/felilo/ALCoordinator
+pkg:swift/github.com/felilo/ReduxCore
 pkg:swift/github.com/felilo/SUICoordinator
 pkg:swift/github.com/fenli/SourceryBuildPlugin
 pkg:swift/github.com/fenli/SourceryStencilPacks
@@ -7657,6 +7660,7 @@ pkg:swift/github.com/mentalflux/tca-composer
 pkg:swift/github.com/mercari/QRScanner
 pkg:swift/github.com/mergesort/Bodega
 pkg:swift/github.com/mergesort/Boutique
+pkg:swift/github.com/mergesort/Broadcast
 pkg:swift/github.com/mergesort/Communicado
 pkg:swift/github.com/mergesort/Monarch
 pkg:swift/github.com/mergesort/Recap
