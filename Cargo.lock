@@ -606,7 +606,7 @@ dependencies = [
 
 [[package]]
 name = "purl_validator"
-version = "1.16.110"
+version = "1.16.111"
 dependencies = [
  "fst",
  "once_cell",
