@@ -8410,6 +8410,7 @@ pkg:cargo/android-xml-converter
 pkg:cargo/android_base
 pkg:cargo/android_bp
 pkg:cargo/android_clipboard
+pkg:cargo/android_driver_rs
 pkg:cargo/android_ffi
 pkg:cargo/android_glue
 pkg:cargo/android_injected_glue
@@ -8474,6 +8475,7 @@ pkg:cargo/angle
 pkg:cargo/angle-sc
 pkg:cargo/angled-random-walker
 pkg:cargo/angler
+pkg:cargo/anglerfry
 pkg:cargo/anglerkit
 pkg:cargo/anglosaxon
 pkg:cargo/angr
@@ -8646,6 +8648,8 @@ pkg:cargo/anki-llm
 pkg:cargo/anki-status
 pkg:cargo/anki_bridge
 pkg:cargo/anki_direct
+pkg:cargo/ankibridge
+pkg:cargo/ankibridge-cli
 pkg:cargo/ankiconnect
 pkg:cargo/ankiconnect-rs
 pkg:cargo/ankidb
@@ -10151,6 +10155,7 @@ pkg:cargo/api-key-manager
 pkg:cargo/api-key-pool
 pkg:cargo/api-keys-simplified
 pkg:cargo/api-macros
+pkg:cargo/api-paginate
 pkg:cargo/api-parity-rs
 pkg:cargo/api-parity-rs-core
 pkg:cargo/api-parity-rs-macros
@@ -10768,6 +10773,8 @@ pkg:cargo/appimage_updater
 pkg:cargo/appimagetool
 pkg:cargo/appimageupdate
 pkg:cargo/appimanager
+pkg:cargo/appimg
+pkg:cargo/appimg-core
 pkg:cargo/appindicator3
 pkg:cargo/appindicator3-sys
 pkg:cargo/appinfo
@@ -28815,6 +28822,7 @@ pkg:cargo/bitwarden_rs
 pkg:cargo/bitwark
 pkg:cargo/bitway-proto
 pkg:cargo/bitwheel
+pkg:cargo/bitwisdom
 pkg:cargo/bitwise
 pkg:cargo/bitwise-io
 pkg:cargo/bitwise_boolean
@@ -80004,6 +80012,7 @@ pkg:cargo/evictor
 pkg:cargo/evidence
 pkg:cargo/evidence-chain
 pkg:cargo/evidence-core
+pkg:cargo/evidence-loop
 pkg:cargo/evidence-mcp
 pkg:cargo/evident
 pkg:cargo/evidential-protocol
@@ -81152,6 +81161,7 @@ pkg:cargo/extern_attrib
 pkg:cargo/extern_executor
 pkg:cargo/external-buffered-stream
 pkg:cargo/external-command-rs
+pkg:cargo/external-dns-desec-webhook
 pkg:cargo/external-dns-sdk
 pkg:cargo/external-ip
 pkg:cargo/external-memory
@@ -83027,6 +83037,7 @@ pkg:cargo/fasta_tools
 pkg:cargo/fasta_windows
 pkg:cargo/fastagent
 pkg:cargo/fastalloc
+pkg:cargo/fastalp
 pkg:cargo/fastannoy
 pkg:cargo/fastant
 pkg:cargo/fastanvil
@@ -83703,11 +83714,24 @@ pkg:cargo/fc-blackbox
 pkg:cargo/fc-cli
 pkg:cargo/fc-consensus
 pkg:cargo/fc-db
+pkg:cargo/fc-gpui
 pkg:cargo/fc-gpui-collections
+pkg:cargo/fc-gpui-core
 pkg:cargo/fc-gpui-derive-refineable
+pkg:cargo/fc-gpui-http-client
+pkg:cargo/fc-gpui-linux
+pkg:cargo/fc-gpui-macos
+pkg:cargo/fc-gpui-macros
 pkg:cargo/fc-gpui-media
+pkg:cargo/fc-gpui-perf
+pkg:cargo/fc-gpui-platform
+pkg:cargo/fc-gpui-refineable
 pkg:cargo/fc-gpui-semantic-version
 pkg:cargo/fc-gpui-sum-tree
+pkg:cargo/fc-gpui-util
+pkg:cargo/fc-gpui-util-macros
+pkg:cargo/fc-gpui-wgpu
+pkg:cargo/fc-gpui-windows
 pkg:cargo/fc-info
 pkg:cargo/fc-mapping-sync
 pkg:cargo/fc-pallet-black-hole
@@ -83716,6 +83740,7 @@ pkg:cargo/fc-rpc-core
 pkg:cargo/fc-sdk
 pkg:cargo/fc-tools-flags
 pkg:cargo/fc-tools-snowflakes
+pkg:cargo/fc-ui
 pkg:cargo/fc_add
 pkg:cargo/fcache
 pkg:cargo/fcam
@@ -90289,6 +90314,7 @@ pkg:cargo/forte-wit
 pkg:cargo/forte_cubes
 pkg:cargo/forte_engine
 pkg:cargo/fortelion
+pkg:cargo/fortfi-sdk
 pkg:cargo/fortformat
 pkg:cargo/forth
 pkg:cargo/forth-lexer
@@ -93368,6 +93394,7 @@ pkg:cargo/fxtools
 pkg:cargo/fxtranslate
 pkg:cargo/fxtranslate-cli
 pkg:cargo/fxtypemap
+pkg:cargo/fy-bcp47
 pkg:cargo/fy-cli-rust
 pkg:cargo/fy-docs
 pkg:cargo/fy_art
@@ -104346,6 +104373,7 @@ pkg:cargo/gs-netcat
 pkg:cargo/gs-rs
 pkg:cargo/gs-rust-cache
 pkg:cargo/gs1
+pkg:cargo/gs1-decoder-client
 pkg:cargo/gs11n
 pkg:cargo/gs11n_derive
 pkg:cargo/gs2compiler
@@ -162342,6 +162370,7 @@ pkg:cargo/nanom
 pkg:cargo/nanom-derive
 pkg:cargo/nanomachine
 pkg:cargo/nanomap
+pkg:cargo/nanomcp
 pkg:cargo/nanomp3
 pkg:cargo/nanomsg
 pkg:cargo/nanomsg-sys
@@ -162859,6 +162888,7 @@ pkg:cargo/naui-gtk
 pkg:cargo/naui-macos
 pkg:cargo/naui-web
 pkg:cargo/naui-windows
+pkg:cargo/naui-winui3
 pkg:cargo/naumachia
 pkg:cargo/nauman
 pkg:cargo/naumi
@@ -170513,6 +170543,7 @@ pkg:cargo/numbers-core
 pkg:cargo/numbers-le
 pkg:cargo/numbers_into_words
 pkg:cargo/numbers_rus
+pkg:cargo/numbertext
 pkg:cargo/numberwang
 pkg:cargo/numbrs
 pkg:cargo/numby
@@ -174569,6 +174600,7 @@ pkg:cargo/one-euro
 pkg:cargo/one-euro-rs
 pkg:cargo/one-file-raft
 pkg:cargo/one-fpga
+pkg:cargo/one-indexed-vec
 pkg:cargo/one-msg-chat-api
 pkg:cargo/one-msg-sdk
 pkg:cargo/one-of
@@ -174767,6 +174799,7 @@ pkg:cargo/onepassword
 pkg:cargo/onepassword-async
 pkg:cargo/onepassword-cli
 pkg:cargo/onepassword-sdk
+pkg:cargo/onepassword-sdk-unofficial
 pkg:cargo/onepassword-shared
 pkg:cargo/onepassword-sys
 pkg:cargo/oneperson
@@ -175380,6 +175413,7 @@ pkg:cargo/open-fastrlp-derive
 pkg:cargo/open-feature
 pkg:cargo/open-feature-env-var
 pkg:cargo/open-feature-flagd
+pkg:cargo/open-feature-flagsmith
 pkg:cargo/open-feature-ofrep
 pkg:cargo/open-file
 pkg:cargo/open-formula
@@ -176035,6 +176069,7 @@ pkg:cargo/opendal-service-foyer
 pkg:cargo/opendal-service-fs
 pkg:cargo/opendal-service-ftp
 pkg:cargo/opendal-service-gcs
+pkg:cargo/opendal-service-gcs-grpc
 pkg:cargo/opendal-service-gdrive
 pkg:cargo/opendal-service-ghac
 pkg:cargo/opendal-service-github
@@ -176151,6 +176186,7 @@ pkg:cargo/openehr-am
 pkg:cargo/openehr-base
 pkg:cargo/openehr-its
 pkg:cargo/openehr-lang
+pkg:cargo/openehr-loco
 pkg:cargo/openehr-mariadb
 pkg:cargo/openehr-mssql
 pkg:cargo/openehr-mysql
@@ -176635,6 +176671,7 @@ pkg:cargo/openrgb2
 pkg:cargo/openring
 pkg:cargo/openrml
 pkg:cargo/openrouter
+pkg:cargo/openrouter-batch
 pkg:cargo/openrouter-cli
 pkg:cargo/openrouter-client
 pkg:cargo/openrouter-mcp
@@ -212490,6 +212527,8 @@ pkg:cargo/rmusic
 pkg:cargo/rmusic1
 pkg:cargo/rmut
 pkg:cargo/rmut-core
+pkg:cargo/rmut-egui
+pkg:cargo/rmut-front
 pkg:cargo/rmut-session
 pkg:cargo/rmux
 pkg:cargo/rmux-client
@@ -215022,6 +215061,7 @@ pkg:cargo/rrtk
 pkg:cargo/rrtk_proc
 pkg:cargo/rrtk_rsb
 pkg:cargo/rrtk_stream_builder
+pkg:cargo/rrubocop
 pkg:cargo/rrule
 pkg:cargo/rrules
 pkg:cargo/rrun
@@ -230417,6 +230457,7 @@ pkg:cargo/serde-spdx
 pkg:cargo/serde-split
 pkg:cargo/serde-sqlx
 pkg:cargo/serde-sshfmt
+pkg:cargo/serde-stream-formats
 pkg:cargo/serde-strings
 pkg:cargo/serde-struct-tuple
 pkg:cargo/serde-struct-tuple-enum
@@ -265997,6 +266038,7 @@ pkg:cargo/tqdm-rs
 pkg:cargo/tqdm_show
 pkg:cargo/tql
 pkg:cargo/tql_macros
+pkg:cargo/tqlmate
 pkg:cargo/tqrs
 pkg:cargo/tqsdk-rs
 pkg:cargo/tquant
@@ -291700,6 +291742,7 @@ pkg:cargo/x402-mcp-proxy
 pkg:cargo/x402-networks
 pkg:cargo/x402-openai
 pkg:cargo/x402-paywall
+pkg:cargo/x402-proxy
 pkg:cargo/x402-reqwest
 pkg:cargo/x402-rs
 pkg:cargo/x402-sdk
@@ -295427,6 +295470,7 @@ pkg:cargo/yonsei-flexible
 pkg:cargo/yoo
 pkg:cargo/yookassa-rs
 pkg:cargo/yookassa-sdk-rs
+pkg:cargo/yoomoney
 pkg:cargo/yooper
 pkg:cargo/yooper_derive
 pkg:cargo/yopmail-client
@@ -299273,6 +299317,17 @@ pkg:cargo/zypo-parser
 pkg:cargo/zypo-rs
 pkg:cargo/zyre
 pkg:cargo/zyre-sys
+pkg:cargo/zyris
+pkg:cargo/zyris-attacca
+pkg:cargo/zyris-caps
+pkg:cargo/zyris-core
+pkg:cargo/zyris-fs
+pkg:cargo/zyris-macros
+pkg:cargo/zyris-p2p
+pkg:cargo/zyris-proto
+pkg:cargo/zyris-screen
+pkg:cargo/zyris-terminal
+pkg:cargo/zyris-transfer
 pkg:cargo/zys_demo
 pkg:cargo/zyst
 pkg:cargo/zyte-api-rs
