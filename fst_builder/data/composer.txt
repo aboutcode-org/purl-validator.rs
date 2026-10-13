@@ -169129,6 +169129,7 @@ pkg:composer/ketangp/sessionpack
 pkg:composer/ketangp/test
 pkg:composer/ketankumbhar/ytdownloader
 pkg:composer/ketanrathod/welcome
+pkg:composer/ketapay/ketapay-laravel
 pkg:composer/ketapay/ketapay-php
 pkg:composer/ketchalegend/filament-survey
 pkg:composer/ketchalegend/laravel-goey-toast
@@ -175786,6 +175787,10 @@ pkg:composer/kusikusi/kusikusi
 pkg:composer/kusikusi/media
 pkg:composer/kusikusi/models
 pkg:composer/kusikusi/website
+pkg:composer/kusikusicms/admin
+pkg:composer/kusikusicms/media
+pkg:composer/kusikusicms/models
+pkg:composer/kusikusicms/website
 pkg:composer/kusmantopratama/ci4datatables
 pkg:composer/kusmayadi/artisan-user
 pkg:composer/kusmayadi/nl2p
@@ -178699,6 +178704,7 @@ pkg:composer/laranex/laravel-myanmar-nrc
 pkg:composer/laranex/laravel-myanmar-payments
 pkg:composer/laranex/laravel-newrelic
 pkg:composer/laranex/laravel-refresh-token
+pkg:composer/laranex/laravel-schema-viewer
 pkg:composer/laranex/lucid
 pkg:composer/laranex/next-laravel
 pkg:composer/laranex/php-myanmar-payments
@@ -181528,6 +181534,7 @@ pkg:composer/ldjillali/admin-theme-bundle
 pkg:composer/ldkafka/yii2-google-gemini
 pkg:composer/ldkafka/yii2-queue-redis-ng
 pkg:composer/ldkafka/yii2-scheduler
+pkg:composer/ldkafka/yii3-ai
 pkg:composer/ldkafka/yii3-google-cloud-logging
 pkg:composer/ldkafka/yii3-mcp-server
 pkg:composer/ldl-framework/console-helper
@@ -182984,6 +182991,7 @@ pkg:composer/lenra/internal-api-client
 pkg:composer/lens/lens
 pkg:composer/lensa-wicara/snap-bi
 pkg:composer/lensapp-eu/lens-php
+pkg:composer/lensen/base-erp-sdk
 pkg:composer/lensen/cj-dropshipping-sdk
 pkg:composer/lensen/temu-php-sdk
 pkg:composer/lensmedia/symfony-ideal
@@ -186463,6 +186471,7 @@ pkg:composer/linkeys/signed-url
 pkg:composer/linkfast/exengine
 pkg:composer/linkfast/exengine-cli
 pkg:composer/linkfast/exengine-monolog
+pkg:composer/linkfast/exengine-roadrunner
 pkg:composer/linkfast/zero-template
 pkg:composer/linkhub/barocert
 pkg:composer/linkhub/kakaocert
@@ -187017,6 +187026,7 @@ pkg:composer/liquiddesign/datalist
 pkg:composer/liquiddesign/email-templates
 pkg:composer/liquiddesign/eshop
 pkg:composer/liquiddesign/eshop-api
+pkg:composer/liquiddesign/eshop-doryo-admin
 pkg:composer/liquiddesign/eshop-doryo-api
 pkg:composer/liquiddesign/forms
 pkg:composer/liquiddesign/framework
@@ -194081,6 +194091,7 @@ pkg:composer/maben-dev/laravel-twofactor
 pkg:composer/mabentley85/yii2-dynamicform
 pkg:composer/mabetiz/entity-fragment
 pkg:composer/mabho/custom_twig_filters
+pkg:composer/mabioca/jalali-calendar
 pkg:composer/mabiola/paystack-php-lib
 pkg:composer/mablae/datetimepicker-bundle
 pkg:composer/mablae/gettext-bundle
@@ -198943,6 +198954,7 @@ pkg:composer/manuxi/sulu-conditional-validation-bundle
 pkg:composer/manuxi/sulu-content-types-bundle
 pkg:composer/manuxi/sulu-event-bundle
 pkg:composer/manuxi/sulu-extended-account-bundle
+pkg:composer/manuxi/sulu-glossary-bundle
 pkg:composer/manuxi/sulu-news-bundle
 pkg:composer/manuxi/sulu-pdf-bundle
 pkg:composer/manuxi/sulu-shared-tools-bundle
@@ -204722,6 +204734,7 @@ pkg:composer/mdobes/rich-editor-fullscreen
 pkg:composer/mdoggydog/bonjour-le-monde-php
 pkg:composer/mdooley47/laravel-redirect
 pkg:composer/mdooley47/laravel-urlvalidator
+pkg:composer/mdoq/infrastructure
 pkg:composer/mdoq/module-connector
 pkg:composer/mdoutreluingne/recaptcha-bundle
 pkg:composer/mdphp/region
@@ -205246,6 +205259,8 @@ pkg:composer/mediasilo/phoenix-php-sdk
 pkg:composer/mediasoep/acf-pro-installer
 pkg:composer/mediasoep/container-block
 pkg:composer/mediasoep/gutenberg-blocks
+pkg:composer/mediasoep/maintenance-reporter
+pkg:composer/mediasoep/soilboard-laravel
 pkg:composer/mediastuttgart/akismet
 pkg:composer/mediastuttgart/ckeditor
 pkg:composer/mediastuttgart/cleverreach
@@ -208258,6 +208273,7 @@ pkg:composer/mhshagor/system-core
 pkg:composer/mhshujon/license-manager
 pkg:composer/mhshuvo/hello
 pkg:composer/mhstore/laravel-installer
+pkg:composer/mhstudio/filament-booking-engine
 pkg:composer/mht/laravel-admin
 pkg:composer/mhthnz/yii2-tarantool
 pkg:composer/mhuber84/femanager-mailchimp
@@ -210801,6 +210817,7 @@ pkg:composer/mimographix/epicfail-auth-log
 pkg:composer/mimographix/laravel-osticket-feedback
 pkg:composer/mimographix/qif-library
 pkg:composer/mimographix/uctoplus-invoicing-php
+pkg:composer/mimon/kafka-logger
 pkg:composer/mimosafa/esse
 pkg:composer/mimosafa/laravel-openapi-validation-helper
 pkg:composer/mimosafa/php-enumeration
