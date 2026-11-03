@@ -46,7 +46,7 @@ jobs:
         uses: dtolnay/rust-toolchain@aad518f59d88bae90133242f9ddac7f8bbc5dddf #v1.94.1
 
       - name: Install cargo-edit
-        run: cargo install cargo-edit
+        run: cargo install cargo-edit --version 0.13.13
 
       - name: Regenerate FST
         id: regen_fst
