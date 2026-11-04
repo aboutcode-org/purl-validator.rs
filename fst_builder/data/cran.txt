@@ -1323,6 +1323,7 @@ pkg:cran/CompositeReliability
 pkg:cran/Compositional
 pkg:cran/CompositionalClust
 pkg:cran/CompositionalHDDA
+pkg:cran/CompositionalLASSO
 pkg:cran/CompositionalML
 pkg:cran/CompositionalMPT
 pkg:cran/CompositionalNAimp
@@ -2578,6 +2579,7 @@ pkg:cran/GESE
 pkg:cran/GET
 pkg:cran/GETdesigns
 pkg:cran/GEVACO
+pkg:cran/GEVStableGarch
 pkg:cran/GEVcdn
 pkg:cran/GEint
 pkg:cran/GEmetrics
@@ -11483,6 +11485,7 @@ pkg:cran/deductive
 pkg:cran/deduped
 pkg:cran/dedupewider
 pkg:cran/deep
+pkg:cran/deepICMGP
 pkg:cran/deepImp
 pkg:cran/deepMOU
 pkg:cran/deepNN
@@ -14567,6 +14570,7 @@ pkg:cran/glmc
 pkg:cran/glme
 pkg:cran/glmertree
 pkg:cran/glmfitmiss
+pkg:cran/glmfsa
 pkg:cran/glmlep
 pkg:cran/glmm
 pkg:cran/glmm.hp
@@ -15698,6 +15702,7 @@ pkg:cran/imbibe
 pkg:cran/imcExperiment
 pkg:cran/imdR
 pkg:cran/imdbapi
+pkg:cran/imedR
 pkg:cran/imf.data
 pkg:cran/imfapi
 pkg:cran/imfweo
@@ -15824,6 +15829,7 @@ pkg:cran/injurytools
 pkg:cran/inkaR
 pkg:cran/inlabru
 pkg:cran/inlamemi
+pkg:cran/inlaops
 pkg:cran/inlcolor
 pkg:cran/inline
 pkg:cran/inlinedocs
@@ -16744,6 +16750,7 @@ pkg:cran/lightgbm
 pkg:cran/lightparser
 pkg:cran/lightr
 pkg:cran/lightsf
+pkg:cran/lightson
 pkg:cran/lightsout
 pkg:cran/likelihood
 pkg:cran/likelihood.contr
@@ -20416,6 +20423,7 @@ pkg:cran/politeness
 pkg:cran/politicsR
 pkg:cran/polle
 pkg:cran/pollen
+pkg:cran/pollimetry
 pkg:cran/pollster
 pkg:cran/polmineR
 pkg:cran/polspline
