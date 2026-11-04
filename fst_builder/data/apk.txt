@@ -2354,6 +2354,7 @@ pkg:apk/alpine/biboumi-doc
 pkg:apk/alpine/biboumi-openrc
 pkg:apk/alpine/bigreqsproto
 pkg:apk/alpine/bigreqsproto-doc
+pkg:apk/alpine/bigscreen-ui
 pkg:apk/alpine/bim
 pkg:apk/alpine/binaryen
 pkg:apk/alpine/binaryen-dev
@@ -11062,6 +11063,7 @@ pkg:apk/alpine/haproxy-dataplaneapi2-openrc
 pkg:apk/alpine/haproxy-dataplaneapi3
 pkg:apk/alpine/haproxy-dataplaneapi3-openrc
 pkg:apk/alpine/haproxy-doc
+pkg:apk/alpine/haproxy-halog
 pkg:apk/alpine/haproxy-openrc
 pkg:apk/alpine/haproxy-systemd-wrapper
 pkg:apk/alpine/hardened-malloc
